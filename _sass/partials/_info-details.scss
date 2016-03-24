@@ -1,0 +1,152 @@
+.postArticleInfo{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0px;
+	font-size: 0.8rem;
+	@extend.lato-bold;
+	color: #616161;
+	.newestPostArticleInfoItem{
+		margin-right: 10px;
+		padding-right: 10px;
+		border-right: solid 1px #a6a6a6;
+		margin-bottom: 15px;
+	}
+	#author{
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		span{
+			width: 15px;
+			height: 15px;
+			display: block;
+			margin-right: 10px;
+			background: url('../../images/icons/author.svg') no-repeat;
+			background-size: cover;
+		}
+	}
+	#comments{
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		a{
+			display: inline-block;
+			margin-right: 5px;
+			color: $brandColor;	
+			text-decoration: none;
+		}
+		span{
+			width: 15px;
+			height: 15px;
+			display: block;
+			margin-right: 10px;
+			background: url('../../images/icons/bubble.svg') no-repeat;
+			background-size: cover;
+		}
+	}
+	#tags{
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		a{
+			display: inline-block;
+			margin-right: 5px;
+			color: $brandColor;	
+			text-decoration: none;
+		}
+		span{
+			width: 17px;
+			height: 15px;
+			display: block;
+			margin-right: 10px;
+			background: url('../../images/icons/tags.svg') no-repeat;
+			background-size: cover;
+		}
+	}
+	#share{
+		display: flex;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		span{
+			width: 15px;
+			height: 15px;
+			display: block;
+			margin-right: 10px;
+			background: url('../../images/icons/share.svg') no-repeat;
+			background-size: cover;
+		}
+		#newestPostArticleShare{
+			ul{
+				margin: 0px 0px 0px 10px;
+				padding: 0px;
+				list-style: none;
+				display: flex;
+				justify-content: space-between;
+				li{
+					margin-right: 5px;
+					cursor: pointer;
+					@include media($tablet) {
+						width: 80px;
+					}
+					#facebookShare{
+						width: 15px;
+						@include media($tablet) {
+							width: 80px;
+						}
+						height: 15px;
+						display: block;
+						background: url('../../images/icons/socials/facebook-icon.svg') no-repeat, #3b5998;
+						background-size: auto 80%;
+						background-position: center center;
+					}
+					#twitterShare{
+						width: 15px;
+						@include media($tablet) {
+							width: 80px;
+						}
+						height: 15px;
+						display: block;
+						background: url('../../images/icons/socials/twitter-icon.svg') no-repeat, #55acee;
+						background-size: auto 80%;
+						@include media($tablet) {
+							
+						}
+						background-position: center center;
+					}
+					#pinterestShare{
+						width: 15px;
+						@include media($tablet) {
+							width: 80px;
+						}
+						height: 15px;
+						display: block;
+						background: url('../../images/icons/socials/pinterest-icon.svg') no-repeat, #bd081c;
+						background-size: auto 80%;
+						@include media($tablet) {
+							
+						}
+						background-position: center center;
+					}
+				}
+			}
+		}
+	}
+}
+#showIngredients{
+	@include media($tablet) {
+		display: none;
+	}
+}
+
+#showIngredientsMobile{
+	display: none;
+	@include media($tablet) {
+		display: block;
+		button{
+			width: 100%;
+		}
+	}
+}

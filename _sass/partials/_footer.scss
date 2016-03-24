@@ -1,0 +1,47 @@
+#footer{
+    height: 100%;
+	background: url('../../images/bg/bg-1.png') no-repeat;
+	background-size: cover;
+}
+footer{
+	display: inline-block;
+	padding: 0 20px;
+	h4{
+		@extend.lato-bold;
+		text-transform: uppercase;
+		a{
+			color: $brandColor;
+		}
+	}
+	#instagram{
+		@include span-columns(4);
+		#instagramFeed{
+			display: flex;
+			flex-wrap: wrap;
+			.instagramFeedItem{
+				flex: 1;
+			    flex-basis: 30%;
+			    margin-bottom: 0.2em;
+			    padding-left: 0.2em;
+			    padding-right: 0.2em;
+			}
+			img{
+				width: 100%;
+			}
+		}
+	}
+	#twitter{
+		@include span-columns(4);	
+	}
+	#contact{
+		@include span-columns(4);	
+	}
+}
+
+#scroll-up{
+	display: block;
+	position: fixed;
+	z-index: 999;
+    bottom: 1.8em;
+    right: 1.8em;
+}

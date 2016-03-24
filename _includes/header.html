@@ -1,0 +1,90 @@
+<div id="searchContainer">
+	<nav id="pageNav">
+		<section>
+			<div id="navContainer">
+				<div id="logo">
+					<a href="/"><span></span></a>
+				</div>
+				<div id="textLogo">
+					<a href="/"><span></span></a>
+				</div>
+				<div id="searchButton">
+					<a href="#" class="toggle-panel"><span></span></a>
+				</div>
+			</div>
+		</section>
+	</nav>
+	<div id="searchContent">
+		<nav id="searchFilters">
+			<section>
+				<div id="searchFiltersContainer">
+					<div id="backButton" class="toggle-panel">
+						<span></span>
+					</div>
+					<div id="inputs">
+						<div id="searchInput" class="navInputs">
+							<span></span>
+							<form action="/search" method="get">
+							<input type="text" id="search-query" name="q" autocomplete="off" placeholder="Etsi jotain maukasta"/>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</nav>
+		<section id="search-results" style="display: none; height: 400px;">
+			<p>Search results</p>
+			<div class="entries">
+				{% raw %}
+				<script id="search-results-template" type="text/mustache">
+				{{#entries}}
+				<article>
+				<h3>
+				{{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+				<a href="{{url}}">{{title}}</a>
+				</h3>
+				</article>
+				{{/entries}}
+				</script>
+				{% endraw %}
+			</div>
+		</section>
+	</div>
+</div>
+<div id="brandNav">
+	<section>
+		<div id="brandNavContent">
+			<div id="primaryBrandArea">
+				<h2>&nbsp;</h2>
+			</div>
+			<div id="secondaryBrandArea">
+				<div id="secondaryBrandAreaContent">
+					<div id="newsletterOrder">
+						<form>
+							<input type="text" placeholder="Tilaa Maukasta.fi uutiskirje"/>
+						</form>
+					</div>
+					<div id="socialmediaLinks">
+						<div id="social-buttons">
+							<a class="social-buttons-links"  id="facebookIcon" target="_blank" href="https://www.facebook.com/maukastaverkkopalvelu">
+								<span></span>
+							</a>
+							<a class="social-buttons-links"  id="twitterIcon" target="_blank" href="https://www.facebook.com/maukastaverkkopalvelu">
+								<span></span>
+							</a>
+							<a class="social-buttons-links"  id="pinterestIcon" target="_blank" href="https://www.facebook.com/maukastaverkkopalvelu">
+								<span></span>
+							</a>
+							<a class="social-buttons-links"  id="instagramIcon" target="_blank" href="https://www.facebook.com/maukastaverkkopalvelu">
+								<span></span>
+							</a>
+							<a class="social-buttons-links"  id="feedburnerIcon" target="_blank"  href="{{ "/feed.xml" | prepend: site.baseurl }}">
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

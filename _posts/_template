@@ -1,0 +1,60 @@
+---
+layout: post
+
+title:	--
+
+subtitle: --
+
+image:	/images/blog-post/
+
+date:	2016-02-10 07:39:44 +0200
+
+categories: nosto1
+
+author: Andreas Koutsoukos
+
+tags: Alkupalat Liha
+
+esivalmistelu: 10 min
+valmistuaika: 5 min
+annoksia: 2
+
+raakaaineet:
+ - maara: --
+   raakaaine: --
+ - maara: --
+   raakaaine: --
+   
+recipe-image: /images/blog-post/   
+   
+recipe:
+
+-   text: ""
+    image-primary: "/images/blog-post/"
+    image-secondary: "/images/blog-post/"
+
+-   text: ""
+    image-primary: "/images/blog-post/"
+    image-secondary: "/images/blog-post/"
+    
+-   text: ""
+    image-primary: "/images/blog-post/"
+    image-secondary: "/images/blog-post/"
+
+-   text: ""
+    image-primary: "/images/blog-post/"
+    image-secondary: "/images/blog-post/"
+
+teaser: Alkuviikolla lähikaupassamme ruoholahdessa pyöri kokkiasuun sonnistautuneita nuoria naisia ja miehiä. Heillä oli kangaskassit jossa tutuksi Facebookista jo tulleen logon tunnistin. Otin heiltä tarjoaman flaijerin käteen ja tutustuin sen sisältöön menessäni kaupansisälle. Lihaosastoa lähestyäni alkoikin tuote-esittely tuoksut voimistua. Heillä oli maistelussa tuotteita, mutta kiireevuoksi en kerennyt käydä maistelemassa. Tänään tosin ostin herätteenä brändin paketin, jota lähdin kokeilemaan.   
+
+---
+
+<section>
+<p>
+
+</p>
+</section>
+
+{:refdef: .fullwidth }
+![image-title-here](/images/blog-post/.jpg){:class=""}	
+{: refdef}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-28.000000, -30.000000)" fill="#D14F1F">
+            <g id="TopSearchOn">
+                <g id="arrow-big" transform="translate(36.500000, 37.500000) scale(-1, 1) translate(-36.500000, -37.500000) translate(28.000000, 30.000000)">
+                    <path d="M9.51704545,0 L7.57590909,1.92818182 L11.7868182,6.13909091 L0.636363636,6.13909091 L0.636363636,8.86090909 L11.7868182,8.86090909 L7.57590909,13.0718182 L9.51704545,15 L17,7.5 L9.51704545,0 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

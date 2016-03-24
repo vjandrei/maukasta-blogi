@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Resepti 02"
+image: /images/bg/tukholma-oslo-ravintolat-23.jpg
+date:   2016-02-10 07:39:44 +0200
+categories: nosto2
+author: Andreas
+teaser: Maukasta tiimi teki päivämatkan Talliinaan ja vieraili samalla ravintola Noassa
+---
+
+Tämä on blogin sisältö!

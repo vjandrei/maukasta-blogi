@@ -1,0 +1,162 @@
+$(function(){
+		
+	// -------------------------------------------------------------
+    // Social feed
+    // -------------------------------------------------------------
+
+	$('.socialContainer').socialfeed({
+		twitter: {
+		    accounts: ['@maukasta'],
+		    limit: 10,
+		    consumer_key: 'VMdKJmqnvBUD4TmRsaNwmg', // make sure to have your app read-only
+		    consumer_secret: 'pk8Ovp0EToBOwYttNm5XT8bgUFX3YdieNZmrCamr4M', // make sure to have your app read-only
+		},
+		// INSTAGRAM
+		instagram: {
+		    accounts: ['@maukastafi','#maukastafi'], 
+		    limit: 5,
+		    client_id: 'f140a820684b42e987e89e2ed90f8115',
+		    access_token: ''
+		},
+		
+		// GENERAL SETTINGS
+		length: 200,
+		show_media: true,
+		date_format: "",  
+		// Moderation function - if returns false, template will have class hidden
+		moderation: function(content) {
+		    return (content.text) ? content.text.indexOf('fuck') == -1 : true;
+		},
+		//update_period: 5000,
+		// When all the posts are collected and displayed - this function is evoked
+		callback: function() {
+		    console.log('all posts are collected');
+		}
+	});
+
+	// -------------------------------------------------------------
+    // Isotope
+    // ----
+    
+
+	// -------------------------------------------------------------
+    // Getsimple form
+    // -------------------------------------------------------------
+
+	$('#ajax-form').submit(function(){
+		$.ajax({
+		  dataType: 'json',
+		  url: "http://getsimpleform.com/messages/ajax?form_api_token=d632a9ee664e13d7d16430627387fab1",
+		  data: $('#ajax-form').serialize() 
+		}).done(function() {
+		  //callback which can be used to show a thank you message
+		  //and reset the form
+		  	
+		  	$.notify({
+				// options
+				title: 'Bootstrap notify',
+				message: 'Turning standard Bootstrap alerts into "notify" like notifications',
+				url: 'https://github.com/mouse0270/bootstrap-notify',
+				target: '_blank'
+			},{
+				// settings
+				element: 'body',
+				position: null,
+				type: "info",
+				allow_dismiss: true,
+				newest_on_top: false,
+				showProgressbar: false,
+				placement: {
+					from: "top",
+					align: "right"
+				},
+				offset: 20,
+				spacing: 10,
+				z_index: 1031,
+				delay: 5000,
+				timer: 1000,
+				url_target: '_blank',
+				mouse_over: null,
+				animate: {
+					enter: 'animated fadeInDown',
+					exit: 'animated fadeOutUp'
+				},
+				onShow: null,
+				onShown: null,
+				onClose: null,
+				onClosed: null,
+				icon_type: 'class',
+				template: '<div data-notify="container"  role="alert">' +
+					'<button type="button" aria-hidden="true" class="close" data-notify="dismiss">×</button>' +
+					'<span data-notify="icon"></span> ' +
+					'<span data-notify="title">{1}</span> ' +
+					'<span data-notify="message">{2}</span>' +
+					'<div class="progress" data-notify="progressbar">' +
+						'<div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
+					'</div>' +
+					'<a href="{3}" target="{4}" data-notify="url"></a>' +
+				'</div>' 
+			});
+		  	
+		});
+		return false; //to stop the form from submitting
+	});
+	
+	// -------------------------------------------------------------
+    // Search
+    // -------------------------------------------------------------	
+    
+	$('#searchContent').scotchPanel({
+	    containerSelector: 'body', // As a jQuery Selector
+	    direction: 'right', // Make it toggle in from the left
+	    duration: 300, // Speed in ms how fast you want it to be
+	    transition: 'ease', // CSS3 transition type: linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier(P1x,P1y,P2x,P2y)
+	    clickSelector: '.toggle-panel', // Enables toggling when clicking elements of this class
+	    distanceX: '100%', // Size fo the toggle
+	    enableEscapeKey: true // Clicking Esc will close the panel
+	});
+	
+	$('#search-query').lunrSearch({
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
+      results : '#search-results',  // selector for containing search results element
+      entries : '.entries',         // selector for search entries containing element (contained within results above)
+      template: '#search-results-template'  // selector for Mustache.js template
+    });
+    
+	
+	// -------------------------------------------------------------
+    // Show ingredients
+    // -------------------------------------------------------------
+	
+	$(".ingredients").offcanvas({
+	    mainCanvas: '.postBlogContent', // Selector or jQuery object
+	    css: {
+		    width:    '30%'
+		},
+		injectPosition: 'after'
+	});
+
+	$(".showIngredients").click(function() {
+	    $(".ingredients").offcanvas("toggle"); // Toggle after click a button
+	});
+	
+	// -------------------------------------------------------------
+    // Animated scrolling / Scroll Up
+    // -------------------------------------------------------------
+
+    (function () {
+        $('a[href*=#]').bind("click", function(e){
+            var anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(anchor.attr('href')).offset().top
+            }, 1000);
+            e.preventDefault();
+        });
+    }());
+	
+	
+	
+    
+  
+    
+})
