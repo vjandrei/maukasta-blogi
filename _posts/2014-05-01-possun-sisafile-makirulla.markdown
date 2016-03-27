@@ -5,15 +5,17 @@ title:	Possun sisäfile makirulla
 
 subtitle: Maistuva sushimaki lihasta ja uppopaistettuna
 
+type: Resepti
+
 image:	/images/blog-post/possun-sisafile-makirulla/header-bg/possunsisafile_makirulla-37.jpg
 
 date:	2014-05-01 07:39:44 +0200
 
-categories: muut
+categories: muut nosto
 
 author: Andreas
 
-tags: Alkupalat Liha
+tags: Liha Muut
 
 esivalmistelu: 45 min
 valmistuaika: 60 min

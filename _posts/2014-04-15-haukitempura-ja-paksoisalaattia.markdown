@@ -5,11 +5,13 @@ title:	Haukitempura ja paksoisalaattia
 
 subtitle: Hauki on kala, näin totesi kalakauppias kun kysyin haukifilettä.
 
+type: Resepti
+
 image:	/images/blog-post/haukitempura-paksoisalaatti/header-bg/haukitempura_paksoisalaatti-27.jpg
 
 date:	2014-04-15 07:39:44 +0200
 
-categories: salaatit
+categories: salaatit nosto
 
 author: Andreas Koutsoukos
 

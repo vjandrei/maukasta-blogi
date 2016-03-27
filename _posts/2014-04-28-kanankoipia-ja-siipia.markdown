@@ -3,11 +3,15 @@ layout: post
 
 title:	Kanankoipia ja siipiä
 
+subtitle: 
+
+type: Resepti
+
 image: /images/blog-post/kanakoipia-ja-siipia/header-bg/tuotekokeilussa_naapurin_maalaiskana-9.jpg
 
 date:	2014-04-28 07:39:44 +0200
 
-categories: alkupalat
+categories: alkupalat nosto
 
 author: Andreas
 

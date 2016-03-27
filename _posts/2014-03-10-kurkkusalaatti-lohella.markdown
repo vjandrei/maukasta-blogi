@@ -5,11 +5,13 @@ title:	Kurkkusalaatti-lohella
 
 subtitle: Nopea ja yksinkertainen salaatti muutamalla raaka-aineella.
 
+type: Resepti 
+
 image:	/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-18.jpg
 
 date:	2014-03-10 07:39:44 +0200
 
-categories: salaatit
+categories: salaatit nosto
 
 author: Andreas Koutsoukos
 

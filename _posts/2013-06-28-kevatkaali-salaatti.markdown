@@ -5,11 +5,13 @@ title:	Kevätkaali salaatti
 
 subtitle: Kevätkaali salaatti grilli herkkujen kaveriksi
 
+type: Resepti
+
 image:	/images/blog-post/kevatkaali-salaatti/images/kaalisalaattia.jpg
 
 date:	2013-06-28 07:39:44 +0200
 
-categories: salaatit
+categories: salaatit nosto
 
 author: Andreas
 

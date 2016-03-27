@@ -5,11 +5,13 @@ title:	Maissikakku ( Pastel de elote )
 
 subtitle: Maistuva maissikakku
 
+type: Resepti
+
 image:	/images/blog-post/maissikakku/images/J64A1996.jpg
 
 date:	2014-04-30 07:39:44 +0200
 
-categories: jalkiruoat
+categories: jalkiruoat nosto
 
 author: Andreas Koutsoukos
 

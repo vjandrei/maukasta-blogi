@@ -1,5 +1,27 @@
 $(function(){
-		
+	
+
+	var handler = 'mousemove';
+	
+	$("body").on(handler,'.scroller-content',function(e){
+		e.preventDefault();
+		//var offset = ($(this).hasClass('full')) ? '' : 230;
+		var offset = $(this).parent().offset().left;
+		var mouseRatioX = (e.pageX-offset)/$(this).parent().width();
+		if($(this).width() > $(this).parent().width())
+		$(this).css({"margin-left": -mouseRatioX*( $(this).width()-$(this).parent().width() )});
+	});
+	    
+	
+	
+	$('.bxslider').bxSlider({
+	  pagerCustom: '#bx-pager',
+	  mode: 'horizontal',
+	  controls: false,
+	  auto: false,
+	  preloadImages: 'all'
+	});	
+	
 	// -------------------------------------------------------------
     // Social feed
     // -------------------------------------------------------------

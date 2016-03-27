@@ -2,13 +2,16 @@
 layout: post
 
 title:	Avokado Sardiinileipä
+
 subtitle: Pieneen nälkään sopiva helppo, mutta erillainen leipä
+
+type: Resepti
 
 image:	/images/blog-post/avocado-sardiinileipa/header-bg/avocado-sardinileipa-14.jpg
 
 date:	2014-06-27 07:39:44 +0200
 
-categories: alkupalat
+categories: alkupalat nosto
 
 author: Andreas
 

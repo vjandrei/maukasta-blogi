@@ -5,11 +5,13 @@ title:	Speltti sämpylät
 
 subtitle: Herkulliset speltti sämpylät
 
+type: Resepti
+
 image:	/images/blog-post/speltti-sampylat/images/spelttijauho-sampylat.jpg
 
 date:	2014-04-30 07:39:44 +0200
 
-categories: leivonnaiset
+categories: leivonnaiset nosto
 
 author: Andreas Koutsoukos
 

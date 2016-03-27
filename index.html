@@ -1,164 +1,228 @@
 ---
 layout: default
 ---
-<section id="newestPostContainer">
-{% for post in site.posts limit:1 %}
-<div id="newestPost">
-	<div id="newestPostImage" style="background: url('{{ post.image }}')no-repeat;">
-		<div id="detailsPost">
-			<h3>Resepti</h3>
-			<p>{{ post.date | date: "%b %-d, %Y" }}</p>
-		</div>
-	</div>
-	<div id="newestPostArticle">
-		<div id="titleOfPost">
-			<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-		</div>
-		{% include shares.html %}
-		<div id="teaserOfPost">
-			<p>{{post.teaser}}</p>
-		</div>
-	</div>
-</div>
-{% endfor %}
-<div id="postSidebar">
-	{% for post in site.posts limit:4 offset:1 %}
-		<a href="{{ post.url | prepend: site.baseurl }}">
-		<div class="recentPostCotainer">
-			<div class="recentPostImage">
-				<img src="{{ post.image }}" />
-			</div>
-			<div class="recentPostContent">
-				<h1>{{ post.title | truncate: 20  }}</h1>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 65 }}</p>
+<section>
+	<h1 class="sectionHeader">Uusimmat artikkelit</h1>
+	<div id="newestPostContainer" class="contentBlock">
+	{% for post in site.categories['nosto'] limit:1 %}
+	<div id="newestPost">
+		<div id="newestPostImage" style="background: url('{{ post.image }}')no-repeat;">
+			<div id="detailsPost">
+				<h3>{{post.type}}</h3>
+				<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 			</div>
 		</div>
-		</a>
+		<div id="newestPostArticle">
+			<div id="titleOfPost">
+				<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+			</div>
+			{% include shares.html %}
+			<div id="teaserOfPost">
+				<p>{{post.teaser}}</p>
+			</div>
+		</div>
+	</div>
 	{% endfor %}
+	<div id="postSidebar">
+		{% for post in site.posts limit:4 offset:1 %}
+			<a href="{{ post.url | prepend: site.baseurl }}">
+			<div class="recentPostCotainer">
+				<div class="recentPostImage">
+					<img src="{{ post.image }}" />
+				</div>
+				<div class="recentPostContent">
+					<h1>{{ post.title | truncate: 20  }}</h1>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 65 }}</p>
+				</div>
+			</div>
+			</a>
+		{% endfor %}
+	</div>
 </div>
 </section>
 
 <section>
-	<div id="cookingVideoPost">
+	<h1 class="sectionHeader">Videot</h1>
+	<h2 class="sectionHeader"><a href="">Kaikki video artikkelit</a></h2>
+	{% for post in site.categories.videot limit:1  %}
+	<div id="cookingVideoPost" class="contentBlock">
 		<iframe width="100%" height="500px" src="https://www.youtube.com/embed/Jp5bize9FLQ" frameborder="0" allowfullscreen></iframe>
-		<h1>Video</h1>
+		<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 		{% include shares.html %}
-		<p>Last fall I was invited to come down to California and tour the Muir Glen farms and facilities. 
-		Now I have to admit, when they first reached out I had no clue of what this trip would be about, and whether or not I would even like it. 
-		So I said yes, as I do like their products, packed my bags and off I went. </p>
+		<p>{{post.teaser}} </p>
+	</div>
+	{% endfor %}
+</section>
+
+
+<div class="sponsorsBg">
+	<section>
+	<h1 class="sectionHeader">Yhteistyöt</h1>
+	<h2 class="sectionHeader"><a href="">Kaikki yhteistyö artikkelit</a></h2>
+	<div class="scroller">
+		<div class="scroller-content" id="bx-pager">
+		<a class="item" data-slide-index="0" href="">
+			<h2>Lenovo</h2>
+		</a>
+		<a class="item" data-slide-index="1" href="">
+			<h2>Heirol</h2>
+		</a>
+		</div>
+	</div>
+	</section>
+	<div class="sponsors">
+		<ul class="bxslider">
+		  	<li style="background: url(images/bg/headerbg02.jpeg) no-repeat; background-size: cover; background-position: center center;">
+		  		<section>
+				<h1>Lenovo</h1>
+				<p>Big data entrepreneur engaging bootstrapping agile innovate grok. 
+				Innovate agile sticky note bootstrapping ideate ship it cortado. 
+				Thinker-maker-doer thinker-maker-doer 360 campaign venture capital convergence food-truck bootstrapping sticky note.</p>
+				</section>
+			</li>
+			<li style="background: url(images/bg/tukholma-oslo-ravintolat-23.jpg) no-repeat; background-size: cover; background-position: center center;">
+				<section>
+				<h1>Heirol</h1>
+				<p>Big data entrepreneur engaging bootstrapping agile innovate grok. 
+				Innovate agile sticky note bootstrapping ideate ship it cortado. 
+				Thinker-maker-doer thinker-maker-doer 360 campaign venture capital convergence food-truck bootstrapping sticky note.</p>
+				</section>
+			</li>
+			<li style="background: url(images/bg/tukholma-oslo-ravintolat-62.jpg) no-repeat; background-size: cover; background-position: center center;">
+				<section>
+				<h1 class="demo1">Lenovo3</h1>
+				<p>Big data entrepreneur engaging bootstrapping agile innovate grok. 
+				Innovate agile sticky note bootstrapping ideate ship it cortado. 
+				Thinker-maker-doer thinker-maker-doer 360 campaign venture capital convergence food-truck bootstrapping sticky note.</p>
+				</section>
+			</li>
+		</ul>
+	</div>
+	
+</div>
+
+<section>
+	<h1 class="sectionHeader">Resepti kategoriat</h1>	
+	<div id="categoryPosts" class="contentBlock">
+		<div class="categoryItem">
+			<h1>Alkupalat</h1>
+			<a href="/tag/alkupalat"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.alkupalat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Leivonnaiset</h1>
+			<a href="/tag/leivonnaiset"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.leivonnaiset limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Salaatit</h1>
+			<a href="/tag/salaatit"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.salaatit limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Keitot & Padat</h1>
+			<a href="/tag/keitot"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.keitot limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Pääruoat</h1>
+			<a href="/tag/paaruoat"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.paaruoat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Jälkiruoat</h1>
+			<a href="/tag/jalkiruoat"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.jalkiruoat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h1>Muut</h1>
+			<a href="/tag/muut"><h4>Lue kaikki</h4></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.muut limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.image }}" />
+					</div>
+					<h2>{{ post.title }}</h2>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</a>
+				{% endfor %}
+			</div>
+		</div>
 	</div>
 </section>
 
 <section>
-<div id="categoryPosts">
-	<div class="categoryItem">
-		<h1>Alkupalat</h1>
-		<a href="/tag/alkupalat"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.alkupalat limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
+	<h1 class="sectionHeader">Sosiaalisesti maukas</h1>
+	<div class="socialBoard">
+		<div class="socialContainer"></div>
 	</div>
-	<div class="categoryItem">
-		<h1>Leivonnaiset</h1>
-		<a href="/tag/leivonnaiset"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.leivonnaiset limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="categoryItem">
-		<h1>Salaatit</h1>
-		<a href="/tag/salaatit"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.salaatit limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="categoryItem">
-		<h1>Keitot & Padat</h1>
-		<a href="/tag/keitot"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.keitot limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="categoryItem">
-		<h1>Pääruoat</h1>
-		<a href="/tag/paaruoat"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.paaruoat limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="categoryItem">
-		<h1>Jälkiruoat</h1>
-		<a href="/tag/jalkiruoat"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.jalkiruoat limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-	<div class="categoryItem">
-		<h1>Muut</h1>
-		<a href="/tag/muut"><h4>Lue kaikki</h4></a>
-		<div class="categoryItemContent">
-			{% for post in site.categories.muut limit:1  %}
-				<a href="{{ post.url | prepend: site.baseurl }}">
-				<img src="{{ post.image }}" />
-				<h2>{{ post.title }}</h2>
-				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 200 }}</p>
-				</a>
-			{% endfor %}
-		</div>
-	</div>
-</div>
 </section>
-
-<div class="masonry">
-   <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-   <div class="item">...</div>
-   ...
-   ...
-   <div class="item">...</div>
-</div>
-
-<div class="socialContainer"></div>

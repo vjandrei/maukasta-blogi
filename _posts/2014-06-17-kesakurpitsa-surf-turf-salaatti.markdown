@@ -5,11 +5,13 @@ title:	Kesäkurpitsa surf & turf salaatti
 
 subtitle: Ravintola Noassa syöty salaatti tekivaikutuksen joten oli pakko kokeilla sitä itse
 
+type: Resepti
+
 image:	/images/blog-post/kesakurpitsa-surf-turf-salaatti/header-bg/kesakurpitsa-salaatti-surfandturf-8.jpg
 
 date:	2014-06-17 07:39:44 +0200
 
-categories: salaatit
+categories: salaatit nosto
 
 author: Andreas Koutsoukos
 

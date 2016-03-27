@@ -5,11 +5,13 @@ title:	Täytettyjä Tomaatteja
 
 subtitle: Yksinkertainen arkiruoka, joka saa rauhassa muhia uunissa.
 
+type: Resepti
+
 image:	/images/blog-post/taytettyja-tomaatteja/header-bg/taytetyt_tomaatit-28.jpg
 
 date:	2014-04-27 07:39:44 +0200
 
-categories: paaruoat
+categories: paaruoat nosto
 
 author: Andreas Koutsoukos
 

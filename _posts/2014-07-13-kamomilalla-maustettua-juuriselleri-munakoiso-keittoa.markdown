@@ -5,11 +5,13 @@ title:	Kamomilalla maustettua juuriselleri munakoiso keittoa
 
 subtitle: Kamomilla sopii myös keittoihin
 
+type: Resepti
+
 image:	/images/blog-post/kamomilalla-maustettua-juuriselleri-munakoiso-keittoa/header-bg/juuriselleri-munakoiso-keitto-2.jpg
 
 date:	2014-07-13 07:39:44 +0200
 
-categories: keitot
+categories: keitot nosto
 
 author: Andreas Koutsoukos
 

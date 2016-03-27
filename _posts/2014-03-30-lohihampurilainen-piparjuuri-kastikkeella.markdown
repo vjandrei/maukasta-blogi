@@ -5,11 +5,13 @@ title:	Lohihampurilainen piparjuuri-kastikkeella
 
 subtitle: Mukaan otettava lohiburgeri.
 
+type: Resepti
+
 image:	/images/blog-post/lohimapurilainen-piparjuuri-kastikkeella/images/lohiburgeri_16.jpg
 
 date:	2014-03-30 07:39:44 +0200
 
-categories: alkupalat
+categories: alkupalat nosto
 
 author: Andreas
 

@@ -5,11 +5,13 @@ title:	Sienipiirakka Tattari ja Spelttijauhoista
 
 subtitle: Kahvipöytään sienipiirakkaa
 
+type: Resepti
+
 image:	/images/blog-post/sienipiirakka-tattari-spettijauhoista/header-bg/J64A1735.jpg
 
 date:	2014-04-30 07:39:44 +0200
 
-categories: leivonnaiset
+categories: leivonnaiset nosto
 
 author: Andreas Koutsoukos
 

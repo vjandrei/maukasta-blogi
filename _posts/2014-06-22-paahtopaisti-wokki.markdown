@@ -1,21 +1,21 @@
 ---
 layout: post
 
-title:	--
+title:	Paahtopaisti wokki
 
-subtitle: --
+subtitle: Paahtopaisti wokki
 
-type: Resepti Video Artikkeli
+type: Video
 
 image:	/images/blog-post/
 
 date:	2016-02-10 07:39:44 +0200
 
-categories: nosto video 
+categories: videot
 
 author: Andreas Koutsoukos
 
-tags: Alkupalat Liha
+tags: Liha Videot
 
 esivalmistelu: 10 min
 valmistuaika: 5 min
@@ -47,7 +47,7 @@ recipe:
     image-primary: "/images/blog-post/"
     image-secondary: "/images/blog-post/"
 
-teaser: Alkuviikolla lähikaupassamme ruoholahdessa pyöri kokkiasuun sonnistautuneita nuoria naisia ja miehiä. Heillä oli kangaskassit jossa tutuksi Facebookista jo tulleen logon tunnistin. Otin heiltä tarjoaman flaijerin käteen ja tutustuin sen sisältöön menessäni kaupansisälle. Lihaosastoa lähestyäni alkoikin tuote-esittely tuoksut voimistua. Heillä oli maistelussa tuotteita, mutta kiireevuoksi en kerennyt käydä maistelemassa. Tänään tosin ostin herätteenä brändin paketin, jota lähdin kokeilemaan.   
+teaser: ...   
 
 ---
 
