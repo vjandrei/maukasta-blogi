@@ -726,15 +726,15 @@ th {
   font-family: 'Lato', sans-serif;
   font-weight: 400; }
 
-.lato-bold, .sponsorsBg .sponsors p, #brandNav #brandNavContent #primaryBrandArea h2, .postArticleInfo, #newestPostContainer #newestPost #newestPostImage #typeOfPost h3, .postContainer .postContent .postContentHeader .info .infoItem b, .postContainer .postContent .ingredients h4, footer h4 {
+.lato-bold, #welcomeHeader #welcomeHeaderContainer h2, .sponsorsBg .sponsors p, #brandNav #brandNavContent #primaryBrandArea h2, .postArticleInfo, #newestPostContainer #newestPost #newestPostImage #typeOfPost h3, .postContainer .postContent .postContentHeader .info .infoItem b, .postContainer .postContent .ingredients h4, footer h4 {
   font-family: 'Lato', sans-serif;
   font-weight: 700 !important; }
 
-.montserrat, h1.sectionHeader, h2.sectionHeader, button, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select {
+.montserrat, h2.sectionHeader, button, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
 
-.bree, #newestPostContainer #newestPost #newestPostImage #detailsPost h3, #newestPostContainer #newestPost #newestPostArticle #titleOfPost h1, .recentPostCotainer .recentPostContent h1, #cookingVideoPost h1, #categoryPosts .categoryItem h1, .postHeadContainer .postHeading h1, .postContainer .postContent h2 {
+.bree, #welcomeHeader #welcomeHeaderContainer h1, #newestPostContainer #newestPost #newestPostImage #detailsPost h3, #newestPostContainer #newestPost #newestPostArticle #titleOfPost h1, .recentPostCotainer .recentPostContent h1, #cookingVideoPost h1, #categoryPosts .categoryItem h1, .postHeadContainer .postHeading h1, .postContainer .postContent h2 {
   font-family: 'Bree Serif', serif;
   font-weight: 400; }
 
@@ -744,7 +744,8 @@ th {
 section {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 20px 10px; }
   section::after {
     clear: both;
     content: "";
@@ -764,13 +765,15 @@ a {
 *:focus {
   outline: none; }
 
+h1, h2, h3, h4, h5, h6 {
+  word-break: break-all; }
+
 h1.sectionHeader {
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 0px 20px;
-  font-size: 3rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  color: #3b3b3b; }
+  color: #b4ab9d; }
   @media screen and (max-width: 48em) {
     h1.sectionHeader {
       font-size: 1.8rem; } }
@@ -778,26 +781,82 @@ h1.sectionHeader {
 h2.sectionHeader {
   margin-top: 0px;
   margin-bottom: 10px;
-  padding: 0px 20px;
   font-size: 1rem;
   font-weight: bold;
   color: #3b3b3b; }
   h2.sectionHeader a {
     color: #cb4b1e; }
 
-#welcome-header {
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#welcomeHeader {
   min-height: 250px;
-  background: aqua;
+  background: url(../images/bg/bbg-nyhtopossua-1024x682.jpg) no-repeat;
   background-size: 100%;
-  background-position: center center; }
-  #welcome-header #welcome-header-container {
-    height: 100%;
+  background-position: center center;
+  background-size: cover; }
+  @media screen and (max-width: 48em) {
+    #welcomeHeader {
+      min-height: 150px; } }
+  #welcomeHeader #welcomeHeaderContainer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-line-pack: center;
-        align-content: center; }
+        align-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    min-height: 250px;
+    text-align: center; }
+    @media screen and (max-width: 48em) {
+      #welcomeHeader #welcomeHeaderContainer {
+        min-height: 150px; } }
+    #welcomeHeader #welcomeHeaderContainer h1 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 3rem;
+      line-height: 48px;
+      font-weight: normal;
+      color: white;
+      text-shadow: 0px 2px 3px rgba(9, 10, 10, 0.5); }
+      @media screen and (max-width: 48em) {
+        #welcomeHeader #welcomeHeaderContainer h1 {
+          font-size: 1.3rem;
+          line-height: 22px; } }
+    #welcomeHeader #welcomeHeaderContainer h2 {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: white;
+      word-break: break-word;
+      text-shadow: 0px 2px 3px rgba(9, 10, 10, 0.5); }
+      @media screen and (max-width: 48em) {
+        #welcomeHeader #welcomeHeaderContainer h2 {
+          width: 80%;
+          font-size: 0.9rem; } }
 
 .fullwidth img {
   width: 100%;
@@ -920,11 +979,13 @@ form textarea {
     width: 100%; }
   .socialFeedItem .socialFeedContent p {
     color: #3b3b3b;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    word-break: break-all; }
     .socialFeedItem .socialFeedContent p a {
-      color: #cb4b1e; }
+      color: #cb4b1e;
+      word-break: break-all; }
 
-.contentBlock {
+.contentBlockWhite {
   padding: 20px 20px;
   background: white; }
 
@@ -972,11 +1033,11 @@ form textarea {
 .sponsorsBg {
   position: relative;
   width: 100%;
+  background: #cb4b1e;
   color: white; }
   .sponsorsBg .scroller {
     height: 40px;
-    margin-top: 0;
-    padding: 0 20px; }
+    margin: 0px; }
   .sponsorsBg .scroller-content {
     height: 40px;
     display: -ms-flexbox;
@@ -990,14 +1051,34 @@ form textarea {
     .sponsorsBg .scroller-content .item {
       text-align: left;
       min-width: 0px;
-      margin-right: 20px; }
+      padding-right: 10px; }
       .sponsorsBg .scroller-content .item h2 {
         display: inline-block;
         padding-bottom: 5px;
         font-size: 1rem;
-        color: #cb4b1e; }
+        color: white;
+        border-bottom: solid 2px rgba(255, 255, 255, 0); }
     .sponsorsBg .scroller-content .active h2 {
-      border-bottom: solid 2px #cb4b1e; }
+      border-bottom: solid 2px white; }
+  .sponsorsBg #sponsorLinks {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    padding: 0 10px; }
+  .sponsorsBg .sectionHeader {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: normal; }
+    .sponsorsBg .sectionHeader a {
+      color: white;
+      padding-bottom: 2px; }
+      .sponsorsBg .sectionHeader a:hover {
+        border-bottom: solid 2px white; }
   .sponsorsBg .sponsors {
     position: relative;
     z-index: 10; }
@@ -1172,6 +1253,8 @@ form textarea {
 #brandNav {
   background: #cb4b1e;
   border-bottom: solid 5px #a83612; }
+  #brandNav section {
+    padding: 0px 20px; }
   #brandNav #brandNavContent {
     display: -ms-flexbox;
     display: flex;
@@ -1310,8 +1393,10 @@ form textarea {
   .postArticleInfo .newestPostArticleInfoItem {
     margin-right: 10px;
     padding-right: 10px;
-    border-right: solid 1px #a6a6a6;
-    margin-bottom: 15px; }
+    border-right: solid 1px #a6a6a6; }
+    @media screen and (max-width: 48em) {
+      .postArticleInfo .newestPostArticleInfoItem {
+        margin-bottom: 15px; } }
   .postArticleInfo #author {
     display: -ms-flexbox;
     display: flex;
@@ -1459,11 +1544,12 @@ form textarea {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
+    width: 57.35098%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
-        flex-direction: column; }
+        flex-direction: column;
+    background: white; }
     #newestPostContainer #newestPost:last-child {
       margin-right: 0; }
     @media screen and (max-width: 48em) {
@@ -1471,7 +1557,8 @@ form textarea {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%; }
+        width: 100%;
+        margin-bottom: 20px; }
         #newestPostContainer #newestPost:last-child {
           margin-right: 0; } }
     #newestPostContainer #newestPost #newestPostImage {
@@ -1533,17 +1620,21 @@ form textarea {
           opacity: 0.9; }
     #newestPostContainer #newestPost #newestPostArticle {
       position: relative;
-      z-index: 30; }
+      z-index: 30;
+      padding: 0 20px; }
+      @media screen and (max-width: 48em) {
+        #newestPostContainer #newestPost #newestPostArticle {
+          padding: 0 10px; } }
       #newestPostContainer #newestPost #newestPostArticle #titleOfPost h1 {
         margin-top: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-weight: bold;
         font-size: 3rem;
         line-height: 50px;
         color: #3b3b3b; }
         @media screen and (max-width: 48em) {
           #newestPostContainer #newestPost #newestPostArticle #titleOfPost h1 {
-            font-size: 2rem; } }
+            font-size: 1.6rem; } }
         #newestPostContainer #newestPost #newestPostArticle #titleOfPost h1 a {
           color: #cb4b1e;
           text-decoration: none; }
@@ -1555,14 +1646,14 @@ form textarea {
         margin-bottom: 20px; }
         @media screen and (max-width: 48em) {
           #newestPostContainer #newestPost #newestPostArticle #teaserOfPost p {
-            margin-bottom: 50px; } }
+            margin-bottom: 10px; } }
   #newestPostContainer #postSidebar {
     position: relative;
     height: 100%;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
+    width: 40.29137%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex: 1;
@@ -1631,15 +1722,26 @@ form textarea {
   -ms-flex-direction: column;
       flex-direction: column;
   min-height: 100%;
-  color: #3b3b3b; }
+  color: #3b3b3b;
+  background: white; }
+  #cookingVideoPost #cookingVideoPostContainer {
+    padding: 0 10px; }
+  @media screen and (max-width: 48em) {
+    #cookingVideoPost iframe {
+      height: 50%; } }
   #cookingVideoPost h1 {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 3rem;
+    line-height: 50px;
     color: #3b3b3b; }
+    @media screen and (max-width: 48em) {
+      #cookingVideoPost h1 {
+        font-size: 1.6rem; } }
     #cookingVideoPost h1 a {
-      color: #cb4b1e; }
+      color: #cb4b1e;
+      text-decoration: none; }
   #cookingVideoPost p {
     width: 80%;
     margin-top: 0;
@@ -1658,16 +1760,17 @@ form textarea {
       flex-wrap: wrap;
   margin-top: 20px;
   -ms-flex-pack: justify;
-      justify-content: space-between;
-  padding: 20px; }
+      justify-content: space-between; }
   #categoryPosts .categoryItem {
     -ms-flex: 1;
         flex: 1;
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    -ms-flex-preferred-size: 23%;
+        flex-basis: 23%;
+    background: white;
+    padding: 0px 10px;
     margin-bottom: 20px;
-    padding-left: 0.5em;
-    padding-right: 0.5em; }
+    margin-left: 0.2em;
+    margin-right: 0.2em; }
     @media screen and (max-width: 48em) {
       #categoryPosts .categoryItem {
         -ms-flex-preferred-size: 50%;
@@ -1770,6 +1873,9 @@ form textarea {
       font-size: 3rem;
       color: white;
       text-shadow: 0px 2px 3px rgba(9, 10, 10, 0.5); }
+      @media screen and (max-width: 48em) {
+        .postHeadContainer .postHeading h1 {
+          font-size: 2rem; } }
     .postHeadContainer .postHeading h3 {
       margin-top: 0px;
       margin-bottom: 20px;
@@ -1919,8 +2025,7 @@ form textarea {
 
 footer {
   width: 100%;
-  display: inline-block;
-  padding: 0 20px; }
+  display: inline-block; }
   footer h4 {
     text-transform: uppercase; }
     footer h4 a {

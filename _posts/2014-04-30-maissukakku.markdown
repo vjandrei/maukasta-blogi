@@ -7,7 +7,11 @@ subtitle: Maistuva maissikakku
 
 type: Resepti
 
-image:	/images/blog-post/maissikakku/images/J64A1996.jpg
+smallthumbnail: 	/images/blog-post/maissikakku/maissikakku-150.jpg
+bigthumbnail:		/images/blog-post/maissikakku/maissikakku-700.jpg
+gategorythumbnail: 	/images/blog-post/maissikakku/maissikakku-450.jpg
+fullsize: 			/images/blog-post/maissikakku/maissikakku-fullsize.jpg
+reseptikuva:		/images/blog-post/maissikakku/maissikakku-blogpost-10.jpg
 
 date:	2014-04-30 07:39:44 +0200
 
@@ -38,8 +42,7 @@ raakaaineet:
    raakaaine: Leivinjauhe
  - maara: 0,5 tl	
    raakaaine: Suolaa
-   
-recipe-image: /images/blog-post/maissikakku/images/J64A1935.jpg  
+
    
 recipe:
 

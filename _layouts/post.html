@@ -3,12 +3,14 @@ layout: default
 comments: true
 ---
 
-<div class="postHeadContainer" style="background: url('{{page.image}}') no-repeat; background-size: cover; background-position: center center;">
-	<div class="postHeading">
-		<h1 class="post-title">{{ page.title }}</h1>
-		<h3 class="sub-title">{{ page.subtitle }}</h3>
-		<a href="#recipe"><button>Siirry reseptiin</button></a>
-	</div>
+<div class="postHeadContainer" style="background: url('{{page.fullsize}}') no-repeat; background-size: cover; background-position: center center;">
+	<section>
+		<div class="postHeading">
+			<h1 class="post-title">{{ page.title }}</h1>
+			<h3 class="sub-title">{{ page.subtitle }}</h3>
+			<a href="#recipe"><button>Siirry reseptiin</button></a>
+		</div>
+	</section>
 </div>
 
 <div class="blogContainer">
@@ -33,7 +35,7 @@ comments: true
 		{% include shares.html %}
 		
 		<div class="postContentHeader">
-			<img src="{{ page.recipe-image }}" />
+			<img src="{{ page.reseptikuva }}" />
 			<div class="info postContentItem">
 				<div class="infoItem" id="showIngredients">
 					<div class="showIngredients"><button>Näytä raaka-aine lista</button></div>
@@ -106,7 +108,7 @@ comments: true
 				<a href="{{ post.url | prepend: site.baseurl }}">
 				<div class="recentPostCotainer">
 					<div class="recentPostImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.smallthumbnail }}" />
 					</div>
 					<div class="recentPostContent">
 						<h1>{{ post.title}}</h1>

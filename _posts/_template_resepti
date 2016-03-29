@@ -1,0 +1,49 @@
+---
+layout: post
+
+title:	-
+
+subtitle: -
+
+type: Resepti
+
+smallthumbnail: 	/images/blog-post/-150.jpg
+bigthumbnail:		/images/blog-post/-700.jpg
+gategorythumbnail: 	/images/blog-post/-450.jpg
+fullsize: 			/images/blog-post/-fullsize.jpg
+reseptikuva:		/images/blog-post/-1000.jpg
+
+date:	2013-06-28 07:39:44 +0200
+
+categories: alkupalat salaatit nosto
+
+author: Andreas
+
+tags: Salaatit Kasvis Kala
+
+esivalmistelu: -
+valmistuaika: -
+annoksia: -
+
+raakaaineet:
+ - maara: -	
+   raakaaine: -
+   
+recipe:
+-   text: ""
+    image-primary: ""
+    image-secondary: ""
+
+teaser: -   
+
+---
+
+{:refdef: .fullwidth }
+![image-title-here](/images/blog-post/-1000.jpg){:class=""}	
+{: refdef}
+
+<section>
+<p>
+
+</p>
+</section>

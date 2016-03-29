@@ -7,7 +7,11 @@ subtitle: Pieneen nälkään sopiva helppo, mutta erillainen leipä
 
 type: Resepti
 
-image:	/images/blog-post/avocado-sardiinileipa/header-bg/avocado-sardinileipa-14.jpg
+smallthumbnail: 	/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-150.jpg
+bigthumbnail:		/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-700.jpg
+gategorythumbnail: 	/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-450.jpg
+fullsize: 			/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-fullsize.jpg
+reseptikuva:		/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-blogpost.jpg
 
 date:	2014-06-27 07:39:44 +0200
 
@@ -40,20 +44,14 @@ raakaaineet:
    raakaaine: Lime
  - maara: 1 kpl	
    raakaaine: Real-leipää
-
-recipe-image: /images/blog-post/avocado-sardiinileipa/images/avocado-sardinileipa-12-1024x682.jpg
   
 recipe: 
 -   text: "Viipaloi avokaado ja chilit sopiviksi paloiksi ja siirrä ne sivuun odottamaan kasausta. Aloita levittämällä majoneesia leivänpäälle ja nostele salaatinlehdet majoneesin päälle. Asettele nyt viipaloidut avokaadot ja chilit salaatinpäälle. Nostele sardiinia seuraavaksi päälle ja ripottele myös salaattijuustoa leivänpäälle. Lisää yrittiöljy ja limen mehu koko komeudun päälle. Voit koristella seessamisiemenillä leivän. Ei muuta kuin herkuttelemaan."
-    image-primary: "/images/blog-post/avocado-sardiinileipa/images/avocado-sardinileipa-2-1024x682.jpg"
-    image-secondary: ""
-    
--   text: ""
-    image-primary: "/images/blog-post/avocado-sardiinileipa/images/avocado-sardinileipa-1-1024x761.jpg"
-    image-secondary: ""
+    image-primary: "/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-blogpost-7.jpg"
+    image-secondary: "/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-blogpost-14.jpg"
 
 
-teaser: Varmista, että sinun avokaadot ovat kypsiä ennen kuin ryhdyt tekemään
+teaser: Varmista, että sinun avokaadot ovat kypsiä ennen kuin ryhdyt tekemään.
 
 ---
 

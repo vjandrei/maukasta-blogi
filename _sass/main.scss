@@ -94,6 +94,7 @@ $darkCopy:			#3b3b3b;
 
 section{
 	@include outer-container;
+	padding: 20px 10px;
 }
 
 *{
@@ -113,14 +114,17 @@ a{
     outline: none;
 }
 
+h1,h2,h3,h4,h5,h6{
+	word-break: break-all;
+}
+
 h1.sectionHeader{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 0px 20px;
-	@extend.montserrat;
-	font-size: 3rem;
+	@extend.lato-normalel;
+	font-size: 1.3rem;
 	font-weight: bold;
-	color: $darkCopy;
+	color: #b4ab9d;
 	@include media($tablet) {
 		font-size: 1.8rem;	
 	}
@@ -129,7 +133,6 @@ h1.sectionHeader{
 h2.sectionHeader{
 	margin-top: 0px;
 	margin-bottom: 10px;
-	padding: 0px 20px;
 	@extend.montserrat;
 	font-size: 1rem;
 	font-weight: bold;
@@ -139,16 +142,79 @@ h2.sectionHeader{
 	}
 }
 
-#welcome-header{
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+#welcomeHeader{
 	min-height: 250px;
-	background: aqua;
+	background: url(../images/bg/bbg-nyhtopossua-1024x682.jpg) no-repeat;
 	background-size: 100%;
 	background-position: center center;
-	#welcome-header-container{
-		height: 100%;
+	background-size: cover;
+	@include media($tablet) {
+		min-height: 150px;
+	}
+	#welcomeHeaderContainer{
 		display: flex;
 		justify-content: center;
 		align-content: center;	
+		align-items: center;
+		min-height: 250px;
+		text-align: center;
+		@include media($tablet) {
+			min-height: 150px;
+		}
+		h1{
+			margin-top: 0;
+			margin-bottom: 15px;
+			@extend.bree;
+			font-size: 3rem;
+			line-height: 48px;
+			font-weight: normal;
+			color: white;
+			text-shadow: 0px 2px 3px rgba(9,10,10,0.50);
+			@include media($tablet) {
+				font-size: 1.3rem;	
+				line-height: 22px;
+			}
+		}
+		h2{
+			width: 60%;
+			margin: 0 auto;
+			margin-top: 0;
+			margin-bottom: 0;
+			@extend.lato-bold;
+			font-size: 1.2rem;
+			font-weight: normal;
+			color: white;
+			word-break: break-word;
+			text-shadow: 0px 2px 3px rgba(9,10,10,0.50);
+			@include media($tablet) {
+				width: 80%;
+				font-size: 0.9rem;
+			}
+		}
 	}
 }
 
@@ -294,15 +360,17 @@ form{
 	    p{
 		    color: $darkCopy;
 			font-size: 0.8rem;
-			@extend.montserrat;  
+			@extend.montserrat; 
+			word-break: break-all; 
 			a{
 				color: $brandColor;	
+				word-break: break-all;
 			}
 	    }
     }
 }
 
-.contentBlock{
+.contentBlockWhite{
 	padding: 20px 20px;
 	background: white;
 }
@@ -353,11 +421,11 @@ form{
 .sponsorsBg{
 	position: relative;
 	width: 100%;
+	background: $brandColor;
 	color: white;
 	.scroller{
 		height: 40px;
-		margin-top: 0;
-		padding: 0 20px;
+		margin: 0px;
 	}
 	.scroller-content{
 		height: 40px;
@@ -368,20 +436,40 @@ form{
 		.item{
 			text-align: left;
 			min-width: 0px;
-			margin-right: 20px;
+			padding-right: 10px;
 			h2{
 				display: inline-block;
 				padding-bottom: 5px;
 				@extend.lato;
 				font-size: 1rem;	
-				color: $brandColor;
+				color: white;
+				border-bottom: solid 2px rgba(255, 255, 255, 0);
 			}
 		}
 		.active{
 			h2{
-				border-bottom: solid 2px $brandColor;
+				border-bottom: solid 2px white;
 			}
 		}
+	}
+	#sponsorLinks{
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+		align-items: center;
+		padding: 0 10px;
+	}
+	.sectionHeader{
+		margin-top: 10px;
+		font-size: 0.8rem;
+		font-weight: normal;
+		a{
+			color: white;
+			padding-bottom: 2px;
+			&:hover{
+				border-bottom: solid 2px white;
+			}
+		}	
 	}
 	.sponsors{
 		position: relative;

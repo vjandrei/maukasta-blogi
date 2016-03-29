@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: video
 
 title:	--
 
@@ -7,7 +7,13 @@ subtitle: --
 
 type: Video
 
-image:	/images/blog-post/
+smallthumbnail: 	/images/blog-post/-150.jpg
+bigthumbnail:		/images/blog-post/-700.jpg
+gategorythumbnail: 	/images/blog-post/-450.jpg
+fullsize: 			/images/blog-post/-fullsize.jpg
+reseptikuva:		/images/blog-post/-1000.jpg
+youtubelink: 		https://www.youtube.com/embed/
+
 
 date:	2016-02-10 07:39:44 +0200
 
@@ -26,9 +32,7 @@ raakaaineet:
    raakaaine: --
  - maara: --
    raakaaine: --
-   
-recipe-image: /images/blog-post/   
-   
+     
 recipe:
 
 -   text: ""

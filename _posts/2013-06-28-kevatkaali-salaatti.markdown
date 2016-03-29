@@ -7,7 +7,11 @@ subtitle: Kevätkaali salaatti grilli herkkujen kaveriksi
 
 type: Resepti
 
-image:	/images/blog-post/kevatkaali-salaatti/images/kaalisalaattia.jpg
+smallthumbnail: 	/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-150.jpg
+bigthumbnail:		/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-700.jpg
+gategorythumbnail: 	/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-450.jpg
+fullsize: 			/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-fullsize.jpg
+reseptikuva:		/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-1000.jpg
 
 date:	2013-06-28 07:39:44 +0200
 
@@ -45,16 +49,12 @@ raakaaineet:
  - maara: 1 rkl	
    raakaaine: Balsamico etikkaa ( vaaleata )
    
-recipe-image: /images/blog-post/kevatkaali-salaatti/images/kaalisalaattia.jpg   
-   
 recipe:
-
 -   text: "Leikkaa kevätkaali ohueksi suikaleeksi jotta se olisi mukavempi syödä.
 Laita kaalit kulhoon johon mahtuu loput raaka-aineet.
 Leikkaa myös muistakin raaka-ainesta suikaleita. Retiisi voi olla pyöreän muotoista suikaletta. Leikkaa korianteri pieneksi ja purista limen mehu kulhoon ja sekoita hyvin. Anna lisää aromaatteja lisäämällä seesamiöljyä ja mausta suolalla. Salaatti saa vetäytyä hetken jotta maut yhdistyvät."
-    image-primary: "/images/blog-post/kevatkaali-salaatti/images/kaalisalaattia.jpg"
+    image-primary: 
     image-secondary: 
-
 
 teaser: Kevätkaali on monikäyttöinen ja se sopii hyvin salaatiksi muutenkin kuin raasteena. Tämä versio on raikas ja sopii hyvin rasvaisen pääraaka-aineen kanssa yhteen tasapainottamaan kokonaisuutta. Katso nyhtypössu resepti, jossa kaalisalaattia käytettiin lisäkkeenä.   
 

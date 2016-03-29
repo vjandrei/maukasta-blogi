@@ -1,0 +1,121 @@
+---
+layout: default
+comments: true
+---
+<div class="postHeadContainer" style="background: url('{{page.fullsize}}') no-repeat; background-size: cover; background-position: center center;">
+	<div class="postHeading">
+		<h1 class="post-title">{{ page.title }}</h1>
+		<h3 class="sub-title">{{ page.subtitle }}</h3>
+		<a href="#recipe"><button>Siirry reseptiin</button></a>
+	</div>
+</div>
+
+<div class="blogContainer">
+	<div class="blogContent">
+		{% if page.teaser %}
+		<section>
+			<p>
+				{{ page.teaser }}
+			</p>
+		</section>
+		{% else %}
+			
+		{% endif %}
+		{{ content }}
+	</div>	
+</div>
+
+<div class="postContainer">
+	<section>
+	<div class="postContent" id="recipe">
+		<h2>{{ page.title }} resepti</h2>
+		{% include shares.html %}
+		<div class="postContentHeader">
+			<iframe width="100%" height="500px" src="{{page.youtubelink}}" frameborder="0" allowfullscreen></iframe>
+			<div class="info postContentItem">
+				<div class="infoItem" id="showIngredients">
+					<div class="showIngredients"><button>Näytä raaka-aine lista</button></div>
+				</div>
+				<div class="infoItem">
+					<div><b>Esivalmistelu:</b><span itemprop="prepTime" content="PT{{page.esivalmistelu}}">{{page.esivalmistelu}}</span></div>
+				</div>
+				<div class="infoItem">
+					<div><b>Valmistusaika:</b><span itemprop="cookTime" content="PT{{page.valmistuaika}}">{{page.valmistuaika}}</span></div>
+				</div>
+				<div class="infoItem">
+					<div><b>Annoksia:</b><span itemprop="recipeYield" content="{{page.annoksia}}">{{page.annoksia}}</span></div>
+				</div>		
+			</div>
+		</div>
+		<div class="showIngredients" id="showIngredientsMobile"><button>Näytä raaka-aine lista</button></div>
+		<div class="postBlogContent">
+			<div class="ingredients">
+				<h4>Ainekset:</h4>
+				<ul>
+					{% for raakaaine in page.raakaaineet %}
+						<li>
+							{{ raakaaine.maara }}
+							{{ raakaaine.raakaaine }}
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="recipe">
+				{% for recipes in page.recipe %}
+				    <p>{{recipes.text}}</p>
+				    <div class="postImages">
+					    {% if recipes.image-primary %}
+					    	<div class="postImagesItem"><img src="{{recipes.image-primary}}"/></div>
+					    {% else %}		    
+					    {% endif %}
+					    
+					    {% if recipes.image-secondary %}
+					    	<div class="postImagesItem"><img src="{{recipes.image-secondary}}" /></div>
+					    {% else %}
+					    {% endif %}
+				    </div>
+				{% endfor %}
+			</div>
+		</div>
+		<span id="disqus">
+			<div id="disqus_thread"></div>
+			<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			
+			s.src = '//maukastafi.disqus.com/embed.js';
+			
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the 
+			<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+			</noscript>
+		</span>
+	</div>	
+	</section>
+</div>
+
+<div class="postBottom">
+	<section>
+		<div>
+			{% for post in site.posts limit:5 offset:1 %}
+				<a href="{{ post.url | prepend: site.baseurl }}">
+				<div class="recentPostCotainer">
+					<div class="recentPostImage">
+						<img src="{{ post.smallthumbnail }}" />
+					</div>
+					<div class="recentPostContent">
+						<h1>{{ post.title}}</h1>
+						<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+						<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</div>
+				</div>
+				</a>
+			{% endfor %}
+		</div>
+	</section>
+</div>
+
+

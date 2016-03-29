@@ -7,7 +7,11 @@ subtitle: Kamomilla sopii myös keittoihin
 
 type: Resepti
 
-image:	/images/blog-post/kamomilalla-maustettua-juuriselleri-munakoiso-keittoa/header-bg/juuriselleri-munakoiso-keitto-2.jpg
+smallthumbnail: 	/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-150.jpg
+bigthumbnail:		/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-700.jpg
+gategorythumbnail: 	/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-450.jpg
+fullsize: 			/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-fullsize.jpg
+reseptikuva:		/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-blogpost.jpg
 
 date:	2014-07-13 07:39:44 +0200
 
@@ -52,8 +56,6 @@ recipe-image: /images/blog-post/kamomilalla-maustettua-juuriselleri-munakoiso-ke
 recipe:
 
 -   text: "Aloita kuorimalla munakoisosta kuoripois, kuorelle ei ole käyttöä tässä reseptissä. Leikkaa kuoritusta munakoisosta isoja kuutioita. Seuraavaksi kuori juuriselleri ja pilko se myös kuutioksi. Lisää kattilaan oliiviöljyä ja voi ja kuulota hienonnettu valkosipuli sekä kuutiot. Anna kuulottua hetken ja sekoita samalla. Keitä vedenkeittimessä vesi sillä aikaan kun kasvikset kuulottuu. Lisää kattilaan tämän jälkeen valkoviinietikka sekä valkoviini. Anna alkoholin haihtua ja lisää esikeitetty vesi kattilaan. Pilko timjami hienoksi sekä murskaa kuivattu kamomilla morttelissa. Lisää yritit kattilaan. Voi tässä vaiheessa lisää suolaa keittoon."
-    image-primary: "/images/blog-post/kamomilalla-maustettua-juuriselleri-munakoiso-keittoa/header-bg/juuriselleri-munakoiso-keitto-2.jpg"
-    image-secondary: 
 
 -   text: "Kun kasvikset ovat kiehuneet 50 minuuttia lisää smetana ja soseuta kasvikset tehosekoittimella. Mausta lopuksi keitto pippurilla ja tarkista suola. Tarjoa keitto näkkileivän sekä yrittiöljyn kera. Toivottavasti kokeilet tätä versiota, kamomilla sopii hyvin juurisellerin kanssa yhteen."
     image-primary: 
@@ -67,13 +69,3 @@ recipe:
 teaser: Alkuviikolla lähikaupassamme ruoholahdessa pyöri kokkiasuun sonnistautuneita nuoria naisia ja miehiä. Heillä oli kangaskassit jossa tutuksi Facebookista jo tulleen logon tunnistin. Otin heiltä tarjoaman flaijerin käteen ja tutustuin sen sisältöön menessäni kaupansisälle. Lihaosastoa lähestyäni alkoikin tuote-esittely tuoksut voimistua. Heillä oli maistelussa tuotteita, mutta kiireevuoksi en kerennyt käydä maistelemassa. Tänään tosin ostin herätteenä brändin paketin, jota lähdin kokeilemaan.   
 
 ---
-
-<section>
-<p>
-
-</p>
-</section>
-
-{:refdef: .fullwidth }
-![image-title-here](/images/blog-post/.jpg){:class=""}	
-{: refdef}

@@ -1,5 +1,20 @@
 $(function(){
 	
+	/*
+	var animData = {
+        container: document.getElementById('maukastalogoanimate'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        animationData: animationData
+    };
+    var anim = bodymovin.loadAnimation(animData);
+	*/
+
+	$("#welcomeHeaderContainer h1 b").typed({
+        strings: ["oppimaan! ^500", "nauttimaan! ^500", "herkuttelemaan! ^500"],
+        typeSpeed: 50
+    });
 
 	var handler = 'mousemove';
 	
@@ -19,6 +34,7 @@ $(function(){
 	  mode: 'horizontal',
 	  controls: false,
 	  auto: false,
+	  touchEnabled: true,
 	  preloadImages: 'all'
 	});	
 	

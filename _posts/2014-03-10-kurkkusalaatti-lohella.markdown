@@ -7,7 +7,11 @@ subtitle: Nopea ja yksinkertainen salaatti muutamalla raaka-aineella.
 
 type: Resepti 
 
-image:	/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-18.jpg
+smallthumbnail: 	/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-150.jpg
+bigthumbnail:		/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-700.jpg
+gategorythumbnail: 	/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-450.jpg
+fullsize: 			/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-fullsize.jpg
+reseptikuva:		/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-1000.jpg
 
 date:	2014-03-10 07:39:44 +0200
 
@@ -47,36 +51,35 @@ raakaaineet:
  - maara: 1 rkl	
    raakaaine: Hunajaa
    
-recipe-image: /images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-17.jpg
    
 recipe:
 
 -   text: "Aloita nyppimällä lohesta ruodot pois ja leikkaa niistä sopivan kokoisia annospaloja.
 Tuli tossa kuukausi sitten ostettua vihdoinkin kunnon ruotopihdit ja nämä ovat kyllä toiminneet hyvin. Panostakaa siis hyviin ruoanlaitto välineisiin niin hommat sujuu paremmin ja tehokkaammin."
-    image-primary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-5.jpg"
-    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-7.jpg"
+    image-primary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-13.jpg"
+    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-14.jpg"
 
 -   text: "Ota kurkkut työlaudalle ja raasta niistä kuoret pois. Tähän aikaa vuodesta kuoret on kovia joten ne voi kuoria ronskisti pois. Kaavi kurkusta keski siemenosa pois, käytin itse tähän tuliaiseksi saatua pallorautaa joka on kätevä työkalu.
 Kun olet saanut siemenosan pois leikkaa kurkuista mieleisesi viipaleita. Itse leikkasin hieman vinottain ne kuten kuvasta näkee."
-    image-primary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-8.jpg"
-    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-9.jpg"
+    image-primary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost.jpg"
+    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-16.jpg"
     
 -   text: "Siirrä kurkut sekoitus kulhoon ja leikkaa tillistä ja varsisipulista hienoa silppua.
 Lisää hienonnetut tillit ja varsisipulit kulhoon kurkkujen juokkoon. Sekoita ja lisää oliviöljy, etikka, suola ja pippuri.
 Niin tähän voi lisää myös punasipulia jota meidän kaapista löytyy aina. Eli viipaloi punasipuli ohueksi suikaleeksi ja lisää kulhoon kurkkujen ja mausteiden kera."
-    image-primary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-10.jpg"
-    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-11.jpg"
+    image-primary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-3.jpg"
+    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-4.jpg"
 
 -   text: "Nyt kun salaatti maustuu voit alkaa paistaa lohet.
 Lämmitä pannu kuumaksi ja lisää hieman rypsiöljyä pannulle.
 Lisää lohiannospalat nahkapuoli pannulle ja anna paistua noin 3 
 minuttia jotta kala kypsyy ja nahasta tulee rapea. Lisää hieman suolaa ja pippuria pinnalle. Käännä lohi ja paista noin 2-3 minuuttia riippuen palan koosta.  Kun lohet on paistettu nosta ne leikkulaudalle hieman lepäämään."
-    image-primary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-14.jpg"
-    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-15.jpg"
+    image-primary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-6.jpg"
+    image-secondary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-9.jpg"
     
 -   text: "Nyt sitten enään jogurttin maustaminen, voit toki käyttää jogurttia ihan sellaisenaan. Itse tykkään maustaa sitä aina hieman.
 Varsinkin kun on taas hunajaa joka on oma inport Kreetalta. Eli siis sekoita 1 rkl oliviiöljyä jogurttiin ja lisää makusi mukaan hunajaa sekä austa hieman suoalla."
-    image-primary: "/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-16.jpg"
+    image-primary: "/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-8.jpg"
     image-secondary: 
 
 -   text: "Rakenna annos niin että pohjalle kurkkusalaatti ja päälle lohi.
@@ -89,7 +92,7 @@ teaser: Taas on työviikko alkanut ja pitäsi tehdä jotain kevyttä, siksi ett�
 ---
 
 {:refdef: .fullwidth }
-![image-title-here](/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-1.jpg){:class=""}	
+![image-title-here](/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-2.jpg){:class=""}	
 {: refdef}
 
 <section>
@@ -100,7 +103,7 @@ Tätini kuivattaa sitä omalla puutarhalla ja sitä laitetaan aina mukaan tuliai
 </section>
 
 {:refdef: .fullwidth }	
-![image-title-here](/images/blog-post/kurkkusalaatti-lohella/images/kurkkusalaatti-lohella-2.jpg){:class=""}	
+![image-title-here](/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-blogpost-12.jpg){:class=""}	
 {: refdef}
 
 <section>

@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
+<div id="welcomeHeader">
+	<section>
+		<div id="welcomeHeaderContainer">
+			<div>
+				<h1>Tervetuloa <b> </b><br/>hyvän ruoan ja ruokakulttuurin parissa.</h1>
+				<h2>Maukkaita juttuja on jo {{ site.posts | size }} ja niitä tulee lisää kokoajan joten pysy mukana menossa.</h2>
+			</div>
+		</div>
+	</section>
+</div>
+
 <section>
-	<h1 class="sectionHeader">Uusimmat artikkelit</h1>
 	<div id="newestPostContainer" class="contentBlock">
 	{% for post in site.categories['nosto'] limit:1 %}
 	<div id="newestPost">
-		<div id="newestPostImage" style="background: url('{{ post.image }}')no-repeat;">
+		<div id="newestPostImage" style="background: url('{{ post.bigthumbnail }}')no-repeat;">
 			<div id="detailsPost">
 				<h3>{{post.type}}</h3>
 				<p>{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -24,14 +34,14 @@ layout: default
 	</div>
 	{% endfor %}
 	<div id="postSidebar">
-		{% for post in site.posts limit:4 offset:1 %}
+		{% for post in site.categories['nosto'] limit:6 offset:1  %}
 			<a href="{{ post.url | prepend: site.baseurl }}">
 			<div class="recentPostCotainer">
 				<div class="recentPostImage">
-					<img src="{{ post.image }}" />
+					<img src="{{ post.smallthumbnail }}" />
 				</div>
 				<div class="recentPostContent">
-					<h1>{{ post.title | truncate: 20  }}</h1>
+					<h1>{{ post.title | truncate: 40  }}</h1>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 65 }}</p>
 				</div>
@@ -43,14 +53,14 @@ layout: default
 </section>
 
 <section>
-	<h1 class="sectionHeader">Videot</h1>
-	<h2 class="sectionHeader"><a href="">Kaikki video artikkelit</a></h2>
 	{% for post in site.categories.videot limit:1  %}
 	<div id="cookingVideoPost" class="contentBlock">
-		<iframe width="100%" height="500px" src="https://www.youtube.com/embed/Jp5bize9FLQ" frameborder="0" allowfullscreen></iframe>
-		<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-		{% include shares.html %}
-		<p>{{post.teaser}} </p>
+		<iframe width="100%" height="500px" src="{{post.youtubelink}}" frameborder="0" allowfullscreen></iframe>
+		<div id="cookingVideoPostContainer">
+			<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+			{% include shares.html %}
+			<p>{{post.teaser}} </p>
+		</div>
 	</div>
 	{% endfor %}
 </section>
@@ -58,8 +68,6 @@ layout: default
 
 <div class="sponsorsBg">
 	<section>
-	<h1 class="sectionHeader">Yhteistyöt</h1>
-	<h2 class="sectionHeader"><a href="">Kaikki yhteistyö artikkelit</a></h2>
 	<div class="scroller">
 		<div class="scroller-content" id="bx-pager">
 		<a class="item" data-slide-index="0" href="">
@@ -99,11 +107,13 @@ layout: default
 			</li>
 		</ul>
 	</div>
-	
+	<div id="sponsorLinks">
+		<h2 class="sectionHeader"><a href="">Kaikki yhteistyö artikkelit</a></h2>
+		<h2 class="sectionHeader"><a href="">Kiinnostaako yhteistyö?</a></h2>
+	</div>
 </div>
 
-<section>
-	<h1 class="sectionHeader">Resepti kategoriat</h1>	
+<section>	
 	<div id="categoryPosts" class="contentBlock">
 		<div class="categoryItem">
 			<h1>Alkupalat</h1>
@@ -112,7 +122,7 @@ layout: default
 				{% for post in site.categories.alkupalat limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -128,7 +138,7 @@ layout: default
 				{% for post in site.categories.leivonnaiset limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -144,7 +154,7 @@ layout: default
 				{% for post in site.categories.salaatit limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -160,7 +170,7 @@ layout: default
 				{% for post in site.categories.keitot limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -176,7 +186,7 @@ layout: default
 				{% for post in site.categories.paaruoat limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -192,7 +202,7 @@ layout: default
 				{% for post in site.categories.jalkiruoat limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -208,7 +218,7 @@ layout: default
 				{% for post in site.categories.muut limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
-						<img src="{{ post.image }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
 					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -221,7 +231,6 @@ layout: default
 </section>
 
 <section>
-	<h1 class="sectionHeader">Sosiaalisesti maukas</h1>
 	<div class="socialBoard">
 		<div class="socialContainer"></div>
 	</div>
