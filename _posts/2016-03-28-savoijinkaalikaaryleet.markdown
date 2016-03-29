@@ -15,7 +15,7 @@ reseptikuva:		/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-bl
 
 date:	2016-03-28 07:39:44 +0200
 
-categories: ruokaisa nosto
+categories: ruokaisat nosto
 
 author: Andreas
 

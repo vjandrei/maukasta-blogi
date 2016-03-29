@@ -19,7 +19,7 @@ layout: default
 		<div id="newestPostImage" style="background: url('{{ post.bigthumbnail }}')no-repeat;">
 			<div id="detailsPost">
 				<h3>{{post.type}}</h3>
-				<p>{{ post.date | date: "%b %-d, %Y" }}</p>
+				<p>{{ post.date | date: "%d.%m.%Y" }}</p>
 			</div>
 		</div>
 		<div id="newestPostArticle">
@@ -42,7 +42,7 @@ layout: default
 				</div>
 				<div class="recentPostContent">
 					<h1>{{ post.title | truncate: 40  }}</h1>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 65 }}</p>
 				</div>
 			</div>
@@ -125,7 +125,7 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
@@ -141,7 +141,7 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
@@ -157,7 +157,7 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
@@ -173,23 +173,23 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
 			</div>
 		</div>
 		<div class="categoryItem">
-			<h1>Pääruoat</h1>
+			<h1>Ruokaisat</h1>
 			<a href="/tag/paaruoat"><h4>Lue kaikki</h4></a>
 			<div class="categoryItemContent">
-				{% for post in site.categories.paaruoat limit:1  %}
+				{% for post in site.categories.ruokaisat limit:1  %}
 					<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="categoryItemContentImage">
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
@@ -205,7 +205,7 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}
@@ -221,7 +221,7 @@ layout: default
 						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<h2>{{ post.title }}</h2>
-					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 					</a>
 				{% endfor %}

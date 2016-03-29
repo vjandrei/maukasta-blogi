@@ -150,7 +150,6 @@
 			}
 		}
 		.recipe{
-			padding: 0 20px;
 			flex: 2;
 			.postImages{
 				display: flex;
@@ -160,7 +159,7 @@
 			}
 			p{
 				margin: 0;
-				padding: 40px 0px;
+				padding: 10px 0px;
 				@extend.ptserif-normal;
 				line-height: 25px;
 				font-size: 1.2rem;

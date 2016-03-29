@@ -15,7 +15,7 @@ reseptikuva:		/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-blogpost-12.
 
 date:	2014-04-27 07:39:44 +0200
 
-categories: paaruoat nosto
+categories: ruokaisat nosto
 
 author: Andreas Koutsoukos
 

@@ -33,17 +33,22 @@
 			</section>
 		</nav>
 		<section id="search-results" style="display: none; height: 400px;">
-			<p>Search results</p>
+			<h2>Hakutulokset</h2>
 			<div class="entries">
 				{% raw %}
 				<script id="search-results-template" type="text/mustache">
 				{{#entries}}
-				<article>
-				<h3>
-				{{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-				<a href="{{url}}">{{title}}</a>
-				</h3>
-				</article>
+					<div class="postBottom">
+						<div>
+							<a href="{{url}}">
+							<div class="recentPostCotainer">
+								<div class="recentPostContent">
+									<h1>{{title}}</h1>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
 				{{/entries}}
 				</script>
 				{% endraw %}

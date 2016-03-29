@@ -92,9 +92,9 @@ $(function(){
 		  	
 		  	$.notify({
 				// options
-				title: 'Bootstrap notify',
-				message: 'Turning standard Bootstrap alerts into "notify" like notifications',
-				url: 'https://github.com/mouse0270/bootstrap-notify',
+				title: 'Lähetys onnistui.',
+				message: 'Kiitos, viestisi on lähetetty onnistuneesti!',
+				url: '',
 				target: '_blank'
 			},{
 				// settings
@@ -124,11 +124,9 @@ $(function(){
 				onClose: null,
 				onClosed: null,
 				icon_type: 'class',
-				template: '<div data-notify="container"  role="alert">' +
-					'<button type="button" aria-hidden="true" class="close" data-notify="dismiss">×</button>' +
-					'<span data-notify="icon"></span> ' +
-					'<span data-notify="title">{1}</span> ' +
-					'<span data-notify="message">{2}</span>' +
+				template: '<div data-notify="container" class="notifyBox"  role="alert">' +
+					'<span data-notify="title"><h4>{1}</h4></span> ' +
+					'<span data-notify="message"><p>{2}</p></span>' +
 					'<div class="progress" data-notify="progressbar">' +
 						'<div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
 					'</div>' +

@@ -115,7 +115,7 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
-	word-break: break-all;
+	word-break: break-word;
 }
 
 h1.sectionHeader{
@@ -240,6 +240,7 @@ button{
 	padding: 10px;
 	color: white;
 	@extend.montserrat;
+	
 	text-transform: uppercase;
 }
 
@@ -252,6 +253,8 @@ form{
 		display: block;
 		width: 100%;
 		margin: 5px 0px;
+		color: $darkCopy;
+		@extend.lato;
 	}
 	input{
 		width: 100%;
@@ -259,6 +262,8 @@ form{
 		padding: 5px 10px;
 		border: none;
 		line-height: 30px;
+		color: $darkCopy;
+		@extend.lato;
 	}
 	textarea{
 		width: 100%;
@@ -267,7 +272,10 @@ form{
 		padding: 5px 10px;
 		border: none;
 	}
-	button{}
+	.button{
+		background: $brandColor;
+		color: white;
+	}
 }
 
 [data-notify="progressbar"] {
@@ -279,6 +287,31 @@ form{
 	height: 5px;
 }
 
+.notifyBox{
+	width: 100%;
+	background: $brandColor;
+	color: white;
+	padding: 10px 10px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	text-align: center;
+	button{
+		border-radius: 20px;
+		padding: 5px 10px;
+	}
+	h4{
+		margin-top: 0;
+		margin-bottom: 5px;
+		color: white;
+		@extend.montserrat;
+	}
+	p{
+		@extend.lato;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+}
 
 .socialContainer {
     margin: 0;
@@ -507,6 +540,23 @@ form{
 	}
 }
 
+#search-results{
+	h2{
+		margin-top: 0;
+		margin-bottom: 10px;
+		color: $darkCopy;
+		
+	}
+	h1{
+		font-size: 1rem;
+	}
+	.postBottom{
+		padding: 0;
+		.recentPostContent{
+			padding: 0;
+		}
+	}
+}
 
 @import "partials/nav";
 @import "partials/info-details";

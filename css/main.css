@@ -726,11 +726,11 @@ th {
   font-family: 'Lato', sans-serif;
   font-weight: 400; }
 
-.lato-bold, #welcomeHeader #welcomeHeaderContainer h2, .sponsorsBg .sponsors p, #brandNav #brandNavContent #primaryBrandArea h2, .postArticleInfo, #newestPostContainer #newestPost #newestPostImage #typeOfPost h3, .postContainer .postContent .postContentHeader .info .infoItem b, .postContainer .postContent .ingredients h4, footer h4 {
+.lato-bold, #welcomeHeader #welcomeHeaderContainer h2, .sponsorsBg .sponsors p, #brandNav #brandNavContent #primaryBrandArea h2, .postArticleInfo, #newestPostContainer #newestPost #newestPostImage #typeOfPost h3, .postContainer .postContent .postContentHeader .info .infoItem b, .postContainer .postContent .ingredients h4 {
   font-family: 'Lato', sans-serif;
   font-weight: 700 !important; }
 
-.montserrat, h2.sectionHeader, button, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select {
+.montserrat, h2.sectionHeader, button, .notifyBox h4, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select, footer h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
 
@@ -766,7 +766,7 @@ a {
   outline: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  word-break: break-all; }
+  word-break: break-word; }
 
 h1.sectionHeader {
   margin-top: 10px;
@@ -885,14 +885,16 @@ button {
 form label {
   display: block;
   width: 100%;
-  margin: 5px 0px; }
+  margin: 5px 0px;
+  color: #3b3b3b; }
 
 form input {
   width: 100%;
   margin: 5px 0px;
   padding: 5px 10px;
   border: none;
-  line-height: 30px; }
+  line-height: 30px;
+  color: #3b3b3b; }
 
 form textarea {
   width: 100%;
@@ -901,6 +903,10 @@ form textarea {
   padding: 5px 10px;
   border: none; }
 
+form .button {
+  background: #cb4b1e;
+  color: white; }
+
 [data-notify="progressbar"] {
   margin-bottom: 0px;
   position: absolute;
@@ -908,6 +914,26 @@ form textarea {
   left: 0px;
   width: 100%;
   height: 5px; }
+
+.notifyBox {
+  width: 100%;
+  background: #cb4b1e;
+  color: white;
+  padding: 10px 10px;
+  left: 0;
+  top: 0;
+  margin: 0;
+  text-align: center; }
+  .notifyBox button {
+    border-radius: 20px;
+    padding: 5px 10px; }
+  .notifyBox h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: white; }
+  .notifyBox p {
+    margin-top: 0;
+    margin-bottom: 5px; }
 
 .socialContainer {
   margin: 0;
@@ -1110,10 +1136,25 @@ form textarea {
           padding: 0 20px;
           z-index: 10; }
 
+#search-results h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #3b3b3b; }
+
+#search-results h1 {
+  font-size: 1rem; }
+
+#search-results .postBottom {
+  padding: 0; }
+  #search-results .postBottom .recentPostContent {
+    padding: 0; }
+
 #pageNav {
   padding: 10px;
   background: #FBF9F0;
   border-bottom: solid 5px #cb4b1e; }
+  #pageNav section {
+    padding: 0px; }
   #pageNav #navContainer {
     position: relative;
     display: -ms-flexbox;
@@ -1169,6 +1210,8 @@ form textarea {
   padding: 10px 50px 10px 10px;
   background: #FBF9F0;
   border-bottom: solid 5px #cb4b1e; }
+  #searchFilters section {
+    padding: 0px; }
   #searchFilters #searchFiltersContainer {
     position: relative;
     display: -ms-flexbox;
@@ -1983,7 +2026,6 @@ form textarea {
       .postContainer .postContent .ingredients ul li {
         margin-bottom: 15px; }
     .postContainer .postContent .recipe {
-      padding: 0 20px;
       -ms-flex: 2;
           flex: 2; }
       .postContainer .postContent .recipe .postImages {
@@ -1993,7 +2035,7 @@ form textarea {
         width: 100%; }
       .postContainer .postContent .recipe p {
         margin: 0;
-        padding: 40px 0px;
+        padding: 10px 0px;
         line-height: 25px;
         font-size: 1.2rem;
         line-height: 30px;
@@ -2027,7 +2069,7 @@ footer {
   width: 100%;
   display: inline-block; }
   footer h4 {
-    text-transform: uppercase; }
+    color: #3b3b3b; }
     footer h4 a {
       color: #cb4b1e; }
   footer #contact {
@@ -2035,11 +2077,55 @@ footer {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 48.82117%; }
     footer #contact:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 48em) {
+      footer #contact {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        footer #contact:last-child {
+          margin-right: 0; } }
     footer #contact form {
       width: 100%; }
+  footer #siteInfo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    footer #siteInfo:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 48em) {
+      footer #siteInfo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%; }
+        footer #siteInfo:last-child {
+          margin-right: 0; } }
+    footer #siteInfo #siteInfoContainer {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      footer #siteInfo #siteInfoContainer #Footerlogo span {
+        width: 34px;
+        height: 30px;
+        display: inline-block;
+        margin: 0 auto;
+        background: url("../../images/maukasta-nav-logo.svg") no-repeat;
+        background-position: center center; }
+      footer #siteInfo #siteInfoContainer ul {
+        margin: 0;
+        padding: 0; }
+        footer #siteInfo #siteInfoContainer ul li {
+          list-style: none;
+          color: #3b3b3b;
+          margin-bottom: 3px; }
+          footer #siteInfo #siteInfoContainer ul li a {
+            color: #cb4b1e; }
 
 #scroll-up {
   display: block;

@@ -8,17 +8,53 @@ footer{
 	width: 100%;
 	display: inline-block;
 	h4{
-		@extend.lato-bold;
-		text-transform: uppercase;
+		@extend.montserrat;
+		color: $darkCopy;
 		a{
 			color: $brandColor;
 		}
 	}
 	#contact{
 		width: 100%;
-		@include span-columns(12);	
+		@include span-columns(6);	
+		@include media($tablet) {
+			@include span-columns(12);		
+		}
 		form{
 			width: 100%;
+		}
+	}
+	#siteInfo{
+		@include span-columns(6);
+		@include media($tablet) {
+			@include span-columns(12);		
+		}
+		#siteInfoContainer{
+			display: flex;
+			flex-direction: column;
+			#Footerlogo{
+				span{
+					width: 34px;
+					height: 30px;
+					display: inline-block;
+					margin: 0 auto;
+					background: url('../../images/maukasta-nav-logo.svg') no-repeat;
+					background-position: center center;
+				}
+			}
+			ul{
+				margin: 0;
+				padding: 0;
+				li{
+					list-style: none;
+					@extend.lato;
+					color: $darkCopy;
+					margin-bottom: 3px;
+					a{
+						color: $brandColor;
+					}
+				}
+			}
 		}
 	}
 }
