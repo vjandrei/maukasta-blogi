@@ -104,7 +104,7 @@ Anna sienien kuumeta hieman ja lisää teriyaki pannulle. Sekoita hyvin sekaisin
 -   text: 
     image-secondary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-16.jpg"
 
-teaser: Tämän reseptin idea lähti siitä kun katsoin youtubesta Munchies kanavaa jota suosittelen. Sielä Chris Rubinstein kokkasi vegaanisen pulled BBQ sieni burgerin. Sain videosta inspiraation ja halusin kokeilla tehdä oman version reseptistä. 
+teaser: Tämän reseptin idea lähti siitä kun katsoin youtubesta Munchies kanavaa jota suosittelen. Chris Rubinstein kokkasi vegaanisen pulled BBQ sieni burgerin. Sain videosta inspiraation ja halusin kokeilla tehdä oman version reseptistä. 
 
 ---
 
