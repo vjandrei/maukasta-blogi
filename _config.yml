@@ -24,7 +24,7 @@ comments: true
 
 timezone: Europe/Helsinki
 
-gems: ['jekyll-lunr-js-search']
+gems: ['jekyll-lunr-js-search','jekyll-tagging']
 
 exclude: [node_modules, gulpfile.js]
 
