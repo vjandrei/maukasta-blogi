@@ -98,7 +98,7 @@ recipe:
 Anna sienien kuumeta hieman ja lisää teriyaki pannulle. Sekoita hyvin sekaisin ja jos tuntuu, että sokeri alkaa palaa lisää pannulle hieman vettä ja sekoita."
     image-secondary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-13.jpg"
 
--   text: "Nyt kaikki on kasaamista vaille valmiina. Eli kasaa burgeri ensiksi pohjalle salaattia päälle sienet ja lopuksi kansi johon ripottele seesaminsiemeniä ja hieman soossia sienistä päälle. Toivottavasti resepti ei ollut liian monimutkainen ja kokeilet reseptiä."
+-   text: "Nyt kaikki on kokoamista vaille valmiina. Eli kokoa burgeri ensiksi pohjalle salaattia päälle sienet ja lopuksi kansi johon ripottele seesaminsiemeniä ja hieman soossia sienistä päälle. Toivottavasti resepti ei ollut liian monimutkainen ja kokeilet reseptiä."
     image-primary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-15.jpg"
 
 -   text: 
