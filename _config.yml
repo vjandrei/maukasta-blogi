@@ -26,6 +26,8 @@ timezone: Europe/Helsinki
 
 gems: ['jekyll-lunr-js-search']
 
+exclude: [node_modules, gulpfile.js]
+
 lunr_search:
   excludes: [rss.xml, atom.xml]
   stopwords: "stopwords.txt"

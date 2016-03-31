@@ -4,8 +4,7 @@ var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
 var plumber     = require('gulp-plumber');
-var imageop = require('gulp-image-optimization');
-
+var imageop 	= require('gulp-image-optimization');
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
