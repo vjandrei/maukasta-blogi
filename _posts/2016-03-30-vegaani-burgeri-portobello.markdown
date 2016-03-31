@@ -18,7 +18,7 @@ date:	2016-03-30 07:39:44 +0200
 
 categories: ruokaisat nosto
 
-author: Andreas
+author: Andreas Koutsoukos
 
 tags: Burgeri Ruokaisa Kasvis
 
