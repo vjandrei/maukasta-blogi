@@ -91,7 +91,7 @@ recipe:
 -   text: "Nyt voit paistaa sienet kuumalla pannulla hieman rypsiöljyä tai grillaa ne kokonaisina grillissä. Anna sienien ottaa kunnolla väriä ja varmista, että pannu on läämin muuten keität sieniä. Kun olet saanut paahdettua sienet siirrä ne syrjään ja paahda porttobellot."
     image-primary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-8.jpg"
 
--   text: "Muista taas kuuma pannu ja ilma mitään öljyä. Kun sienet alkaa olemaan kypsiä nostele ne talouspaperin päälle ja mausta suolalla. Kypsentäminen kestää noin 4 min per sieni voi käänellä sieniä usemman kerran."
+-   text: "Muista taas lämmittää pannu kuumaksi ja ilma mitään öljyä. Kun sienet alkaa olemaan kypsiä nostele ne talouspaperin päälle ja mausta suolalla. Kypsentäminen kestää noin 4 min per sieni voi käänellä sieniä usemman kerran."
     image-secondary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-12.jpg"
 
 -   text: "Muistat varmaan sen kastikkeen minkä teimme alussa nyt tulee sen vuoro. Lisää sienet pannulle jossa paistoit porttobellot. 
