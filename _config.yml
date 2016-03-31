@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Maukasta - Maukkaita reseptejä ja juttuja
+sitename: Maukasta.fi
+title: Maukasta - Ruokablogi jossa opit nautit ja herkuttelet mauakkaista jututista.
 email: andreas.koutsoukos@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Ruokablogi josta löytää helposti etsimänsä reseptin tai ruoka-aiheisen artikkelin. 
+  Soppia keittelee Andreas joka on entinen ravintola kokki joka harrastaa nykyisin ruokakulttuuria ja sisällön tekmistä ruoan parissa. Tule mukaan oppimaan, nauttimaan ja herkuttelemaan.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.maukasta.fi" # the base hostname & protocol for your site
 twitter_username: maukastafi
@@ -35,4 +35,4 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 tag_permalink_style: pretty
 
-site.facebook_app_id: 706459809385922
+facebook_app_id: 706459809385922

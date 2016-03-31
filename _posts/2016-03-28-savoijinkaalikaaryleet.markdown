@@ -21,6 +21,10 @@ author: Andreas
 
 tags: Liha Ruokaisa
 
+twitter: 
+ - hastag: kaali
+ - hastag: naudanetuselkä
+
 esivalmistelu: 5h
 valmistuaika: 40 min
 annoksia: 4:lle

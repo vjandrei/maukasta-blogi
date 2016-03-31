@@ -18,10 +18,10 @@
 		<div id="newestPostArticleShare">
 			<ul>
 				<li id="facebook">	
-				    <a class="sharer button" id="facebookShare" data-sharer="facebook" data-url="{{ post.url }}"></a>
+				    <a class="sharer button" id="facebookShare" data-sharer="facebook" data-url="http://www.maukasta.fi/{{ post.url }}"></a>
 				</li>
 				<li id="twitter">
-					<a class="sharer button" id="twitterShare"  data-sharer="twitter" data-title="" data-hashtags="" data-url="{{ post.url }}"></a>
+					<a class="sharer button" id="twitterShare"  data-sharer="twitter" data-title="{{ post.title }}" data-via="maukastafi" data-hashtags="{% for tweet in post.twitter %} {{ tweet.hastag }} {% endfor %}" data-url="http://www.maukasta.fi/{{ post.url }}"></a>
 				</li>
 				<li id="twitter">
 					<a class="sharer button" id="pinterestShare" data-sharer="pinterest" data-url="https://ellisonleao.github.io/sharer.js/"></a>

@@ -158,7 +158,8 @@
 				width: 100%;
 			}
 			p{
-				margin: 0;
+				max-width: 600px;
+				margin: 10px auto;
 				padding: 10px 0px;
 				@extend.ptserif-normal;
 				line-height: 25px;

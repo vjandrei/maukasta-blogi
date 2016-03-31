@@ -730,7 +730,7 @@ th {
   font-family: 'Lato', sans-serif;
   font-weight: 700 !important; }
 
-.montserrat, h2.sectionHeader, button, .notifyBox h4, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select, footer h4 {
+.montserrat, h2.sectionHeader, button, .notifyBox h4, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, .sponsorsBg .sponsors ul li h1, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select, footer h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
 
@@ -1061,6 +1061,8 @@ form .button {
   width: 100%;
   background: #cb4b1e;
   color: white; }
+  .sponsorsBg section {
+    padding: 5px 10px; }
   .sponsorsBg .scroller {
     height: 40px;
     margin: 0px; }
@@ -1121,6 +1123,24 @@ form .button {
         -ms-flex-align: center;
             align-items: center;
         min-height: 400px; }
+        .sponsorsBg .sponsors ul li h1 {
+          font-weight: bold;
+          font-size: 3rem;
+          margin-bottom: 5px;
+          text-shadow: 0px 2px 3px rgba(9, 10, 10, 0.5); }
+        .sponsorsBg .sponsors ul li p {
+          margin-top: 0px;
+          text-shadow: 0px 2px 3px rgba(9, 10, 10, 0.5); }
+          .sponsorsBg .sponsors ul li p a {
+            color: #cb4b1e; }
+        .sponsorsBg .sponsors ul li button {
+          background: #cb4b1e;
+          padding: 10px 50px; }
+          .sponsorsBg .sponsors ul li button a {
+            color: white; }
+          @media screen and (max-width: 48em) {
+            .sponsorsBg .sponsors ul li button {
+              width: 100%; } }
         .sponsorsBg .sponsors ul li:after {
           content: '';
           width: 100%;
@@ -2034,7 +2054,8 @@ form .button {
       .postContainer .postContent .recipe .postImagesItem {
         width: 100%; }
       .postContainer .postContent .recipe p {
-        margin: 0;
+        max-width: 600px;
+        margin: 10px auto;
         padding: 10px 0px;
         line-height: 25px;
         font-size: 1.2rem;
