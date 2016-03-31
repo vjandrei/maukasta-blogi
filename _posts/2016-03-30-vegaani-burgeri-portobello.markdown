@@ -126,6 +126,6 @@ Olin myös luvannut <a href="" target="_black">Snapchatissä</a> tekeväni pitk�
 <section>
 <p>
 Tein myös periscope lähetysken kokkailusta, mutta teknisten ja ajanpuutteen takia se piti keskeyttää. Olen saanut Lenovolta käyttööni 
-Yoga 3 Pro tabletin jolla lähetys piti tehdä. Tabletti on muuten erillainen kuin muut mitä olen käyttänyt. Tabletissa on kätevästi oma jalusta joten se asettaminen esim leikkuulaudan tai työpöydälle on kätevää. Minun piti välillä hieman kurkkia tubesta miten Chris olikaan tehnyt burgerin. Lisäksi kokkailuiden lomassa piti ottaa muutama promo kuva kun minusta tulee Yoga Chef by Lenovo. Heh aika hieno titteli. Resepti on yksinkertainen ja sitä kannattaa kokeilla vaikkapa grillissä.
+Yoga 3 Pro tabletin jolla lähetys piti tehdä. Tabletti on muuten erillainen kuin muut mitä olen käyttänyt. Tabletissa on kätevästi oma jalusta joten se asettaminen esim leikkuulaudan tai työpöydälle on kätevää. Minun piti välillä hieman kurkkia tubesta miten Chris oli tehnyt burgerin. Lisäksi kokkailuiden lomassa piti ottaa muutama promo kuva kun minusta tulee Yoga Chef by Lenovo. Heh aika hieno titteli. Resepti on yksinkertainen ja sitä kannattaa kokeilla vaikkapa grillissä.
 </p>
 </section>
