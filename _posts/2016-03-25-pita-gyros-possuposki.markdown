@@ -3,7 +3,7 @@ layout: post
 
 title:	Pita gyros possunposkesta
 
-subtitle: Loistava valinta gyros leiväksi on riska.
+subtitle: Loistava valinta gyros leiväksi on rieska.
 
 type: Resepti
 
