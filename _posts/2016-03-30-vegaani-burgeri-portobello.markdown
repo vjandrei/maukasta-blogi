@@ -84,7 +84,7 @@ recipe:
     image-primary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-9.jpg"
     image-secondary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-10.jpg"
 
--   text: "Sekoita vegaani majoneesi huollellisesti sekaisin ja lisää se kulhoon lehtikaalien kanssa. Anna makujen vetäytyä huoneenlämmössä."
+-   text: "Sekoita maustettu kauralevite massa huollellisesti sekaisin ja lisää se kulhoon lehtikaalien kanssa. Anna makujen vetäytyä huoneenlämmössä."
     image-primary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-11.jpg"
     image-secondary: 
 
