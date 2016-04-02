@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:	Vegaani burgeri portobellosta.
+title:	Vegaani burgeri portobellosta
 
 subtitle: Täysin vegaaninen burgeri ja vieläpä maukas.
 

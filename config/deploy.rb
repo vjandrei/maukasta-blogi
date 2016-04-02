@@ -1,47 +1,65 @@
-require 'mina/bundler'
-require 'mina/rails'
-require 'mina/git'
-require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
-# require 'mina/rvm'    # for rvm support. (http://rvm.io)
+# config valid only for current version of Capistrano
+lock '3.4.0'
 
-# Basic settings:
-#   domain       - The hostname to SSH to.
-#   deploy_to    - Path to deploy into.
-#   repository   - Git repo to clone from. (needed by mina/git)
-#   branch       - Branch name to deploy. (needed by mina/git)
+set :application, 'maukasta-ruokablogi.fi'
+set :repo_url, 'https://github.com/vjandrei/maukasta-blogi.git'
 
-# give me normal output
-set :term_mode, nil
+# Default branch is :master
+# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
-# server ip or domain
-set :domain,'maukasta.fi'
+# Default deploy_to directory is /var/www/my_app_name
+set :deploy_to, '/var/www/maukasta.fi/public_html'
 
-# deploy directory
-set :deploy_to, '/var/www/maukasta.fi/public_html/'
-# apache or nginx serve directory
+# Default value for :scm is :git
+# set :scm, :git
 
-# repo and branch
-set :repository, 'https://github.com/vjandrei/maukasta-blogi.git'
-set :branch, 'master'
+# Default value for :format is :pretty
+# set :format, :pretty
 
-# Optional settings:
-set :user, 'root'   # Username in the server.
+# Default value for :log_level is :debug
+# set :log_level, :debug
 
-# Set rbenv path.
-set :rbenv_path, "/home/deploy/.rbenv"
+# Default value for :pty is false
+# set :pty, true
 
-# This task is the environment that is loaded for most commands, such as
-# `mina deploy` or `mina rake`.
-task :environment do
-  queue %{export RBENV_ROOT=#{rbenv_path}}
-  invoke :'rbenv:load'
-end
+# Default value for :linked_files is []
+# set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 
-desc "Deploys the current version to the server."
-task :deploy => :environment do
-  deploy do
-    invoke :'git:clone'
-    invoke :'bundle:install'
-    queue "#{bundle_prefix} jekyll build"
+# Default value for linked_dirs is []
+# set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
+
+# Default value for default_env is {}
+# set :default_env, { path: "/opt/ruby/bin:$PATH" }
+
+# Default value for keep_releases is 5
+# set :keep_releases, 5
+
+set :rbenv_path, '/home/deploy/.rbenv'
+
+
+
+namespace :deploy do
+  desc "Build site"
+  task :build do
+    on roles(:app) do
+      within(release_path) do
+        execute :bundle, 'exec jekyll build'
+      end
+    end
   end
+
+  after :updated, :build
 end
+
+#namespace :deploy do
+
+#  after :restart, :clear_cache do
+#    on roles(:web), in: :groups, limit: 3, wait: 10 do
+      # Here we can do anything such as:
+      # within release_path do
+      #   execute :rake, 'cache:clear'
+      # end
+#    end
+#  end
+
+#end

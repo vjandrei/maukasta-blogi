@@ -1,22 +1,24 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.2.31)
-      aws-sdk-resources (= 2.2.31)
-    aws-sdk-core (2.2.31)
-      jmespath (~> 1.0)
-    aws-sdk-resources (2.2.31)
-      aws-sdk-core (= 2.2.31)
-    bond (0.5.1)
-    builder (3.2.2)
+    capistrano (3.4.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (~> 1.3)
+    capistrano-bundler (1.1.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-passenger (0.1.1)
+      capistrano (~> 3.0)
+    capistrano-rails (1.1.5)
+      capistrano (~> 3.1)
+      capistrano-bundler (~> 1.1)
+    capistrano-rbenv (2.0.3)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
     colorator (0.1)
-    colorize (0.7.7)
-    domain_name (0.5.20160310)
-      unf (>= 0.0.5, < 1.0.0)
     ffi (1.9.10)
-    highline (1.7.8)
-    http-cookie (1.0.2)
-      domain_name (~> 0.5)
+    i18n (0.7.0)
     jekyll (3.1.2)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -36,10 +38,7 @@ GEM
       ruby-nuggets
     jekyll-watch (1.3.1)
       listen (~> 3.0)
-    jmespath (1.2.3)
-      json_pure (>= 1.8.1)
     json (1.8.3)
-    json_pure (1.8.3)
     kramdown (1.10.0)
     libv8 (3.16.14.13)
     liquid (3.0.6)
@@ -47,64 +46,41 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.5)
-    mime-types (2.99.1)
     mini_portile2 (2.0.0)
-    multi_json (1.11.2)
-    netrc (0.11.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.1.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     nuggets (1.0.0)
-    plist (3.2.0)
     rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     ref (2.0.0)
-    rest-client (1.8.0)
-      http-cookie (>= 1.0.2, < 2.0)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
-    ripl (0.7.1)
-      bond (~> 0.5.1)
     rouge (1.10.1)
     ruby-nuggets (1.0.0)
       nuggets (= 1.0.0)
-    rubyzip (1.2.0)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    sshkit (1.9.0)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
-    thor (0.19.1)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.2)
-    vendor (0.1.6)
-      highline
-      json
-      rake
-      rest-client
-      ripl
-      rubyzip
-      thor
-      xcoder (~> 0.1.9)
-    xcoder (0.1.18)
-      aws-sdk
-      builder
-      colorize
-      multi_json
-      nokogiri
-      plist
-      rest-client
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano (~> 3.4.0)
+  capistrano-passenger
+  capistrano-rails (~> 1.1.3)
+  capistrano-rbenv (~> 2.0.3)
   jekyll
   jekyll-lunr-js-search (~> 3.1)
   jekyll-tagging
-  vendor
 
 BUNDLED WITH
    1.10.6

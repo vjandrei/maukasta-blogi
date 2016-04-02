@@ -24,7 +24,7 @@ comments: true
 
 timezone: Europe/Helsinki
 
-exclude: [node_modules, gulpfile.js]
+exclude: ['node_modules', 'gulpfile.js', 'Gemfile', 'Gemfile.lock', 'Capfile', 'config', 'lib', 'REVISION']
 
 lunr_search:
   excludes: [rss.xml, atom.xml]
