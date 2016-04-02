@@ -71,7 +71,7 @@ raakaaineet:
    raakaaine: Seesamiöljyä
    
 recipe:
--   text: "Valmista teriyaki kastike tai osta valmiina. Laita kattila levylle ja lisää vesi, soija, mirin, inkivääriä ja keitä kasaan kunnen se on siirappimaista. Älä keitä liian kiinteäksi sillä klaseeramme sienet kastikkeella myöhemmin."
+-   text: "Valmista teriyaki kastike tai osta valmiina. Laita kattila levylle lisää vesi, soija, mirin ja inkivääriä  keitä kasaan kunnes se on siirappimaista. Älä keitä liian kiinteäksi sillä klaseeramme sienet kastikkeella myöhemmin."
     image-primary: "/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-blogpost-14.jpg"
 
 -   text: "Revi kaalit pieneksi suupaloiksi käsin ja nostele ne kulhoon. Kun olet saanut kaalit pilkottua voit aloittaa muiden kasvisten pilkkomisen. Sienet voi pilkkoa suikaleiksi, ei kumminkaan liian pieneksi. Porkkanat voi suikaloida kätevästi Heirollin julienne raudalla isoksi raasteeksi."
