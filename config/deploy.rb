@@ -42,6 +42,6 @@ task :deploy => :environment do
   deploy do
     invoke :'git:clone'
     invoke :'bundle:install'
-    queue "#{bundle_prefix} gulp"
+    queue "#{bundle_prefix} jekyll build"
   end
 end
