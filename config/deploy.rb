@@ -17,18 +17,18 @@ set :term_mode, nil
 set :domain,'maukasta.fi'
 
 # deploy directory
-set :deploy_to, '/var/www/maukasta.fi/public_html'
+set :deploy_to, '/var/www/maukasta.fi/public_html/'
 # apache or nginx serve directory
 
 # repo and branch
-set :repository, 'https://github.com/vjandrei/maukasta-cmsjs.git'
+set :repository, 'https://github.com/vjandrei/maukasta-blogi.git'
 set :branch, 'master'
 
 # Optional settings:
 set :user, 'root'   # Username in the server.
 
 # Set rbenv path.
-set :rbenv_path, ".rbenv"
+set :rbenv_path, "/home/deploy/.rbenv"
 
 # This task is the environment that is loaded for most commands, such as
 # `mina deploy` or `mina rake`.
@@ -37,15 +37,11 @@ task :environment do
   invoke :'rbenv:load'
 end
 
-# Put any custom mkdir's in here for when `mina setup` is ran.
 desc "Deploys the current version to the server."
 task :deploy => :environment do
   deploy do
-    # clone the repo
     invoke :'git:clone'
-    # install project dependencies
     invoke :'bundle:install'
-    # build the jekyll site and drop the _site into the server_dir
-    queue %{bundle exec jekyll build -s #{deploy_to} -d #{server_dir}}
+    queue "#{bundle_prefix} jekyll build"
   end
 end
