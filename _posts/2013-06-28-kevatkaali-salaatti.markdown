@@ -52,7 +52,7 @@ raakaaineet:
 recipe:
 -   text: "Leikkaa kevätkaali ohueksi suikaleeksi jotta se olisi mukavempi syödä.
 Laita kaalit kulhoon johon mahtuu loput raaka-aineet.
-Leikkaa myös muistakin raaka-ainesta suikaleita. Retiisi voi olla pyöreän muotoista suikaletta. Leikkaa korianteri pieneksi ja purista limen mehu kulhoon ja sekoita hyvin. Anna lisää aromaatteja lisäämällä seesamiöljyä ja mausta suolalla. Salaatti saa vetäytyä hetken jotta maut yhdistyvät."
+Leikkaa myös muistakin raaka-ainesta suikaleita. Retiisi voi olla pyöreän muotoista suikaletta. Leikkaa korianteri pieneksi ja purista limen mehu kulhoon ja sekoita hyvin. Anna lisää aromaatteja lisäämällä seesamiöljyä ja mausta suolalla. Salaatti saa vetäytyä hetken."
     image-primary: 
     image-secondary: 
 
