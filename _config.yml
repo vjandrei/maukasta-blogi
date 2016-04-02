@@ -24,8 +24,6 @@ comments: true
 
 timezone: Europe/Helsinki
 
-gems: ['jekyll-lunr-js-search', 'vendor']
-
 exclude: [node_modules, gulpfile.js]
 
 lunr_search:
