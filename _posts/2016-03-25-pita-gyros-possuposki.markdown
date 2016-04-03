@@ -33,13 +33,13 @@ raakaaineet:
  - maara: 2 kpl
    raakaaine: Punasipulia
  - maara: 2 kpl
-   raakaaine: Valosipulinkynsi
+   raakaaine: Valkosipulinkynsi
  - maara: 2 kpl
    raakaaine: Timjamin oksaa  
  - maara: 1 kpl
    raakaaine: Rosmariinin oksa    
  - maara: 3 kpl
-   raakaaine: Oregaanon oksaa  
+   raakaaine: Oreganon oksaa  
  - maara: 5 dl
    raakaaine: Vettä 
  - maara: 1/2 kpl
@@ -63,37 +63,37 @@ raakaaineet:
       
 recipe:
 
--   text: "Laitetaan possunposket marinoitumaan ennen kypsennystä. Leikkaa punasipuli, valosipulut, yriti ja puolikas sitruuna kulhoon missä possunposket on. Lisää kulhoon valkoviini-etikkaa ( balsamico  tai omena ) ja mausta suolalla. Anna marinoitua kulhossa noin yhden tunnin elmukelmun alla."
+-   text: "Laitetaan possunposket marinoitumaan ennen kypsennystä. Leikkaa punasipuli, valkosipulit, yritit ja puolikas sitruuna kulhoon missä possunposket on. Lisää kulhoon valkoviini-etikkaa ( balsamico  tai omena ) ja mausta suolalla. Anna marinoitua kulhossa noin yhden tunnin elmukelmun alla."
     
--   text: "Kypsennä lihat painekattilassa tai keitä ne miedolla lämmöllä niin, etteivät ne mene rikki. Lisää kulhosta ainekset kattilaan ja mittaa vettä niin, että lihat piettyvät puoliksi. Kypsennys aika on noin 30 min painekattilalla. Anna jäähtyä nesteessä."
+-   text: "Kypsennä lihat painekattilassa tai keitä ne miedolla lämmöllä niin, etteivät ne mene rikki. Lisää kulhosta ainekset kattilaan ja mittaa vettä niin, että lihat peittyvät puoliksi. Kypsennys aika on noin 30 min painekattilalla. Anna jäähtyä nesteessä."
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-2.jpg"
     
--   text: "Valmistele etikka punasipulit, leikkaamalla ohuita viipaleita punasipulista ja laittamalla ne kulhoon jossa on punaviinietikkaa, suolaa ja oliiviöljyä."
+-   text: "Valmistele etikkapunasipulit, leikkaamalla ohuita viipaleita punasipulista ja laittamalla ne kulhoon jossa on punaviinietikkaa, suolaa ja oliiviöljyä."
     image-primary: 
     image-secondary:
     
--   text: "Paista myös ranskalaiset joko uunissa tai frittaamalla kuten minä tein perunoista."
+-   text: "Paista myös ranskalaiset joko uunissa tai frittaamalla, kuten minä tein perunoista."
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-4.jpg"
     image-secondary:
     
--   text: "Voit tohottaa kaasulla lihat tai grillaa ne jos säät sallivat. Pääsiäisenä ei ollut kovin grilliystävälliset säät. Voi myös laittaa lihat uuniiin grillivastuksen alle. Tohottimella saa kivan umamin maun lihoille. Grillauksen jälkeen lisää lihojen päälle sitruunaa ja tuoretta oregaanoa."
+-   text: "Voit tohottaa kaasulla lihat tai grillaa ne jos säät sallivat. Pääsiäisenä ei ollut kovin grilliystävälliset säät. Voit myös laittaa lihat uuniiin grillivastuksen alle. Tohottimella saa kivan umamin maun lihoille. Grillauksen jälkeen lisää lihojen päälle sitruunaa ja tuoretta oreganoa."
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-3.jpg"
     image-secondary:
 
--   text: "Nyt on aika ruveta kasailemaan gyrosta. Ai niin käytin Vaasan Lapin rieskaa joka sopi tähän käyttötarkoituskeen tosi hyvin. Lämmitä rieska pannulla ensin ja sen jälkeen kasaa gyros kuvien mukaisesti."
+-   text: "Nyt on aika ruveta kasailemaan gyrosta. Ai niin käytin Vaasan Lapin rieskaa, joka sopi tähän tosi hyvin. Lämmitä rieska pannulla ensin ja sen jälkeen kasaa gyros kuvien mukaisesti."
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-5.jpg" 
     image-secondary: 
 
--   text: "Pohjalle tulee grillatut possunposket joiden päälle sipulit ja perunat. Rulla viimmeitellään tzazikilla joka reseptin löydät tästä <a href=''>linkistä</a>"
+-   text: "Pohjalle tulee grillatut possunposket, joiden päälle sipulit ja perunat. Rulla viimeistellään tzazikilla, jonka reseptin löydät tästä <a href=''>linkistä</a>"
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-7.jpg"
     image-secondary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-8.jpg"
      
--   text: "Rullan saa helposti leitettua Saga eväs pussin sisälle ja se suojaa hyvin myös käsiä. Ripottele rullan suulle hieman minttua ja leikkaa sitruuna viipale mukaan. Tästä kokeilemaan Pita gyrosta, hyvää ruokahalua."
+-   text: "Rullan saa helposti laitettua Saga eväspussin sisälle ja se suojaa hyvin myös käsiä. Ripottele rullan suulle hieman minttua ja leikkaa sitruuna viipale mukaan. Tästä kokeilemaan Pita gyrosta, hyvää ruokahalua!"
     image-primary: "/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost-10.jpg"
     image-secondary:   
 
 
-teaser: Pääsiäinen ja pitkä viikonloppu edessä. Emme ole kovin perinteinteisien kaavojen kangistujia joten viikonloppuna meillä ei syöty lammasta. Päätin tehdä ruokalajin jota kaipailin  ja sitä täältä härmästä ei saa kunnollista. Lisäksi facebookissa yksi ystävistäni oli tykännyt tapahtumasta jossa tarjoiltaisiin pita gyrosta, nauroi taas katketakseni. Nämä kaikki jotka on yrittänyt pita gyrosta Ravintolapäivissä tai muissa tapahtumissa ovat epäonnistuneet todella surkeasti ( pahoitteluni suorasta puheesta ). Ensimmäisenä minua ärstyttää tässä, että  pyydetään kovaa hintaa halvoista raaka-aineista tehdyistä gyroskista. Pita gyros on minulle herkkä asia ja sen kanssa ei tulisi leikkiä, heh heh.   
+teaser: Pääsiäinen ja pitkä viikonloppu edessä. Emme ole kovin perinteinteisten kaavojen noudattijia, joten viikonloppuna meillä ei syöty lammasta. Päätin tehdä ruokalajin, jota kaipailin ja sitä täältä härmästä ei saa kunnollista. Lisäksi Facebookissa yksi ystävistäni oli tykännyt tapahtumasta, jossa tarjoiltaisiin pita gyrosta. Nämä kaikki, jotka on yrittänyt pita gyrosta Ravintolapäivänä tai muissa tapahtumissa eivät ole vastanneet odotuksiani (pahoitteluni suorasta puheesta). Ja minua ärstyttää tässä myös se, että  pyydetään kovaa hintaa halvoista raaka-aineista tehdyistä gyroksista. Pita gyros on minulle herkkä asia ja sen kanssa ei tulisi leikkiä, heh heh.   
 
 ---
 
@@ -103,7 +103,7 @@ teaser: Pääsiäinen ja pitkä viikonloppu edessä. Emme ole kovin perinteintei
 
 <section>
 <p>
-Kävin ennen pääsiäistä hakemassa Heinon tukusta hieman lihaa pakkaseen kun lihaa tulee harvoin nykyään viikolla tehtyä joten on hyvä olla varalta joku köntti lihaa pakkasessa viikonloppuja varten. Possunposki on halpa ja todella hyvää joten sitä kannattaa käyttää. Sen kypsennys on helppoa esim painekattilassa se tulee nopeasti. 
+Kävin ennen pääsiäistä hakemassa Heinon tukusta hieman lihaa pakkaseen kun lihaa tulee harvoin nykyään viikolla tehtyä, joten on hyvä olla varalta joku köntti lihaa pakkasessa viikonloppuja varten. Possunposki on halpa ja todella hyvää joten sitä kannattaa käyttää. Sen kypsennys on helppoa, esim painekattilassa se tulee nopeasti. 
 </p>
 </section>
 
