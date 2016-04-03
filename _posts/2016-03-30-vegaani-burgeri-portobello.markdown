@@ -20,7 +20,7 @@ categories: ruokaisat nosto
 
 author: Andreas Koutsoukos
 
-tags: Burgeri Ruokaisa Kasvis
+tags: Burgeri Ruokaisa Kasvis Lenovo
 
 esivalmistelu: 15 min
 valmistuaika: 30 min

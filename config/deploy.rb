@@ -32,7 +32,7 @@ set :deploy_to, '/var/www/maukasta.fi/public_html'
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
 # Default value for keep_releases is 5
-# set :keep_releases, 5
+set :keep_releases, 2
 
 set :rbenv_path, '/home/deploy/.rbenv'
 
