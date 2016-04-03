@@ -35,7 +35,11 @@ comments: true
 		{% include shares.html %}
 		
 		<div class="postContentHeader">
+			{% if page.youtubelink %}
+			<iframe width="100%" height="500px" src="{{page.youtubelink}}" frameborder="0" allowfullscreen></iframe>
+			{% else %}
 			<img src="{{ page.reseptikuva }}" />
+			{% endif %}	
 			<div class="info postContentItem">
 				<div class="infoItem" id="showIngredients">
 					<div class="showIngredients"><button>Näytä raaka-aine lista</button></div>
@@ -108,7 +112,7 @@ comments: true
 				<a href="{{ post.url | prepend: site.baseurl }}">
 				<div class="recentPostCotainer">
 					<div class="recentPostImage">
-						<img src="{{ post.smallthumbnail }}" />
+						<img src="{{ post.gategorythumbnail }}" />
 					</div>
 					<div class="recentPostContent">
 						<h1>{{ post.title}}</h1>

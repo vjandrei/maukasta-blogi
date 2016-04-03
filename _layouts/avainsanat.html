@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section id="tags">
+   <h2>Avainsana: {{ page.tag | downcase }}</h2>
+   {% if site.tags[page.tag] %}
+        {% for post in site.tags[page.tag] %}
+            <a href="{{ post.url }}"/>
+            <div class="recentPostCotainer">
+	            <div class="recentPostImage">
+					<img src="{{ post.gategorythumbnail }}" />
+				</div>
+				<div class="recentPostContent">
+					<h1>{{ post.title}}</h1>
+					<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				</div>
+            </div>
+            </a>
+        {% endfor %}
+    {% else %}
+        <p>There are no posts for this tag.</p>
+    {% endif %}
+</section>
+

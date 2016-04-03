@@ -13,6 +13,7 @@ gategorythumbnail: 	/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri
 fullsize: 			/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-fullsize.jpg
 reseptikuva:		/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-1000.jpg
 facebookshare:		/images/blog-post/vegaani-burgeri-portobello/vegaani-burgeri-portobello-1200.jpg
+youtubelink: 		
 
 date:	2016-03-30 07:39:44 +0200
 

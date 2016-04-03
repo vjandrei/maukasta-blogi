@@ -730,7 +730,7 @@ th {
   font-family: 'Lato', sans-serif;
   font-weight: 700 !important; }
 
-.montserrat, h2.sectionHeader, button, .notifyBox h4, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, .sponsorsBg .sponsors ul li h1, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select, footer h4 {
+.montserrat, h2.sectionHeader, button, .notifyBox h4, .socialFeedItem .socialFeedHeader .socialFeedHeaderName h2, .socialFeedItem .socialFeedContent p, .sponsorsBg .sponsors ul li h1, #searchFilters #searchFiltersContainer #inputs .navInputs input, #searchFilters #searchFiltersContainer #inputs .navInputs select, #tags h2, footer h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
 
@@ -1976,6 +1976,8 @@ form .button {
         .blogContainer .blogContent section p {
           line-height: 32px;
           font-size: 1rem; } }
+      .blogContainer .blogContent section p a {
+        color: #cb4b1e; }
 
 .postContainer {
   position: relative;
@@ -2085,6 +2087,14 @@ form .button {
   display: block;
   margin: 20px 0px;
   padding: 0px 20px; }
+
+#tags h2 {
+  color: #3b3b3b;
+  font-size: 3rem;
+  margin-top: 15px; }
+
+#tags .teaser {
+  max-width: 400px; }
 
 #footer {
   width: 100%;
