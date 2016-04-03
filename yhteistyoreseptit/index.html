@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<section>
 <div id="postSidebar">
 	{% for post in site.posts %}
 		<a href="{{ post.url | prepend: site.baseurl }}">
@@ -9,11 +10,12 @@ layout: default
 				<img src="{{ post.smallthumbnail }}" />
 			</div>
 			<div class="recentPostContent">
-				<h1>{{ post.title | truncate: 20  }}</h1>
+				<h1>{{ post.title }}</h1>
 				<p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-				<p class="teaser">{{post.teaser | truncate: 65 }}</p>
+				<p class="teaser">{{post.teaser }}</p>
 			</div>
 		</div>
 		</a>
 	{% endfor %}
 </div>
+</section>
