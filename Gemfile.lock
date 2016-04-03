@@ -164,6 +164,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.0.3)
   github-pages
   jekyll-lunr-js-search (~> 3.1)
+  jekyll-sitemap
 
 BUNDLED WITH
    1.10.6

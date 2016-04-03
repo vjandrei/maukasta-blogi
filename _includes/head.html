@@ -4,12 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta property="og:url"  content="{{ site.url }}/{{ post.url }}" />
-  {% if page.title %}
-  	<meta property="og:title"  content="{{ page.title }}" />
-  {% else %}
-  	<meta property="og:title"  content="{{ site.title }}" />
-  {% endif %}
+ 
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+ 
+
  
   {% if page.teaser %}
   	<meta property="og:description" content="{{ page.teaser }}" />

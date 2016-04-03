@@ -24,7 +24,7 @@ timezone: Europe/Helsinki
 
 exclude: ['node_modules', 'gulpfile.js', 'Gemfile', 'Gemfile.lock', 'Capfile', 'config', 'lib', 'REVISION']
 
-gems: ['jekyll-lunr-js-search']
+gems: ['jekyll-lunr-js-search', 'jekyll-sitemap']
 
 lunr_search:
   excludes: [rss.xml, atom.xml]
