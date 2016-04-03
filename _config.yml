@@ -26,8 +26,6 @@ timezone: Europe/Helsinki
 
 exclude: ['node_modules', 'gulpfile.js', 'Gemfile', 'Gemfile.lock', 'Capfile', 'config', 'lib', 'REVISION']
 
-gems: ['jekyll-lunr-js-search', 'jekyll-tagging']
-
 lunr_search:
   excludes: [rss.xml, atom.xml]
   stopwords: "stopwords.txt"
