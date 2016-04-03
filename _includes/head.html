@@ -8,7 +8,7 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
  
-  <meta property="og:image" content="{% if page.facebookshare %}{{ page.facebookshare | prepend: site.baseurl | prepend: site.url }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.facebookshare %}{{ page.facebookshare | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.url }}/images/main.jpg{% endif %}">
 
 
  
