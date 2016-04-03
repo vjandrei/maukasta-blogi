@@ -2,4 +2,5 @@
 layout: blog_by_tag
 tag: Kasvis
 permalink: /tags/Kasvis/
+avoid_main_menu: true
 ---

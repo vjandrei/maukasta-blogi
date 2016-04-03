@@ -18,9 +18,6 @@ url: "http://www.maukasta.fi" # the base hostname & protocol for your site
 twitter_username: maukastafi
 github_username:  vjandrei
 
-# Build settings
-markdown: kramdown
-
 comments: true
 
 timezone: Europe/Helsinki
@@ -38,3 +35,6 @@ facebook_app_id: 706459809385922
 
 collections:
 - yhteistyot
+
+# Build settings
+markdown: kramdown

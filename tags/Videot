@@ -2,4 +2,5 @@
 layout: blog_by_tag
 tag: Videot
 permalink: /tags/Videot/
+avoid_main_menu: true
 ---
