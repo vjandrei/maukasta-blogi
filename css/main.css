@@ -1088,16 +1088,16 @@ form .button {
         border-bottom: solid 2px rgba(255, 255, 255, 0); }
     .sponsorsBg .scroller-content .active h2 {
       border-bottom: solid 2px white; }
-  .sponsorsBg #sponsorLinks {
+  .sponsorsBg #sponsorLinks #sponsorLinksContent {
     display: -ms-flexbox;
     display: flex;
+    padding: 0 10px;
     -ms-flex-pack: justify;
         justify-content: space-between;
     -ms-flex-line-pack: center;
         align-content: center;
     -ms-flex-align: center;
-        align-items: center;
-    padding: 0 10px; }
+        align-items: center; }
   .sponsorsBg .sectionHeader {
     margin-top: 10px;
     font-size: 0.8rem;
@@ -1392,6 +1392,11 @@ form .button {
             color: white; }
           #brandNav #brandNavContent #secondaryBrandArea #newsletterOrder input:-ms-input-placeholder {
             color: white; }
+      #brandNav #brandNavContent #secondaryBrandArea #socialmediaLinks {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; }
       #brandNav #brandNavContent #secondaryBrandArea #social-buttons {
         display: -ms-flexbox;
         display: flex;
@@ -1456,6 +1461,7 @@ form .button {
   .postArticleInfo .newestPostArticleInfoItem {
     margin-right: 10px;
     padding-right: 10px;
+    margin-bottom: 10px;
     border-right: solid 1px #a6a6a6; }
     @media screen and (max-width: 48em) {
       .postArticleInfo .newestPostArticleInfoItem {

@@ -36,3 +36,6 @@ tag_page_dir: tag
 tag_permalink_style: pretty
 
 facebook_app_id: 706459809385922
+
+collections:
+- yhteistyot

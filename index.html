@@ -65,36 +65,38 @@ layout: default
 	{% endfor %}
 </section>
 
-
 <div class="sponsorsBg">
 	<section>
 	<div class="scroller">
 		<div class="scroller-content" id="bx-pager">
-		<a class="item" data-slide-index="0" href="">
-			<h2>Lenovo</h2>
-		</a>
-		<!--a class="item" data-slide-index="1" href="">
-			<h2>Heirol</h2>
-		</a-->
+		{% for yhteistyo in site.yhteistyot %}
+			<a class="item" data-slide-index="{{ forloop.index0 }}" href="">
+				<h2>{{yhteistyo.sliderlinkname}} </h2>
+			</a>
+		{% endfor %}
 		</div>
 	</div>
 	</section>
 	<div class="sponsors">
 		<ul class="bxslider">
-		  	<li style="background: url(images/bg/headerbg02.jpeg) no-repeat; background-size: cover; background-position: center center;">
+			{% for yhteistyo in site.yhteistyot %}
+		  	<li style="background: url({{ yhteistyo.image_path }}) no-repeat; background-size: cover; background-position: center center;">
 		  		<section>
-				<h1>Lenovo - Yoga Chef</h1>
-				<p>Maukasta.fi tekee Lenovon kanssa yhteistyötä. <a href="http://shop.lenovo.com/fi/fi/tablets/lenovo/yoga/yoga-tablet-3-pro-10/" target="_blank">Lenovon Yoga Tab 3 Pro</a> tabletilla pystyn helposti ja missä vain 
-				hyödyntämään internetin sisällöstä löytyviä reseptejä inspiroimaan kokkauksiani. Tablettin pystyy laittamaan roikkumaan vaikkapa liesituulettimeen.	
-				</p>
+				<h1>{{ yhteistyo.title }}</h1>
+				<p>{{ yhteistyo.content }}</p>
 				<button><a href="">Lue yhteistyö artikkelit</a></button>
 				</section>
 			</li>
+			{% endfor %}
 		</ul>
 	</div>
 	<div id="sponsorLinks">
-		<h2 class="sectionHeader"><a href="">Kaikki yhteistyö artikkelit</a></h2>
-		<h2 class="sectionHeader"><a href="">Kiinnostaako yhteistyö?</a></h2>
+		<section>
+		<div id="sponsorLinksContent">
+			<h2 class="sectionHeader"><a href="/yhteistyoreseptit">Kaikki yhteistyö artikkelit</a></h2>
+			<h2 class="sectionHeader"><a href="">Kiinnostaako yhteistyö?</a></h2>
+		</div>
+		</section>
 	</div>
 </div>
 

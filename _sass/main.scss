@@ -489,11 +489,14 @@ form{
 		}
 	}
 	#sponsorLinks{
-		display: flex;
-		justify-content: space-between;
-		align-content: center;
-		align-items: center;
-		padding: 0 10px;
+		
+		#sponsorLinksContent{
+			display: flex;
+			padding: 0 10px;
+			justify-content: space-between;	
+			align-content: center;
+			align-items: center;
+		}
 	}
 	.sectionHeader{
 		margin-top: 10px;
