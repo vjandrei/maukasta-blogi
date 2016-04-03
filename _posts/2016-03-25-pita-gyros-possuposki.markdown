@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-7
 gategorythumbnail: 	/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-450.jpg
 fullsize: 			/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-fullsize.jpg
 reseptikuva:		/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-blogpost.jpg
+facebookshare:		/images/blog-post/pita-gyros-possunposki/pita-gyros-possunposki-fullsize.jpg
 
 date:	2016-03-26 07:39:44 +0200
 

@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-7
 gategorythumbnail: 	/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-450.jpg
 fullsize: 			/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-fullsize.jpg
 reseptikuva:		/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-blogpost-14.jpg
+facebookshare:		/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-fullsize.jpg
 
 date:	2016-03-28 07:39:44 +0200
 
