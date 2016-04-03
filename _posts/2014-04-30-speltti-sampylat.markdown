@@ -12,7 +12,7 @@ bigthumbnail:		/images/blog-post/speltti-sampylat/speltti-sampylat-700.jpg
 gategorythumbnail: 	/images/blog-post/speltti-sampylat/speltti-sampylat-450.jpg
 fullsize: 			/images/blog-post/speltti-sampylat/speltti-sampylat-fullsize.jpg
 reseptikuva:		/images/blog-post/speltti-sampylat/speltti-sampylat-fullsize.jpg
-
+facebookshare:		/images/blog-post/speltti-sampylat/speltti-sampylat-fullsize.jpg
 
 date:	2014-04-30 07:39:44 +0200
 

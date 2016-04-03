@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-7
 gategorythumbnail: 	/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-450.jpg
 fullsize: 			/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-fullsize.jpg
 reseptikuva:		/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-1000.jpg
+facebookshare:		/images/blog-post/kurkkusalaatti-lohella/kurkkusalaatti-lohella-fullsize.jpg
 
 date:	2014-03-10 07:39:44 +0200
 

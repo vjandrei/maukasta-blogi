@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-700
 gategorythumbnail: 	/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-450.jpg
 fullsize: 			/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-fullsize.jpg
 reseptikuva:		/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-blogpost.jpg
+facebookshare:		/images/blog-post/avocado-sardiinileipa/avocado-sardiinileipa-fullsize.jpg
 
 date:	2014-06-27 07:39:44 +0200
 

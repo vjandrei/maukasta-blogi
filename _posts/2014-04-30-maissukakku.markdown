@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/maissikakku/maissikakku-700.jpg
 gategorythumbnail: 	/images/blog-post/maissikakku/maissikakku-450.jpg
 fullsize: 			/images/blog-post/maissikakku/maissikakku-fullsize.jpg
 reseptikuva:		/images/blog-post/maissikakku/maissikakku-blogpost-10.jpg
+facebookshare:		/images/blog-post/maissikakku/maissikakku-fullsize.jpg
 
 date:	2014-04-30 07:39:44 +0200
 

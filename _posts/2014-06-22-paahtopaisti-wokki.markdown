@@ -13,7 +13,7 @@ gategorythumbnail: 	/images/blog-post/-450.jpg
 fullsize: 			/images/blog-post/-fullsize.jpg
 reseptikuva:		/images/blog-post/-1000.jpg
 youtubelink: 		https://www.youtube.com/embed/Jp5bize9FLQ
-
+facebookshare:
 
 date:	2016-02-10 07:39:44 +0200
 

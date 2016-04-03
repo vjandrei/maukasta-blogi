@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-700.jpg
 gategorythumbnail: 	/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-450.jpg
 fullsize: 			/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-fullsize.jpg
 reseptikuva:		/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-1000.jpg
+facebookshare:		/images/blog-post/kevatkaali-salaatti/kevatkaali-salaatti-fullsize.jpg
 
 date:	2013-06-28 07:39:44 +0200
 

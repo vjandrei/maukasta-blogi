@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/kanankoipia-siipia-omenaperunaa-salaatilla/kana
 gategorythumbnail: 	/images/blog-post/kanankoipia-siipia-omenaperunaa-salaatilla/kanankoipia-siipia-omenaperunaa-salaatilla-450.jpg
 fullsize: 			/images/blog-post/kanankoipia-siipia-omenaperunaa-salaatilla/kanankoipia-siipia-omenaperunaa-salaatilla-fullsize.jpg
 reseptikuva:		/images/blog-post/kanankoipia-siipia-omenaperunaa-salaatilla/kanankoipia-siipia-omenaperunaa-salaatilla-blogpost-10.jpg
+facebookshare:		/images/blog-post/kanankoipia-siipia-omenaperunaa-salaatilla/kanankoipia-siipia-omenaperunaa-salaatilla-fullsize.jpg
 
 date:	2014-04-28 07:39:44 +0200
 

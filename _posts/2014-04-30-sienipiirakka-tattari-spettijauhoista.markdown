@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/tattari-sienipiirakka/tattari-sienipiirakka-700
 gategorythumbnail: 	/images/blog-post/tattari-sienipiirakka/tattari-sienipiirakka-450.jpg
 fullsize: 			/images/blog-post/tattari-sienipiirakka/tattari-sienipiirakka-fullsize.jpg
 reseptikuva:		/images/blog-post/tattari-sienipiirakka/tattari-sienipiirakka-blogpost-7.jpg
+facebookshare:		/images/blog-post/tattari-sienipiirakka/tattari-sienipiirakka-fullsize.jpg
 
 date:	2014-04-30 07:39:44 +0200
 

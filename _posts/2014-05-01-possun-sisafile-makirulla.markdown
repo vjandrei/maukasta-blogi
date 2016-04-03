@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/possunsisafile-makirulla-sushit/possunsisafile-
 gategorythumbnail: 	/images/blog-post/possunsisafile-makirulla-sushit/possunsisafile-makirulla-sushit-450.jpg
 fullsize: 			/images/blog-post/possunsisafile-makirulla-sushit/possunsisafile-makirulla-sushit-fullsize.jpg
 reseptikuva:		/images/blog-post/possunsisafile-makirulla-sushit/possunsisafile-makirulla-sushit-blogpost-42.jpg
+facebookshare:		/images/blog-post/possunsisafile-makirulla-sushit/possunsisafile-makirulla-sushit-fullsize.jpg
 
 date:	2014-05-01 07:39:44 +0200
 

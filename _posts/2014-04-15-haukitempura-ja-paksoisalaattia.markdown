@@ -12,6 +12,8 @@ bigthumbnail:		/images/blog-post/haukitempura-paksoisalaatti/haukitempura-paksoi
 gategorythumbnail: 	/images/blog-post/haukitempura-paksoisalaatti/haukitempura-paksoisalaatti-450.jpg
 fullsize: 			/images/blog-post/haukitempura-paksoisalaatti/haukitempura-paksoisalaatti-fullsize.jpg
 reseptikuva:		/images/blog-post/haukitempura-paksoisalaatti/haukitempura-paksoisalaatti-blogpost-2.jpg
+facebookshare:		/images/blog-post/haukitempura-paksoisalaatti/haukitempura-paksoisalaatti-fullsize.jpg
+
 
 date:	2014-04-15 07:39:44 +0200
 

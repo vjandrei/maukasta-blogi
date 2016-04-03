@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-mauste
 gategorythumbnail: 	/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-450.jpg
 fullsize: 			/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-fullsize.jpg
 reseptikuva:		/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-blogpost.jpg
+facebookshare:		/images/blog-post/kamomilalla-maustettu-keitto/kamomilalla-maustettu-keitto-fullsize.jpg
 
 date:	2014-07-13 07:39:44 +0200
 

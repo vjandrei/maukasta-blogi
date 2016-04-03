@@ -12,6 +12,8 @@ bigthumbnail:		/images/blog-post/kesakurpitsa-surf-turf-salaatti/kesakurpitsa-su
 gategorythumbnail: 	/images/blog-post/kesakurpitsa-surf-turf-salaatti/kesakurpitsa-surf-turf-salaatti-450.jpg
 fullsize: 			/images/blog-post/kesakurpitsa-surf-turf-salaatti/kesakurpitsa-surf-turf-salaatti-fullsize.jpg
 reseptikuva:		/images/blog-post/kesakurpitsa-surf-turf-salaatti/kesakurpitsa-surf-turf-salaatti-blogpost-5.jpg
+facebookshare:		/images/blog-post/kesakurpitsa-surf-turf-salaatti/kesakurpitsa-surf-turf-salaatti-fullsize.jpg
+
 
 date:	2014-06-17 07:39:44 +0200
 

@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/lohihampurilainen-piparjuuri-kastikkeella/lohih
 gategorythumbnail: 	/images/blog-post/lohihampurilainen-piparjuuri-kastikkeella/lohihampurilainen-piparjuuri-kastikkeella-450.jpg
 fullsize: 			/images/blog-post/lohihampurilainen-piparjuuri-kastikkeella/lohihampurilainen-piparjuuri-kastikkeella-fullsize.jpg
 reseptikuva:		/images/blog-post/lohihampurilainen-piparjuuri-kastikkeella/lohihampurilainen-piparjuuri-kastikkeella-blogpost-2.jpg
+facebookshare:		/images/blog-post/lohihampurilainen-piparjuuri-kastikkeella/lohihampurilainen-piparjuuri-kastikkeella-fullsize.jpg
 
 date:	2014-03-30 07:39:44 +0200
 

@@ -12,6 +12,7 @@ bigthumbnail:		/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-700.jpg
 gategorythumbnail: 	/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-450.jpg
 fullsize: 			/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-fullsize.jpg
 reseptikuva:		/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-blogpost-12.jpg
+facebookshare:		/images/blog-post/taytetyt-tomaatit/taytetyt-tomaatit-fullsize.jpg
 
 date:	2014-04-27 07:39:44 +0200
 
