@@ -8,8 +8,6 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
  
-  <meta property="og:image" content="{% if site.facebookshare %}{{ site.facebookshare | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.url }}/images/main.jpg{% endif %}">
- 
   {% if page.teaser %}
   	<meta property="og:description" content="{{ page.teaser | strip_html | strip_newlines | truncate: 160 }}" />
   {% else %}
