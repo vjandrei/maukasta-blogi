@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 	gem 'jekyll'
-	gem 'jekyll-tagging', '~> 1.0', '>= 1.0.1'
 	gem 'jekyll-lunr-js-search', '~> 3.1'
 	
 group :development do
