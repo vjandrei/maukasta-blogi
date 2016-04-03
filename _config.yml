@@ -32,7 +32,6 @@ lunr_search:
   excludes: [rss.xml, atom.xml]
   stopwords: "stopwords.txt"
   min_length: 3
-  js_dir: "js"
  
 tag_page_layout: tag_page
 tag_page_dir: tag
