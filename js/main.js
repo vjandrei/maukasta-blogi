@@ -152,6 +152,7 @@ $(function(){
 	    enableEscapeKey: true // Clicking Esc will close the panel
 	});
 	
+	
 	$('#search-query').lunrSearch({
       indexUrl: '/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
@@ -188,11 +189,5 @@ $(function(){
             }, 1000);
             e.preventDefault();
         });
-    }());
-	
-	
-	
-    
-  
-    
+    }()); 
 })

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 	gem 'jekyll'
-	gem 'jekyll-lunr-js-search', '~> 3.1'
 	gem 'jekyll-tagging'
+	gem 'jekyll-lunr-js-search', '~> 3.1'
 	
 group :development do
   gem 'capistrano', '~> 3.4.0'
