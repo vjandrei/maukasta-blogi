@@ -47,7 +47,7 @@ footer{
 				padding: 0;
 				li{
 					list-style: none;
-					@extend.lato;
+					@extend.lato-normal;
 					color: $darkCopy;
 					margin-bottom: 3px;
 					a{

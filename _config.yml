@@ -33,8 +33,23 @@ lunr_search:
  
 facebook_app_id: 706459809385922
 
+
+
 collections:
-- yhteistyot
+ yhteistyot:
+ blogit:
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "blogit"
+    values:
+      layout: "post"
+
+
+sass:
+    sass_dir: _sass
 
 # Build settings
 markdown: kramdown

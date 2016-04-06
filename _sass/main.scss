@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 h1.sectionHeader{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	@extend.lato-normalel;
+	@extend.lato-normal;
 	font-size: 1.3rem;
 	font-weight: bold;
 	color: #b4ab9d;
@@ -254,7 +254,7 @@ form{
 		width: 100%;
 		margin: 5px 0px;
 		color: $darkCopy;
-		@extend.lato;
+		@extend.lato-normal;
 	}
 	input{
 		width: 100%;
@@ -263,7 +263,7 @@ form{
 		border: none;
 		line-height: 30px;
 		color: $darkCopy;
-		@extend.lato;
+		@extend.lato-normal;
 	}
 	textarea{
 		width: 100%;
@@ -307,7 +307,7 @@ form{
 		@extend.montserrat;
 	}
 	p{
-		@extend.lato;
+		@extend.lato-normal;
 		margin-top: 0;
 		margin-bottom: 5px;
 	}
@@ -368,7 +368,7 @@ form{
 			   	margin-top: 2px;
 			    margin-bottom: 0;
 			    font-size: 0.6rem;
-			    @extend.lato;
+			    @extend.lato-normal;
 			    color: $darkCopy;
 		    }
 	    }
@@ -476,7 +476,7 @@ form{
 			h2{
 				display: inline-block;
 				padding-bottom: 5px;
-				@extend.lato;
+				@extend.lato-normal;
 				font-size: 1rem;	
 				color: white;
 				border-bottom: solid 2px rgba(255, 255, 255, 0);
@@ -584,6 +584,134 @@ form{
 		padding: 0;
 		.recentPostContent{
 			padding: 0;
+		}
+	}
+}
+
+#mainSelection{
+	display: flex;
+	flex-wrap: wrap;
+	#miniblogi{
+		position: relative;
+		align-items: stretch;
+		@include span-columns(8);
+		display: flex;
+		flex-direction: column;
+		background: white;
+		@include media($tablet) {
+			@include span-columns(12);
+			margin-bottom: 20px;
+		}
+		#miniblogContainer{
+			position: relative;
+			#miniblogContent{
+				position: relative;
+				z-index: 20;
+				padding: 20px;
+			}
+			h1{
+				margin: 0;
+				@extend.bree;
+				font-weight: bold;
+				font-size: 3rem;
+				line-height: 50px;
+				color: $darkCopy;
+				a{
+					color: $brandColor;
+					text-decoration: none;
+				}
+			}
+			p{
+				margin-top: 10px;
+				margin-bottom: 0;
+				@extend.lato-normal;
+				color: $darkCopy;
+				margin-bottom: 10px;
+				@include media($tablet) {
+					margin-bottom: 10px;	
+				}
+
+			}
+			#miniblogContentImage{
+				position: relative;
+				#detailsBlogType{
+					position: absolute;
+					display: flex;
+					justify-content: center;
+					align-content: center;
+					align-items: center;
+					width: 100%;
+					height: 100%;
+					padding: 20px;
+					#detailsBlogTypeItem{
+						text-align: center;
+						h3{
+							@extend.montserrat;
+							font-weight: bold;
+							font-size: 5rem;
+							margin: 0;
+							color: white;
+							text-shadow: 0px 10px 23px rgba(0, 0, 0, 0.35);
+						}
+						p{
+							color: white;
+							font-size: 2rem;
+							margin: 0;
+							color: white;
+							text-shadow: 0px 10px 23px rgba(0, 0, 0, 0.35);
+						}
+					}
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	#aboutBlogger{
+		position: relative;
+		height: 100%;
+		@include span-columns(4);
+		display:flex;
+		flex: 1;
+		flex-direction: column;
+		min-height:100%;
+		@include media($tablet) {
+			@include span-columns(12);	
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		h3{
+			margin: 0;
+			@extend.bree;
+			font-weight: bold;
+			font-size: 1.5rem;
+			line-height: 50px;
+			color: $darkCopy;
+		}
+		h5{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			@extend.lato-normal;
+			font-style: italic;
+			font-size: 1rem;
+			color: #717171;
+			@include media($tablet) {
+				margin-bottom: 10px;	
+			}
+		}
+		p{
+			margin-top: 5px;
+			margin-bottom: 10px;
+			@extend.lato-normal;
+			font-size: 1rem;
+			color: $darkCopy;
+			a{
+				color: $brandColor;
+				text-decoration: none;
+			}
 		}
 	}
 }

@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/shares-blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/shares-blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/shares.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1799,6 +1808,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_sass\/partials\/_nav.scss",
 		"outputAbbreviatedPath": "\/_sass\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/_sass\/partials\/_normalize.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_sass\/partials\/_normalize.scss",
+		"outputAbbreviatedPath": "\/_sass\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6193,6 +6218,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/bower_components\/social-feed\/template.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -17735,6 +17769,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158379,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217950,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10778,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43707,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90235,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.94274e+06,
+		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/main.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17742,6 +17842,17 @@
 		"initialSize": 312269,
 		"inputAbbreviatedPath": "\/images\/main.jpg",
 		"outputAbbreviatedPath": "\/images\/main.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/maukasta-profiili.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 445037,
+		"inputAbbreviatedPath": "\/images\/maukasta-profiili.jpg",
+		"outputAbbreviatedPath": "\/images\/maukasta-profiili.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
