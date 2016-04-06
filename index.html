@@ -13,6 +13,44 @@ layout: default
 </div>
 
 <section>
+	<div id="mainSelection">
+		<div id="miniblogi">
+			<div id="miniblogContainer">
+			{% assign sorted = (site.blogit | sort: 'date') | reverse %}
+			{% for blogi in sorted %}
+				<div id="miniblogContentImage">
+					<div id="detailsBlogType">
+						<div id="detailsBlogTypeItem">
+							<h3>Tuoreimmat</h3>
+							<p>{{ blogi.date | date: "%d.%m.%Y" }}</p>
+						</div>
+					</div>
+					<img src="{{ blogi.image }}" />
+				</div>
+				<div id="miniblogContent">
+					<h1>{{ blogi.title }}</h1>
+					{{blogi.content}}
+					{% include shares-blog.html %}
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+		<div id="aboutBlogger">
+			<img src="images/maukasta-profiili.jpg" alt="maukasta-profiili" width="801" height="802" />
+			<h3>Andreas Koutsoukos</h3>
+			<h5>Entinen ravintola kokki nykyinen nörtti joka kokkaa isolla sydämmellä.</h5>
+			<p>Ensimmäiseksi haluan toivottaa sinut tervetulleeksi ruokablogilleni. <br/>
+			Uudistin tämän blogin sinua varten ja nyt pyrin päivittämään sivua säännöllisesti jotta voisit nauttia paremmasta
+			ja itse tehdystä ruoasta. Pääset tutustumaan minuun kokokkauksien kautta ja jos haluat nähdä lisää tuouhujani seuraa minua 
+			<a href="http://www.snappaajat.fi/profiles/vjandrei">snapchatissä.</a><br/>
+			Jos haluat olla minuun henkilökohtaisesti yhteydessä lähetä <a href="mailto:andreas.koutsoukos@gmail.com?Subject=Yhteydentto%20maukasta.fi sivuista" target="_top">sähköpostia</a>.<br/><br/>
+			<small>ps: minulla on lukihäiriö joten antakaa anteeksi äidinkielen virheet.</small>
+			</p>
+		</div>
+	</div>
+</section>
+
+<section>
 	<div id="newestPostContainer" class="contentBlock">
 	{% for post in site.categories['nosto'] limit:1 %}
 	<div id="newestPost">
@@ -34,19 +72,21 @@ layout: default
 	</div>
 	{% endfor %}
 	<div id="postSidebar">
-		{% for post in site.categories['nosto'] limit:6 offset:1  %}
+		{% for post in site.categories['nosto'] limit:3 offset:1  %}
+		<div class="postSidebarItem">
 			<a href="{{ post.url | prepend: site.baseurl }}">
 			<div class="recentPostCotainer">
 				<div class="recentPostImage">
-					<img src="{{ post.smallthumbnail }}" />
+					<img src="{{ post.gategorythumbnail }}" />
 				</div>
 				<div class="recentPostContent">
-					<h1>{{ post.title | truncate: 40  }}</h1>
+					<h1>{{ post.title | truncate: 80  }}</h1>
 					<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
-					<p class="teaser">{{post.teaser | truncate: 65 }}</p>
+					<p class="teaser">{{post.teaser | truncate: 120 }}</p>
 				</div>
 			</div>
 			</a>
+		</div>
 		{% endfor %}
 	</div>
 </div>

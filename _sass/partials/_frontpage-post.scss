@@ -2,13 +2,14 @@
 	display: flex;
 	min-height: 100%;
 	color: $darkCopy;
+	flex-direction: column;
 	@include media($tablet) {
 		flex-direction: column;
 	}
 	#newestPost{
 		position: relative;
 		align-items: stretch;
-		@include span-columns(7);
+		@include span-columns(12);
 		display: flex;
 		flex-direction: column;
 		background: white;
@@ -122,12 +123,13 @@
 		}
 	}
 	#postSidebar{
+		display: flex;
 		position: relative;
 		height: 100%;
-		@include span-columns(5);
+		@include span-columns(12);
 		display:flex;
-		flex: 1;
-		flex-direction: column;
+		
+		    
 		min-height:100%;
 		@include media($tablet) {
 			@include span-columns(12);	
@@ -135,20 +137,38 @@
 		a{
 			text-decoration: none;
 		}
+		.postSidebarItem{
+			flex: 1;
+			flex-basis: 23%;
+			//padding: 0px 10px;
+			margin-bottom: 20px;
+			margin-left: 0.7em;
+			margin-right: 0.7em;
+			&:first-child{
+				margin: 0em;	
+			}
+			&:last-child{
+				margin: 0em;	
+			}
+		}
 	}
 }
 
 
 .recentPostCotainer{
 	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	.recentPostImage{
 		flex: 1;	
 		flex: initial;
-		max-width: 140px;
+		max-width: 100%;
+		height: 180px;
+		overflow: hidden;
 		overflow:hidden;
 		@include media($tablet) {
-			max-width: 90px;
+			max-width: 100%;
 		}
 		img{
 			width: 100%; 
@@ -156,13 +176,13 @@
 	}
 	.recentPostContent{	
 		flex: 2;
-		padding: 0px 10px;
+		padding: 10px 0px;
 		h1{
 			margin-top: 0;
 			margin-bottom: 5px;
 			@extend.bree;
 			font-weight: bold;
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 			color: $brandColor;
 			a{
 				color: $brandColor;
@@ -175,7 +195,7 @@
 			&.date{
 				margin-bottom: 5px;
 				@extend.lato-normal;
-				font-size: 0.7rem;
+				font-size: 1rem;
 				color: #848484;
 				text-transform: uppercase;
 			}
