@@ -36,7 +36,7 @@ set :keep_releases, 2
 
 set :rbenv_path, '/home/deploy/.rbenv'
 
-
+set :repository_cache, "cached_copy" 
 
 namespace :deploy do
   desc "Build site"
