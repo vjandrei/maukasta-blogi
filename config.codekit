@@ -9718,6 +9718,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158379,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217950,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10778,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43707,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90235,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.94274e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/main.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9725,6 +9791,17 @@
 		"initialSize": 312269,
 		"inputAbbreviatedPath": "\/_site\/images\/main.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/main.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/maukasta-profiili.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 445037,
+		"inputAbbreviatedPath": "\/_site\/images\/maukasta-profiili.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/maukasta-profiili.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
