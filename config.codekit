@@ -1400,7 +1400,7 @@
 		"useLibsass": 0
 		},
 	"\/_sass\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1410,10 +1410,10 @@
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 1
 		},
 	"\/_sass\/neat\/_neat-helpers.scss": {
 		"createSourceMap": 0,
@@ -9784,6 +9784,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 609242,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/main.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17908,6 +17919,17 @@
 		"initialSize": 6.94274e+06,
 		"inputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
 		"outputAbbreviatedPath": "\/images\/blogit\/dolmades-viininlehtikaaryleet-what-cooking-\/dolmades-viininlehtikaaryleet-what-cooking-helsinki-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 609242,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

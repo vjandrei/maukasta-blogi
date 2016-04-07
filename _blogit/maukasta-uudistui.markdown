@@ -3,7 +3,7 @@ layout: post
 title: Maukasta.fi uudistui
 date:	2016-05-04
 author: Andreas Koutsoukos
-image: /images/blogit/dolmades-viininlehtikaaryleet-what-cooking-/dolmades-viininlehtikaaryleet-what-cooking-helsinki-1000.jpg
+image: /images/blogit/maukasta-fi-uudistui/maukasta-fi-uudistui.jpg
 ---
 Entistäkin monipuolisempi ruokablogi joka tulee inspiroimaan, opettamaan ja viihdyttämään sinua. 
 Halusin uudistaa sivut yhteisöllisestä yksityiseksi blogiksi. Syytä oli monia kuten että, en löytänyt aikaa ylläpitää aktiivisesti 
