@@ -7819,6 +7819,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.06443e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -16344,6 +16355,17 @@
 		"initialSize": 560089,
 		"inputAbbreviatedPath": "\/images\/blog-post\/maissikakku\/maissikakku-fullsize.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-post\/maissikakku\/maissikakku-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.06443e+06,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kaananpoikaa-blogpost.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

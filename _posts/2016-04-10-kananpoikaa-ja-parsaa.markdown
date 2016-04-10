@@ -7,7 +7,7 @@ type: Resepti
 smallthumbnail: 	/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-150.jpg
 bigthumbnail:		/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-700.jpg
 gategorythumbnail: 	/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-450.jpg
-fullsize: 			/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-fullsize.jpg
+fullsize: 			/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-1200.jpg
 reseptikuva:		/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-blogpost-18.jpg
 facebookshare:		/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-1200.jpg
 youtubelink: 		https://www.youtube.com/embed/7rROl8pS2og
@@ -74,12 +74,34 @@ Lisäksi samalla kanan nahka saa mukavaa rapeutta. Asettele parsat lautaselle jo
     image-secondary:  
 
 
-teaser: Olipas viikonloppu ja sen päättymistä pitää juhlia hyvällä aterialla.
+teaser: "Parsat ovat tulleet taas kauppoihin joten pitäähän sitä ostaa koska se on vaan niin hyvä tuote ja monipuoleinen kasvis.
+Paahdettu parsa sopii erinomaisesti myös kanan kanssa joten kokeile tätä reseptiä."
 
 ---
 
 <section>
 <p>
-Päätin tehdä perjantaina ostetut kananpojat jotka ostin Reinin Lihasta hakaniemen kauppahallista. Aamupäivä kuluikin rennosti tänään 3.5 tunnin kävely lenkillä Laajalahden ympäri. Lähdin katselemaan millainen tilanne luonnossa olisi villiyrteistä, mutta keskittyminen menikin katsellessa muuttolintuja ja maisemia ihastelen. 
+Perjantaina ostetut kanapojat Reinin Lihasta hakaniemen kaupphallista päätyivät päivälliseksi sunnuntaina. Aamupäivä kuluikin rennosti tuli tehtyä 3.5 tunnin kävely reissu Laajalahden ympäri. Siinä samalla kun ihastelin maisemia ja tutkin olisiko villiyrttejä poimittavana mietin mitä sitä laittaisi kanapoikien kaveriksi. Muistin, että jääkaapissa oli parsaa ja sitruunaa ainakin. Pidän itse paadetusta tai paistetusta parsasta kuin keitetystä. Paahtaminen ja paistaminen säilyttää parsassa makua paremmin kuin keittäminen. 
+</p>
+</section>
+
+{:refdef: .fullwidth }
+![image-title-here](/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kaananpoikaa-blogpost.jpg){:class=""}	
+{: refdef}
+
+<section>
+<p>
+Annos kokonaisuudesta tuli hyvä ja se tunti maistuvan myös meidän kissalle joka sai lopuksi hieman kanapojan luuta jyrsittäväksi.
+</p>
+</section>
+
+{:refdef: .halfwidth }
+![image-title-here](/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-blogpost-11.jpg){:class=""}	
+![image-title-here](/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-blogpost-13.jpg){:class=""}	
+{: refdef}
+
+<section>
+<p>
+Tein myös Snapchat klipeistä videon jossa näytän miten kokonaisuus syntyi.
 </p>
 </section>
