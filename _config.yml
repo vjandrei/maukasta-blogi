@@ -38,6 +38,8 @@ facebook_app_id: 706459809385922
 collections:
  yhteistyot:
  blogit:
+  output: true
+  permalink: :path/
 
 defaults:
   -

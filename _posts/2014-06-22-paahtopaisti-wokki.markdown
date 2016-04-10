@@ -9,7 +9,7 @@ type: Video
 
 smallthumbnail: 	/images/blog-post/-150.jpg
 bigthumbnail:		/images/blog-post/-700.jpg
-gategorythumbnail: 	/images/blog-post/-450.jpg
+gategorythumbnail: 	
 fullsize: 			/images/blog-post/-fullsize.jpg
 reseptikuva:		/images/blog-post/-1000.jpg
 youtubelink: 		https://www.youtube.com/embed/Jp5bize9FLQ

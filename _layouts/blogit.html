@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="postHeadContainer" style="background: url('{{page.fullsize}}') no-repeat; background-size: cover; background-position: center center;">
+	<section>
+		<div class="postHeading">
+			<h1 class="post-title">{{ page.title }}</h1>
+			<h3 class="sub-title">{{ page.subtitle }}</h3>
+		</div>
+	</section>
+</div>
+
+<div class="blogContainer">
+	<div class="blogContent" id="miniblog">	
+		<section>
+			{% include shares-blog.html %}
+		</section>
+		{% if page.teaser %}
+		<section>
+			<p>
+				{{ page.teaser }}
+			</p>
+		</section>
+		{% else %}
+			
+		{% endif %}
+		{{ content }}
+	</div>	
+</div>
+
+<div class="postContainer">
+	<section>
+	<div class="postContent" id="recipe">
+		
+		<span id="disqus">
+			<div id="disqus_thread"></div>
+			<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			
+			s.src = '//maukastafi.disqus.com/embed.js';
+			
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the 
+			<a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+			</noscript>
+		</span>
+	</div>	
+	</section>
+</div>
+
+<div class="postBottom">
+	<section>
+		<div>
+			{% for post in site.posts limit:5 offset:1 %}
+				<a href="{{ post.url | prepend: site.baseurl }}">
+				<div class="recentPostCotainer">
+					<div class="recentPostImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					<div class="recentPostContent">
+						<h1>{{ post.title}}</h1>
+						<p class="date">{{ post.date | date: "%d.%m.%Y" }}</p>
+						<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+					</div>
+				</div>
+				</a>
+			{% endfor %}
+		</div>
+	</section>
+</div>

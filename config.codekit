@@ -74,6 +74,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_layouts\/blogit.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_layouts\/blogit.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_layouts\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7810,6 +7819,270 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113006,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157328,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9718,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32708,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64443,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555752,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 876403,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 703156,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 653056,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648688,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602860,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 532301,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15306e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2316e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 926881,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 898347,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.04449e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.22705e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05102e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 667733,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 785665,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 711806,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 607539,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.51579e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/blog-post\/pita-gyros-possunposki\/pita-gyros-possunposki-1000.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9658,6 +9931,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213033,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 307171,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12343,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54562,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116297,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2563e+07,
+		"inputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9728,8 +10067,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/bodymovin-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/bootstrap-notify.min.js": {
 		"fileType": 64,
@@ -9739,8 +10078,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/bootstrap-notify.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/data.js": {
 		"fileType": 64,
@@ -9750,8 +10089,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/index.json": {
 		"fileType": 524288,
@@ -9772,8 +10111,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/instafeed.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/jquery.offcanvas.js": {
 		"fileType": 64,
@@ -9783,8 +10122,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/jquery.offcanvas-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/lunr.min.js": {
 		"fileType": 64,
@@ -9794,8 +10133,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/lunr.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/main.js": {
 		"fileType": 64,
@@ -9803,6 +10142,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/main.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/_site\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -9816,8 +10166,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/scotchPanels.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/search.min.js": {
 		"fileType": 64,
@@ -9827,8 +10177,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/search.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/js\/typed.min.js": {
 		"fileType": 64,
@@ -9838,8 +10188,8 @@
 		"outputAbbreviatedPath": "\/_site\/js\/min\/typed.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/_site\/kaikkireseptit\/index.html": {
 		"fileType": 8192,
@@ -9873,6 +10223,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/leivonnaiset\/nosto\/2014\/04\/30\/speltti-sampylat.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/maukasta-kokkaa-whats-cooking-helsinki\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/maukasta-kokkaa-whats-cooking-helsinki\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/maukasta-uudistui\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/maukasta-uudistui\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -9950,6 +10318,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/ruokaisat\/nosto\/2016\/03\/30\/vegaani-burgeri-portobello.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/ruokaisat\/nosto\/2016\/04\/10\/kananpoikaa-ja-parsaa.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/ruokaisat\/nosto\/2016\/04\/10\/kananpoikaa-ja-parsaa.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10125,8 +10502,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/min\/bootstrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/dist\/js\/bootstrap.min.js": {
 		"fileType": 64,
@@ -10136,8 +10513,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/min\/bootstrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/dist\/js\/npm.js": {
 		"fileType": 64,
@@ -10147,8 +10524,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/dist\/js\/min\/npm-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-commonjs-generator.js": {
 		"fileType": 64,
@@ -10158,8 +10535,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-commonjs-generator-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-glyphicons-data-generator.js": {
 		"fileType": 64,
@@ -10169,8 +10546,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-glyphicons-data-generator-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-lessdoc-parser.js": {
 		"fileType": 64,
@@ -10180,8 +10557,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-lessdoc-parser-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/bs-raw-files-generator.js": {
 		"fileType": 64,
@@ -10191,8 +10568,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/grunt\/min\/bs-raw-files-generator-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/grunt\/configBridge.json": {
 		"fileType": 524288,
@@ -10213,8 +10590,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/affix.js": {
 		"fileType": 64,
@@ -10224,8 +10601,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/affix-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/alert.js": {
 		"fileType": 64,
@@ -10235,8 +10612,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/alert-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/button.js": {
 		"fileType": 64,
@@ -10246,8 +10623,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/button-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/carousel.js": {
 		"fileType": 64,
@@ -10257,8 +10634,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/carousel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/collapse.js": {
 		"fileType": 64,
@@ -10268,8 +10645,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/collapse-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/dropdown.js": {
 		"fileType": 64,
@@ -10279,8 +10656,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/dropdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/modal.js": {
 		"fileType": 64,
@@ -10290,8 +10667,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/modal-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/popover.js": {
 		"fileType": 64,
@@ -10301,8 +10678,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/popover-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/scrollspy.js": {
 		"fileType": 64,
@@ -10312,8 +10689,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/scrollspy-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/tab.js": {
 		"fileType": 64,
@@ -10323,8 +10700,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/tab-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/tooltip.js": {
 		"fileType": 64,
@@ -10334,8 +10711,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/tooltip-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/js\/transition.js": {
 		"fileType": 64,
@@ -10345,8 +10722,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/js\/min\/transition-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/less\/alerts.less": {
 		"allowInsecureImports": 0,
@@ -11776,8 +12153,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/bootstrap\/min\/package-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/bootstrap\/package.json": {
 		"fileType": 524288,
@@ -11830,8 +12207,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/codebird-js\/min\/codebird-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/codebird-js\/CONTRIBUTING.md": {
 		"criticStyle": 0,
@@ -11894,8 +12271,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/benchmarks\/min\/compileBench-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/benchmarks\/genspeed.html": {
 		"fileType": 8192,
@@ -11923,8 +12300,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/benchmarks\/min\/jslitmus-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/benchmarks\/templatesBench.js": {
 		"fileType": 64,
@@ -11934,8 +12311,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/benchmarks\/min\/templatesBench-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/benchmarks\/templating\/doT.js": {
 		"fileType": 64,
@@ -11945,8 +12322,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/benchmarks\/templating\/min\/doT-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/benchmarks\/templating\/doU.js": {
 		"fileType": 64,
@@ -11956,8 +12333,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/benchmarks\/templating\/min\/doU-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/doT.js": {
 		"fileType": 64,
@@ -11967,8 +12344,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/min\/doT-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/doT.min.js": {
 		"fileType": 64,
@@ -11978,8 +12355,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/min\/doT.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/doU.js": {
 		"fileType": 64,
@@ -11989,8 +12366,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/min\/doU-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/examples\/browsersample.html": {
 		"fileType": 8192,
@@ -12009,8 +12386,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/examples\/min\/customdoT-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/examples\/withdoT.js": {
 		"fileType": 64,
@@ -12020,8 +12397,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/examples\/min\/withdoT-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/index.js": {
 		"fileType": 64,
@@ -12031,8 +12408,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/min\/index-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/doT\/package.json": {
 		"fileType": 524288,
@@ -12074,8 +12451,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/doT\/test\/min\/testdoT-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/bower.json": {
 		"fileType": 524288,
@@ -12096,8 +12473,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.js": {
 		"fileType": 64,
@@ -12107,8 +12484,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax.js": {
 		"fileType": 64,
@@ -12118,8 +12495,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/ajax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
 		"fileType": 64,
@@ -12129,8 +12506,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/jsonp-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/load.js": {
 		"fileType": 64,
@@ -12140,8 +12517,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/load-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
 		"fileType": 64,
@@ -12151,8 +12528,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseJSON-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
 		"fileType": 64,
@@ -12162,8 +12539,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseXML-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/script.js": {
 		"fileType": 64,
@@ -12173,8 +12550,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
 		"fileType": 64,
@@ -12184,8 +12561,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/nonce-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
 		"fileType": 64,
@@ -12195,8 +12572,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/rquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
 		"fileType": 64,
@@ -12206,8 +12583,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/xhr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes.js": {
 		"fileType": 64,
@@ -12217,8 +12594,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/attributes-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
 		"fileType": 64,
@@ -12228,8 +12605,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
 		"fileType": 64,
@@ -12239,8 +12616,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
 		"fileType": 64,
@@ -12250,8 +12627,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/prop-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/support.js": {
 		"fileType": 64,
@@ -12261,8 +12638,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/attributes\/val.js": {
 		"fileType": 64,
@@ -12272,8 +12649,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/val-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/callbacks.js": {
 		"fileType": 64,
@@ -12283,8 +12660,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/callbacks-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core.js": {
 		"fileType": 64,
@@ -12294,8 +12671,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/core-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/access.js": {
 		"fileType": 64,
@@ -12305,8 +12682,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/access-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/init.js": {
 		"fileType": 64,
@@ -12316,8 +12693,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/init-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
 		"fileType": 64,
@@ -12327,8 +12704,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/parseHTML-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/ready.js": {
 		"fileType": 64,
@@ -12338,8 +12715,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/ready-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
 		"fileType": 64,
@@ -12349,8 +12726,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/min\/rsingleTag-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css.js": {
 		"fileType": 64,
@@ -12360,8 +12737,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/css-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
 		"fileType": 64,
@@ -12371,8 +12748,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/addGetHookIf-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
 		"fileType": 64,
@@ -12382,8 +12759,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/curCSS-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
 		"fileType": 64,
@@ -12393,8 +12770,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/defaultDisplay-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
 		"fileType": 64,
@@ -12404,8 +12781,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/hiddenVisibleSelectors-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/support.js": {
 		"fileType": 64,
@@ -12415,8 +12792,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/swap.js": {
 		"fileType": 64,
@@ -12426,8 +12803,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/swap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
 		"fileType": 64,
@@ -12437,8 +12814,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/cssExpand-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
 		"fileType": 64,
@@ -12448,8 +12825,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/getStyles-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
 		"fileType": 64,
@@ -12459,8 +12836,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/isHidden-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
 		"fileType": 64,
@@ -12470,8 +12847,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rmargin-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
 		"fileType": 64,
@@ -12481,8 +12858,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rnumnonpx-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data.js": {
 		"fileType": 64,
@@ -12492,8 +12869,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/accepts.js": {
 		"fileType": 64,
@@ -12503,8 +12880,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/accepts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/Data.js": {
 		"fileType": 64,
@@ -12514,8 +12891,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/Data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
 		"fileType": 64,
@@ -12525,8 +12902,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_priv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
 		"fileType": 64,
@@ -12536,8 +12913,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_user-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/deferred.js": {
 		"fileType": 64,
@@ -12547,8 +12924,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deferred-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/deprecated.js": {
 		"fileType": 64,
@@ -12558,8 +12935,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deprecated-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/dimensions.js": {
 		"fileType": 64,
@@ -12569,8 +12946,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/dimensions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects.js": {
 		"fileType": 64,
@@ -12580,8 +12957,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/effects-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
 		"fileType": 64,
@@ -12591,8 +12968,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/animatedSelector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
 		"fileType": 64,
@@ -12602,8 +12979,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/Tween-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event.js": {
 		"fileType": 64,
@@ -12613,8 +12990,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event\/ajax.js": {
 		"fileType": 64,
@@ -12624,8 +13001,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/ajax-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event\/alias.js": {
 		"fileType": 64,
@@ -12635,8 +13012,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/alias-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/event\/support.js": {
 		"fileType": 64,
@@ -12646,8 +13023,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/exports\/amd.js": {
 		"fileType": 64,
@@ -12657,8 +13034,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/amd-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/exports\/global.js": {
 		"fileType": 64,
@@ -12668,8 +13045,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/global-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/intro.js": {
 		"fileType": 64,
@@ -12679,8 +13056,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/intro-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/jquery.js": {
 		"fileType": 64,
@@ -12690,8 +13067,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation.js": {
 		"fileType": 64,
@@ -12701,8 +13078,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/manipulation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
 		"fileType": 64,
@@ -12712,8 +13089,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/_evalUrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
 		"fileType": 64,
@@ -12723,8 +13100,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
 		"fileType": 64,
@@ -12734,8 +13111,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/offset.js": {
 		"fileType": 64,
@@ -12745,8 +13122,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/offset-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/outro.js": {
 		"fileType": 64,
@@ -12756,8 +13133,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/outro-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/queue.js": {
 		"fileType": 64,
@@ -12767,8 +13144,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/queue-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/queue\/delay.js": {
 		"fileType": 64,
@@ -12778,8 +13155,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/min\/delay-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector-native.js": {
 		"fileType": 64,
@@ -12789,8 +13166,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-native-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
 		"fileType": 64,
@@ -12800,8 +13177,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-sizzle-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/selector.js": {
 		"fileType": 64,
@@ -12811,8 +13188,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/serialize.js": {
 		"fileType": 64,
@@ -12822,8 +13199,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/serialize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
 		"fileType": 64,
@@ -12833,8 +13210,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
 		"fileType": 64,
@@ -12844,8 +13221,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing.js": {
 		"fileType": 64,
@@ -12855,8 +13232,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/traversing-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
 		"fileType": 64,
@@ -12866,8 +13243,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/min\/findFilter-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
 		"fileType": 64,
@@ -12877,8 +13254,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/min\/rneedsContext-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/arr.js": {
 		"fileType": 64,
@@ -12888,8 +13265,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/arr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/class2type.js": {
 		"fileType": 64,
@@ -12899,8 +13276,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/class2type-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/concat.js": {
 		"fileType": 64,
@@ -12910,8 +13287,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/concat-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
 		"fileType": 64,
@@ -12921,8 +13298,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/hasOwn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
 		"fileType": 64,
@@ -12932,8 +13309,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/indexOf-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/pnum.js": {
 		"fileType": 64,
@@ -12943,8 +13320,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/pnum-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/push.js": {
 		"fileType": 64,
@@ -12954,8 +13331,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/push-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
 		"fileType": 64,
@@ -12965,8 +13342,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/rnotwhite-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/slice.js": {
 		"fileType": 64,
@@ -12976,8 +13353,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/slice-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/strundefined.js": {
 		"fileType": 64,
@@ -12987,8 +13364,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/strundefined-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/support.js": {
 		"fileType": 64,
@@ -12998,8 +13375,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/support-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/var\/toString.js": {
 		"fileType": 64,
@@ -13009,8 +13386,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/toString-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/jquery\/src\/wrap.js": {
 		"fileType": 64,
@@ -13020,8 +13397,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/wrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/benchmarks\/clone.js": {
 		"fileType": 64,
@@ -13031,8 +13408,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/benchmarks\/min\/clone-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/bower.json": {
 		"fileType": 524288,
@@ -13074,8 +13451,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/af-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ar-ma.js": {
 		"fileType": 64,
@@ -13085,8 +13462,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ar-ma-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ar-sa.js": {
 		"fileType": 64,
@@ -13096,8 +13473,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ar-sa-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ar.js": {
 		"fileType": 64,
@@ -13107,8 +13484,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/az.js": {
 		"fileType": 64,
@@ -13118,8 +13495,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/az-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/be.js": {
 		"fileType": 64,
@@ -13129,8 +13506,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/be-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/bg.js": {
 		"fileType": 64,
@@ -13140,8 +13517,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/bg-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/bn.js": {
 		"fileType": 64,
@@ -13151,8 +13528,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/bn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/bo.js": {
 		"fileType": 64,
@@ -13162,8 +13539,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/bo-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/br.js": {
 		"fileType": 64,
@@ -13173,8 +13550,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/br-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/bs.js": {
 		"fileType": 64,
@@ -13184,8 +13561,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/bs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ca.js": {
 		"fileType": 64,
@@ -13195,8 +13572,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ca-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/cs.js": {
 		"fileType": 64,
@@ -13206,8 +13583,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/cs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/cv.js": {
 		"fileType": 64,
@@ -13217,8 +13594,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/cv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/cy.js": {
 		"fileType": 64,
@@ -13228,8 +13605,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/cy-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/da.js": {
 		"fileType": 64,
@@ -13239,8 +13616,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/da-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/de-at.js": {
 		"fileType": 64,
@@ -13250,8 +13627,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/de-at-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/de.js": {
 		"fileType": 64,
@@ -13261,8 +13638,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/de-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/el.js": {
 		"fileType": 64,
@@ -13272,8 +13649,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/el-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/en-au.js": {
 		"fileType": 64,
@@ -13283,8 +13660,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/en-au-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/en-ca.js": {
 		"fileType": 64,
@@ -13294,8 +13671,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/en-ca-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/en-gb.js": {
 		"fileType": 64,
@@ -13305,8 +13682,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/en-gb-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/eo.js": {
 		"fileType": 64,
@@ -13316,8 +13693,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/eo-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/es.js": {
 		"fileType": 64,
@@ -13327,8 +13704,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/es-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/et.js": {
 		"fileType": 64,
@@ -13338,8 +13715,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/et-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/eu.js": {
 		"fileType": 64,
@@ -13349,8 +13726,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/eu-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/fa.js": {
 		"fileType": 64,
@@ -13360,8 +13737,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/fa-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/fi.js": {
 		"fileType": 64,
@@ -13371,8 +13748,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/fi-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/fo.js": {
 		"fileType": 64,
@@ -13382,8 +13759,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/fo-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/fr-ca.js": {
 		"fileType": 64,
@@ -13393,8 +13770,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/fr-ca-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/fr.js": {
 		"fileType": 64,
@@ -13404,8 +13781,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/fr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/gl.js": {
 		"fileType": 64,
@@ -13415,8 +13792,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/gl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/he.js": {
 		"fileType": 64,
@@ -13426,8 +13803,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/he-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/hi.js": {
 		"fileType": 64,
@@ -13437,8 +13814,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/hi-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/hr.js": {
 		"fileType": 64,
@@ -13448,8 +13825,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/hr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/hu.js": {
 		"fileType": 64,
@@ -13459,8 +13836,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/hu-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/hy-am.js": {
 		"fileType": 64,
@@ -13470,8 +13847,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/hy-am-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/id.js": {
 		"fileType": 64,
@@ -13481,8 +13858,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/id-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/is.js": {
 		"fileType": 64,
@@ -13492,8 +13869,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/is-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/it.js": {
 		"fileType": 64,
@@ -13503,8 +13880,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/it-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ja.js": {
 		"fileType": 64,
@@ -13514,8 +13891,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ja-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ka.js": {
 		"fileType": 64,
@@ -13525,8 +13902,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ka-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/km.js": {
 		"fileType": 64,
@@ -13536,8 +13913,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/km-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ko.js": {
 		"fileType": 64,
@@ -13547,8 +13924,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ko-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/lb.js": {
 		"fileType": 64,
@@ -13558,8 +13935,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/lb-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/lt.js": {
 		"fileType": 64,
@@ -13569,8 +13946,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/lt-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/lv.js": {
 		"fileType": 64,
@@ -13580,8 +13957,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/lv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/mk.js": {
 		"fileType": 64,
@@ -13591,8 +13968,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/mk-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ml.js": {
 		"fileType": 64,
@@ -13602,8 +13979,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ml-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/mr.js": {
 		"fileType": 64,
@@ -13613,8 +13990,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/mr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ms-my.js": {
 		"fileType": 64,
@@ -13624,8 +14001,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ms-my-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/my.js": {
 		"fileType": 64,
@@ -13635,8 +14012,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/my-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/nb.js": {
 		"fileType": 64,
@@ -13646,8 +14023,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/nb-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ne.js": {
 		"fileType": 64,
@@ -13657,8 +14034,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ne-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/nl.js": {
 		"fileType": 64,
@@ -13668,8 +14045,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/nl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/nn.js": {
 		"fileType": 64,
@@ -13679,8 +14056,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/nn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/pl.js": {
 		"fileType": 64,
@@ -13690,8 +14067,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/pl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/pt-br.js": {
 		"fileType": 64,
@@ -13701,8 +14078,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/pt-br-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/pt.js": {
 		"fileType": 64,
@@ -13712,8 +14089,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/pt-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ro.js": {
 		"fileType": 64,
@@ -13723,8 +14100,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ro-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ru.js": {
 		"fileType": 64,
@@ -13734,8 +14111,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ru-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sk.js": {
 		"fileType": 64,
@@ -13745,8 +14122,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sk-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sl.js": {
 		"fileType": 64,
@@ -13756,8 +14133,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sq.js": {
 		"fileType": 64,
@@ -13767,8 +14144,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sq-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sr-cyrl.js": {
 		"fileType": 64,
@@ -13778,8 +14155,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sr-cyrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sr.js": {
 		"fileType": 64,
@@ -13789,8 +14166,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/sv.js": {
 		"fileType": 64,
@@ -13800,8 +14177,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/sv-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/ta.js": {
 		"fileType": 64,
@@ -13811,8 +14188,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/ta-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/th.js": {
 		"fileType": 64,
@@ -13822,8 +14199,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/th-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/tl-ph.js": {
 		"fileType": 64,
@@ -13833,8 +14210,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/tl-ph-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/tr.js": {
 		"fileType": 64,
@@ -13844,8 +14221,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/tr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/tzm-latn.js": {
 		"fileType": 64,
@@ -13855,8 +14232,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/tzm-latn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/tzm.js": {
 		"fileType": 64,
@@ -13866,8 +14243,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/tzm-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/uk.js": {
 		"fileType": 64,
@@ -13877,8 +14254,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/uk-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/uz.js": {
 		"fileType": 64,
@@ -13888,8 +14265,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/uz-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/vi.js": {
 		"fileType": 64,
@@ -13899,8 +14276,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/vi-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/zh-cn.js": {
 		"fileType": 64,
@@ -13910,8 +14287,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/zh-cn-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/locale\/zh-tw.js": {
 		"fileType": 64,
@@ -13921,8 +14298,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/locale\/min\/zh-tw-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/min\/locales.js": {
 		"fileType": 64,
@@ -13932,8 +14309,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/min\/locales-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/min\/locales.min.js": {
 		"fileType": 64,
@@ -13943,8 +14320,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/min\/locales.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/min\/moment-with-locales.js": {
 		"fileType": 64,
@@ -13954,8 +14331,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/min\/moment-with-locales-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/min\/moment-with-locales.min.js": {
 		"fileType": 64,
@@ -13965,8 +14342,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/min\/moment-with-locales.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/min\/moment.min.js": {
 		"fileType": 64,
@@ -13976,8 +14353,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/min\/moment.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/moment.js": {
 		"fileType": 64,
@@ -13987,8 +14364,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/moment\/min\/moment-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/moment\/README.md": {
 		"criticStyle": 0,
@@ -14019,8 +14396,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/min\/bootstrap-notify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/remarkable-bootstrap-notify\/bower.json": {
 		"fileType": 524288,
@@ -14052,8 +14429,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/dist\/min\/bootstrap-notify-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/remarkable-bootstrap-notify\/dist\/bootstrap-notify.min.js": {
 		"fileType": 64,
@@ -14063,8 +14440,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/dist\/min\/bootstrap-notify.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/remarkable-bootstrap-notify\/Gruntfile.js": {
 		"fileType": 64,
@@ -14074,8 +14451,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/remarkable-bootstrap-notify\/jshintrc.json": {
 		"fileType": 524288,
@@ -14096,8 +14473,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/min\/package-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/remarkable-bootstrap-notify\/package.json": {
 		"fileType": 524288,
@@ -14139,8 +14516,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/remarkable-bootstrap-notify\/min\/test_meteor-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/social-feed\/bower.json": {
 		"fileType": 524288,
@@ -14188,8 +14565,8 @@
 		"outputAbbreviatedPath": "\/bower_components\/social-feed\/js\/min\/jquery.socialfeed-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/social-feed\/README.md": {
 		"criticStyle": 0,
@@ -14263,8 +14640,8 @@
 		"outputAbbreviatedPath": "\/min\/gulpfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/images\/bg\/avgolemono-resepti.jpg": {
 		"fileType": 16384,
@@ -15967,6 +16344,270 @@
 		"initialSize": 560089,
 		"inputAbbreviatedPath": "\/images\/blog-post\/maissikakku\/maissikakku-fullsize.jpg",
 		"outputAbbreviatedPath": "\/images\/blog-post\/maissikakku\/maissikakku-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113006,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 157328,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9718,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32708,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64443,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555752,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 876403,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 703156,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-12.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 653056,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-13.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648688,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602860,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 532301,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-16.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-17.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524288,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-18.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 667733,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 785665,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 711806,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-blogpost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg",
+		"outputAbbreviatedPath": "\/images\/blog-post\/parsaa-ja-kananpoikaa\/parsaa-ja-kananpoikaa-fullsize.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -17819,6 +18460,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213033,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1000.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 307171,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-1200.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12343,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54562,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-450.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116297,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-700.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2563e+07,
+		"inputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg",
+		"outputAbbreviatedPath": "\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui-fullsize.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/blogit\/maukasta-fi-uudistui\/maukasta-fi-uudistui.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -17880,8 +18587,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/bodymovin-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/bootstrap-notify.min.js": {
 		"fileType": 64,
@@ -17891,8 +18598,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/bootstrap-notify.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/data.js": {
 		"fileType": 64,
@@ -17902,8 +18609,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/data-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/instafeed.min.js": {
 		"fileType": 64,
@@ -17913,8 +18620,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/instafeed.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/jquery.offcanvas.js": {
 		"fileType": 64,
@@ -17924,8 +18631,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/jquery.offcanvas-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
@@ -17933,6 +18640,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
+		},
+	"\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -17946,8 +18664,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/scotchPanels.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/search.min.js": {
 		"fileType": 64,
@@ -17957,8 +18675,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/search.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/typed.min.js": {
 		"fileType": 64,
@@ -17968,8 +18686,8 @@
 		"outputAbbreviatedPath": "\/js\/min\/typed.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/kaikkireseptit\/index.html": {
 		"fileType": 8192,
@@ -18039,7 +18757,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "maukasta-jekyll",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_darkGray"
 	},
 "projectSettings": {
@@ -18237,7 +18955,7 @@
 			"flagValue": -1
 			},
 		"bitwise": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"boss": {
@@ -18261,7 +18979,7 @@
 			"flagValue": -1
 			},
 		"curly": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"debug": {

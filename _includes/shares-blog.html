@@ -1,3 +1,21 @@
 <div class="postArticleInfo">
 	<div class="newestPostArticleInfoItem" id="author"><span></span>{{blogi.author}} {{page.author}}</div>
+	<div class="newestPostArticleInfoItem" id="comments"><span></span>
+		<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-url="{{ post.url | prepend: site.url }}"> kommenttia</a> 
+	</div>
+	<div class="newestPostArticleInfoItem" id="share"><span></span>Jaa
+		<div id="newestPostArticleShare">
+			<ul>
+				<li id="facebook">	
+					<a class="sharer button" id="facebookShare" data-sharer="facebook" data-url="{{site.url}}{{page.url}}"></a>
+				</li>
+				<li id="twitter">
+					<a class="sharer button" id="twitterShare"  data-sharer="twitter" data-title="{{ blogi.title }}" data-via="maukastafi" data-hashtags="{% for tweet in post.twitter %} {{ tweet.hastag }} {% endfor %}" data-url="{{site.url}}{{page.url}}"></a>
+				</li>
+				<li id="pinterest">
+					<a class="sharer button" id="pinterestShare" data-sharer="pinterest" data-url="{{site.url}}{{page.url}}"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>

@@ -37,10 +37,26 @@
 .blogContainer{
 	position: relative;
 	margin: 20px 0px 0px 0px;
+	#miniblog{
+		section{
+			padding: 10px;
+			.postArticleInfo{
+			width: 600px;
+			}
+		}		
+	}
 	.blogContent{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		.teaser{
+			padding-bottom: 0!important;
+			p{
+				font-size: 1.6rem;
+			}
+			
+		}
+
 		section{
 			p{
 				margin: 0;

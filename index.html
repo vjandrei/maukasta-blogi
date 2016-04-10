@@ -16,8 +16,7 @@ layout: default
 	<div id="mainSelection">
 		<div id="miniblogi">
 			<div id="miniblogContainer">
-			{% assign sorted = (site.blogit | sort: 'date') | reverse %}
-			{% for blogi in sorted limit:1 %}
+			{% for blogi in site.blogit %}
 				<div id="miniblogContentImage">
 					<div id="detailsBlogType">
 						<div id="detailsBlogTypeItem">
@@ -25,29 +24,12 @@ layout: default
 							<p>{{ blogi.date | date: "%d.%m.%Y" }}</p>
 						</div>
 					</div>
-					<img src="{{ blogi.image }}" />
+					<img src="{{ blogi.bigthumbnail }}" />
 				</div>
 				<div id="miniblogContent">
-					<h1>{{ blogi.title }}</h1>
-					{{blogi.content}}
+					<a href="{{blogi.url}}"><h1>{{ blogi.title }}</h1></a>
 					{% include shares-blog.html %}
-				</div>
-			{% endfor %}
-			
-			{% for blogi in sorted limit:3 offset:1 %}
-				<div id="miniblogContentImage">
-					<div id="detailsBlogType">
-						<div id="detailsBlogTypeItem">
-							<h3>Tuoreimmat</h3>
-							<p>{{ blogi.date | date: "%d.%m.%Y" }}</p>
-						</div>
-					</div>
-					<img src="{{ blogi.image }}" />
-				</div>
-				<div id="miniblogContent">
-					<h1>{{ blogi.title }}</h1>
 					{{blogi.content}}
-					{% include shares-blog.html %}
 				</div>
 			{% endfor %}
 			</div>
