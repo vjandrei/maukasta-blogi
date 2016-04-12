@@ -183,6 +183,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.0.3)
   github-pages
   jekyll-assets
+  jekyll-github-metadata
   jekyll-lunr-js-search (~> 3.1)
   jekyll-sitemap
 

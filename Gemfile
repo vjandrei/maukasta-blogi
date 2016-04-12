@@ -4,6 +4,7 @@ group :jekyll_plugins do
 	gem 'jekyll-sitemap'
 	gem 'autoprefixer-rails'
 	gem 'jekyll-assets'
+	gem 'jekyll-github-metadata'
 	gem 'github-pages'
 end	
 	

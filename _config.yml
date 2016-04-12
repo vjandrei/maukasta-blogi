@@ -24,7 +24,7 @@ timezone: Europe/Helsinki
 
 exclude: ['node_modules', 'gulpfile.js', 'Gemfile', 'Gemfile.lock', 'Capfile', 'config', 'lib', 'REVISION']
 
-gems: ['jekyll-lunr-js-search', 'jekyll-sitemap']
+gems: ['jekyll-lunr-js-search', 'jekyll-sitemap', 'jekyll-github-metadata']
 
 lunr_search:
   excludes: [rss.xml, atom.xml]
@@ -33,7 +33,7 @@ lunr_search:
  
 facebook_app_id: 706459809385922
 
-
+repository: https://github.com/vjandrei/maukasta-blogi.git
 
 collections:
  yhteistyot:
