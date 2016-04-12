@@ -43,7 +43,7 @@ namespace :deploy do
   task :build do
     on roles(:app) do
       within(release_path) do
-        execute :bundle, 'exec jekyll build'
+        execute :bundle, 'exec jekyll serve'
       end
     end
   end
