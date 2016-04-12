@@ -4,7 +4,6 @@ group :jekyll_plugins do
 	gem 'jekyll-sitemap'
 	gem 'autoprefixer-rails'
 	gem 'jekyll-assets'
-	gem 'github-pages', group: :jekyll_plugins
 end	
 	
 group :development do
