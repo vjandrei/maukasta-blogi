@@ -63,20 +63,20 @@ layout: default
 	<div class="scroller">
 		<div class="scroller-content">
 			{% for blogi in site.blogit | offset: 1 %}
-			<a class="item" href="{{blogi.url}}">
 				<div class="scrollerBlog">
 					<div class="scrollerBlogItem">
 						<div class="scrollerBlogItemImage">
-							<img src="{{ blogi.bigthumbnail }}" />	
+							<a class="item" href="{{blogi.url}}">
+							<img src="{{ blogi.bigthumbnail }}" />
+							</a>	
 						</div>
 						<div class="scrollerBlogItemContent">
-							<h4 class="black">{{ blogi.title }}</h4>
-							<h5 class="date book">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
-							{{blogi.content | truncate: 120}}
+							<a class="item" href="{{blogi.url}}"><h4 class="black">{{ blogi.title }}</h4></a>
+							<h5 class="date medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
+							{{blogi.content | truncate: 100}}
 						</div>
 					</div>
 				</div>
-			</a>
 			{% endfor %}
 		</div>
 	</div>
@@ -114,8 +114,8 @@ layout: default
 				</a>
 				<div class="recentPostContent">
 					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
-					<h5 class="date book">{{ post.date | date: "%d.%m.%Y" }}</h5>
-					<p class="teaser">{{post.teaser | truncate: 120 }}</p>
+					<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 100 }}</p>
 				</div>
 			</div>
 		</div>
@@ -185,7 +185,7 @@ layout: default
 					</div>
 					</a>
 					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
-					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
 					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
 				{% endfor %}
 			</div>

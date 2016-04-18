@@ -557,7 +557,11 @@ form{
 			p{
 				font-size: 0.8rem;
 				line-height: 14px;
-				color: $lightCopy;
+				color: $darkCopy;
+				&.date{
+					color: $lightCopy;
+					margin: 5px 0px;
+				}
 			}
 		}
 	}
