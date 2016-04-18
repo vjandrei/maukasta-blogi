@@ -1,30 +1,30 @@
 <div class="postArticleInfo">
 	<div class="newestPostArticleInfoItem" id="author">
-		<span></span>{{post.author}} {{page.author}}
+		<span></span><h5 class="medium">{{post.author}} {{page.author}}</h5>
 	</div>
 	<div class="newestPostArticleInfoItem" id="comments">
 		<span></span>
-		<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-url="{{ post.url | prepend: site.url }}"> kommenttia</a> 
+		<h5 class="medium"><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-url="{{ post.url | prepend: site.url }}"> kommenttia</a> </h5>
 	</div>
 	<div class="newestPostArticleInfoItem" id="tags"><span></span>
 		{% for tag in post.tags %}
-			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag">{{tag}}</a>
+			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag"><h5 class="medium">{{tag}}</h5></a>
 		{% endfor %}
 		{% for tag in page.tags %}
-			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag">{{tag}}</a>
+			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag"><h5 class="medium">{{tag}}</h5></a>
 		{% endfor %}
 	</div>
-	<div class="newestPostArticleInfoItem" id="share"><span></span>Jaa
+	<div class="newestPostArticleInfoItem" id="share"><span></span><h5 class="medium">Jaa</h5>
 		<div id="newestPostArticleShare">
 			<ul>
 				<li id="facebook">	
-					<a class="sharer button" id="facebookShare" data-sharer="facebook" data-url="{{site.url}}{{page.url}}"></a>
+					<a class="sharer button" id="facebookShare" data-sharer="facebook" data-url="{{site.url}}{{post.url}}"></a>
 				</li>
 				<li id="twitter">
-					<a class="sharer button" id="twitterShare"  data-sharer="twitter" data-title="{{ post.title }}" data-via="maukastafi" data-hashtags="{% for tweet in post.twitter %} {{ tweet.hastag }} {% endfor %}" data-url="{{site.url}}{{page.url}}"></a>
+					<a class="sharer button" id="twitterShare"  data-sharer="twitter" data-title="{{ post.title }}" data-via="maukastafi" data-hashtags="{% for tweet in post.twitter %} {{ tweet.hastag }} {% endfor %}" data-url="{{site.url}}{{post.url}}"></a>
 				</li>
 				<li id="pinterest">
-					<a class="sharer button" id="pinterestShare" data-sharer="pinterest" data-url="{{site.url}}{{page.url}}"></a>
+					<a class="sharer button" id="pinterestShare" data-sharer="pinterest" data-url="{{site.url}}{{post.url}}"></a>
 				</li>
 			</ul>
 		</div>
