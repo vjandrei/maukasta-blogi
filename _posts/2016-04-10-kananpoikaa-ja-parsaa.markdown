@@ -92,6 +92,7 @@ Perjantaina ostetut kanapojat Reinin Lihasta hakaniemen kaupphallista päätyiv�
 <section>
 <p>
 Annos kokonaisuudesta tuli hyvä ja se tunti maistuvan myös meidän kissalle joka sai lopuksi hieman kanapojan luuta jyrsittäväksi.
+Tein myös Snapchat klipeistä videon jossa näytän miten kokonaisuus syntyi.
 </p>
 </section>
 
@@ -99,9 +100,3 @@ Annos kokonaisuudesta tuli hyvä ja se tunti maistuvan myös meidän kissalle jo
 ![image-title-here](/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-blogpost-11.jpg){:class=""}	
 ![image-title-here](/images/blog-post/parsaa-ja-kananpoikaa/parsaa-ja-kananpoikaa-blogpost-13.jpg){:class=""}	
 {: refdef}
-
-<section>
-<p>
-Tein myös Snapchat klipeistä videon jossa näytän miten kokonaisuus syntyi.
-</p>
-</section>

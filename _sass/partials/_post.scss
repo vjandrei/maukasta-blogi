@@ -13,21 +13,15 @@
 		h1{
 			margin-top: 20px;
 			margin-bottom: 0px;
-			@extend.bree;
-			font-weight: bold;
-			font-size: 3rem;
 			color: white;
 			text-shadow: 0px 2px 3px rgba(9,10,10,0.50);
 			@include media($tablet) {
 				font-size: 2rem;
 			}
 		}
-		h3{
+		h4{
 			margin-top: 0px;
 			margin-bottom: 20px;
-			@extend.lato-normal;
-			font-weight: bold;
-			font-size: 1rem;
 			color: white;
 			text-shadow: 0px 2px 3px rgba(9,10,10,0.50);
 		}
@@ -52,11 +46,12 @@
 		.teaser{
 			padding-bottom: 0!important;
 			p{
-				font-size: 1.6rem;
+	    font-size: 23px;
+			line-height: 35px;
+			letter-spacing: -.8px;
+			@include CircularStd-Book;
 			}
-			
 		}
-
 		section{
 			p{
 				margin: 0;
@@ -64,12 +59,12 @@
 				max-width: 600px;
 				display: block;
 				margin: 0 auto;
-				@extend.ptserif-normal;
-				line-height: 42px;
-				font-size: 1.3rem;
+				font-size: 18px;
+				line-height: 28px;
+				letter-spacing: -.02em;
 				color: $darkCopy;
 				@include media($tablet) {
-					line-height: 32px;
+					line-height: 28px;
 					font-size: 1rem;
 				}
 				a{
@@ -89,21 +84,15 @@
 		padding: 10px;
 		transform-style: preserve-3d;
 		h2{
-			margin-top: 0;
-			margin-bottom: 0;
-			@extend.bree;
 			color: $darkCopy;
-			font-weight: bold;
 			font-size: 4rem;
 			@include media($tablet) {
 			font-size: 2rem;	
 			}
 		}
-		
 		img{
 			width: 100%;
 		}
-		
 		.postContentHeader{
 			img{
 				height: 50%;
@@ -114,49 +103,42 @@
 				align-items: center;
 				align-content: center;
 				margin-top: 10px;
-				padding: 20px 0px;
+				margin-bottom: 10px;
+				padding: 5px 0px;
+				background: $brandColor;
 				.infoItem{
 					display: flex;
 					flex-direction: column;
 					align-items: center;
 					align-content: center;
 					flex: 1;
-					border-right: solid 1px #d5d5d5;
+					border-right: solid 1px white;
+					color: white;
 					&:first-child{
-						border-left: solid 1px #d5d5d5;	
+						border-left: none;	
 					}
-					b{
-						display: block;
-						@extend.lato-bold;
-						@include media($tablet) {
-							font-size: 0.8rem;
-							margin-bottom: 5px;
-						}
-					}
-					span{
-						@extend.lato-normal;
-						@include media($tablet) {
-							font-size: 0.8rem;
-						}
+					&:last-child{
+						border-right: none;	
 					}
 				}
 			
 			}
 		}
-		
 		.postBlogContent{
 			position: relative;
+			display: flex;
 			@include media($tablet) {
-				order: 2;
+				flex-direction: column;
 			}
+		}	
+		h3{
+			margin-top: 10px;
+			margin-bottom: 20px;
 		}
-		
 		.ingredients{
+			padding-right: 20px;
 			@include media($tablet) {
 				order: 1;
-			}
-			h4{
-				@extend.lato-bold;
 			}
 			ul{
 				margin: 0;
@@ -164,33 +146,36 @@
 				list-style: none;
 				li{
 					margin-bottom: 15px;
-					@extend.lato-normal;
+					p{
+					}
 				}
 			}
 		}
 		.recipe{
 			flex: 2;
+			@include media($tablet) {
+				order: 2;
+			}
 			.postImages{
 				display: flex;
+				margin: 10px 0px;
 			}
 			.postImagesItem{
 				width: 100%;
 			}
 			p{
 				max-width: 600px;
-				margin: 10px auto;
-				padding: 10px 0px;
-				@extend.ptserif-normal;
-				line-height: 25px;
-				font-size: 1.2rem;
-				line-height: 30px;
+				display: block;
+				font-size: 18px;
+				line-height: 28px;
+				letter-spacing: -.02em;
 				color: $darkCopy;
 				@include media($tablet) {
-					line-height: 32px;
+					line-height: 28px;
 					font-size: 1rem;
 				}
-				&:first-child{
-				padding-top: 20px;	
+				a{
+					color: $brandColor;
 				}
 			}
 		}

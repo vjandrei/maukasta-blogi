@@ -1,18 +1,18 @@
 <div class="postArticleInfo">
-	<div class="newestPostArticleInfoItem" id="author"><span></span>{{post.author}} {{page.author}}</div>
-	<div class="newestPostArticleInfoItem" id="comments"><span></span>
+	<div class="newestPostArticleInfoItem" id="author">
+		<span></span>{{post.author}} {{page.author}}
+	</div>
+	<div class="newestPostArticleInfoItem" id="comments">
+		<span></span>
 		<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-url="{{ post.url | prepend: site.url }}"> kommenttia</a> 
 	</div>
 	<div class="newestPostArticleInfoItem" id="tags"><span></span>
-		
 		{% for tag in post.tags %}
 			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag">{{tag}}</a>
 		{% endfor %}
-		
 		{% for tag in page.tags %}
 			<a href="{{base_url}}/avainsanat/{{ tag }}/" class="tag">{{tag}}</a>
 		{% endfor %}
-
 	</div>
 	<div class="newestPostArticleInfoItem" id="share"><span></span>Jaa
 		<div id="newestPostArticleShare">

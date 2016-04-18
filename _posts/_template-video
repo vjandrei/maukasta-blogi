@@ -12,16 +12,17 @@ bigthumbnail:		/images/blog-post/-700.jpg
 gategorythumbnail: 	/images/blog-post/-450.jpg
 fullsize: 			/images/blog-post/-fullsize.jpg
 reseptikuva:		/images/blog-post/-1000.jpg
+facebookshare:		/images/blog-post/-1200.jpg
 youtubelink: 		https://www.youtube.com/embed/
 
 
 date:	2016-02-10 07:39:44 +0200
 
-categories: video 
+categories: videot 
 
 author: Andreas Koutsoukos
 
-tags: Alkupalat Liha
+tags: Videot
 
 esivalmistelu: 10 min
 valmistuaika: 5 min

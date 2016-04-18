@@ -1,0 +1,60 @@
+@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+  // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: $font-family;
+        src: url('#{$file-path}.svg##{$font-family}') format('svg');
+    }
+  }
+}
+
+@include font-face(CircularStd-Black, '../../fonts/circular/CircularStd-Black', normal, normal);
+@include font-face(CircularStd-BlackItalic, '../../fonts/circular/CircularStd-BlackItalic', normal, italic);
+
+@include font-face(CircularStd-Bold, '../../fonts/circular/CircularStd-Bold', normal, normal);
+@include font-face(CircularStd-BoldItalic, '../../fonts/circular/CircularStd-BoldItalic', normal, italic);
+
+@include font-face(CircularStd-Medium, '../../fonts/circular/CircularStd-Medium', normal, normal);
+@include font-face(CircularStd-MediumItalic, '../../fonts/circular/CircularStd-MediumItalic', normal, italic);
+
+@include font-face(CircularStd-Book, '../../fonts/circular/CircularStd-Book', normal, normal);
+@include font-face(CircularStd-BookItalic, '../../fonts/circular/CircularStd-BookItalic', normal, italic);
+
+
+@mixin CircularStd-Medium {
+  font-family: 'CircularStd-Medium', arial, sans-serif;
+  font-weight: normal; font-style: normal; }
+@mixin CircularStd-MediumItalic {
+  font-family: 'CircularStd-MediumItalic', arial, sans-serif;
+  font-weight: normal; font-style: italic; }
+
+@mixin CircularStd-Book {
+  font-family: 'CircularStd-Book', arial, sans-serif;
+  font-weight: normal; font-style: normal; }
+@mixin CircularStd-BookItalic {
+  font-family: 'CircularStd-BookItalic', arial, sans-serif;
+  font-weight: normal; font-style: italic; }
+
+@mixin CircularStd-Black {
+  font-family: 'CircularStd-Black', arial, sans-serif;
+  font-weight: normal; font-style: normal; }
+@mixin CircularStd-BlackItalic {
+  font-family: 'CircularStd-BlackItalic', arial, sans-serif;
+  font-weight: normal; font-style: italic; }
+
+@mixin CircularStd-Bold {
+  font-family: 'CircularStd-Bold', arial, sans-serif;
+  font-weight: normal; font-style: normal; }
+@mixin CircularStd-BoldItalic {
+  font-family: 'CircularStd-BoldItalic', arial, sans-serif;
+  font-weight: normal; font-style: italic; }

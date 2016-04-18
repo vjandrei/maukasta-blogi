@@ -200,7 +200,7 @@ $(window).resize(function() {
 	// -------------------------------------------------------------
     // Show ingredients
     // -------------------------------------------------------------
-	
+	/*
 	$(".ingredients").offcanvas({
 	    mainCanvas: '.postBlogContent', // Selector or jQuery object
 	    css: {
@@ -212,7 +212,7 @@ $(window).resize(function() {
 	$(".showIngredients").click(function() {
 	    $(".ingredients").offcanvas("toggle"); // Toggle after click a button
 	});
-	
+	*/
 	// -------------------------------------------------------------
     // Animated scrolling / Scroll Up
     // -------------------------------------------------------------
