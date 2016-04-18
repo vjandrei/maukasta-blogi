@@ -7,7 +7,7 @@ type: Video
 smallthumbnail: 	/images/blog-post/suklaaruukku/suklaaruukku-150.jpg
 bigthumbnail:		/images/blog-post/suklaaruukku/suklaaruukku-700.jpg
 gategorythumbnail: 	/images/blog-post/suklaaruukku/suklaaruukku-450.jpg
-fullsize: 			/images/blog-post/suklaaruukku/suklaaruukku-fullsize.jpg
+fullsize: 			/images/blog-post/suklaaruukku/suklaaruukku-1200.jpg
 reseptikuva:		/images/blog-post/suklaaruukku/suklaaruukku-1000.jpg
 facebookshare:		/images/blog-post/suklaaruukku/suklaaruukku-1200.jpg
 youtubelink: 		https://www.youtube.com/embed/86o9wF7BXmg
