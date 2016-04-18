@@ -71,16 +71,15 @@ käyttää Cremeux massaan samalla kun lämmittää kerman. Murskaa keksit mortt
 
 -   text: "Kasaa jälkiruoka lusikoimalla tai vaahdottamalla Cremeux massaa kupin pohjalle. Seuraavaksi lisää keksimuru päälle ja koristele kukilla, versoilla ja sirkoilla."
 
-teaser: "Tapasin viime viikolla <a href='https://twitter.com/koiramies' target='_black'>@koiramiehen</a> paremmin tunnettu Snapchatissä <a href='http://www.snappaajat.fi/profiles/zztopelius' target='_black'>@zztopiliuksena</a>.
-En ollut kaveria aikaisemmin tavannut ainoastaan Snapchatin kautta tutustunut. Hyönteiset kiinnostivat minua ja olen halunut pitkään tehdä reseptin jossa käyttäisin hyväkseen ötököitä. Nyt sain siihen tilaisuuden kun Topi toi minulle hieman kokonaisia sirkkoja sekä sirkkajauhoa." 
+teaser: "Tapasin viime viikolla  <a href='https://twitter.com/koiramies' target='_black'>@koiramiehen</a>, joka on paremmin tunnettu Snapchatissä <a href='http://www.snappaajat.fi/profiles/zztopelius' target='_black'>@zztopiliuksena</a>. En ollut kaveria aikaisemmin tavannut, ainoastaan Snapchatin kautta tutustunut. Hyönteiset kiinnostivat minua, ja olen halunut pitkään tehdä reseptin, jossa käyttäisin ötököitä. Nyt sain siihen tilaisuuden, kun Topi toi minulle hieman kokonaisia sirkkoja sekä sirkkajauhoa.
+
+" 
 
 ---
 
 <section>
 <p>
-Topi on paljon puhut sirkoista ruoka-elintarvikkeena jota Suomessa ei vielä saa määritellä elintarvikkeena. Maistoin sirkkoja raakana ja olin hieman yllättynnyt niiden mausta positiivisesti.
-Ne eivät olleet lainkaan etovia tai vastenmielisiä. Raaka ne tuntuivat enemmänkin paistetun muikun pyrstöltä. Makua ei voi kuvailla mihinkään. Hieman jauhomainen ja 
-katkarapua muistuttava maku tuli mieleen.
+Topi on paljon puhut sirkoista ruoka-elintarvikkeena, jota Suomessa ei vielä saa määritellä elintarvikkeena. Maistoin sirkkoja raakana ja olin positiivisesti yllättynnyt niiden mausta. Ne eivät olleet lainkaan etovia tai vastenmielisiä. Raakana ne tuntuivat enemmänkin paistetun muikun pyrstöltä. Maku ei suoraan vastaa mitään tunnettua raaka-ainetta. Hieman jauhomainen ja katkarapua muistuttava maku tuli mieleen.
 </p>
 </section>
 
@@ -93,7 +92,7 @@ katkarapua muistuttava maku tuli mieleen.
 
 <section>
 <p>
-Suosittelen rohkeasti tutustumaan sirkkoihin, Topi pitää kokkaus kursseja ja hänen kautta pääsee tutustumaan näihin kiehtoviin raaka-aineisiin.
+Suosittelen rohkeasti tutustumaan sirkkoihin! Topi pitää kokkaus kursseja ja hänen kautta pääsee tutustumaan näihin kiehtoviin raaka-aineisiin.
 </p>
 </section>
 
