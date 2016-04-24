@@ -1,7 +1,29 @@
 ---
+layout: blogit
+
+date:	2016-01-01 00:00:00
+author: Andreas Koutsoukos
+
 title:
-date:	2016-01-01
-author:
 subtitle:
-image: /images/blogit
+
+smallthumbnail: 		/images/blogit/-150.jpg
+bigthumbnail:				/images/blogit/-700.jpg
+gategorythumbnail: 	/images/blogit/-450.jpg
+fullsize: 					/images/blogit/-1200.jpg
+reseptikuva:				/images/blogit/-1000.jpg
+facebookshare:			/images/blogit/-1200.jpg
+youtubelink: 				https://www.youtube.com/embed/
+
+
+teaser:""
 ---
+
+<section>
+<h2 class="black"><a href="" target="_blank"></a></h2>
+<p></p>
+</section>
+
+{:refdef: .postImage }
+![alt](/images/blogit/){:class=""}	
+{: refdef }

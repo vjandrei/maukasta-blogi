@@ -34,8 +34,10 @@ teaser: -
 
 ---
 
-{:refdef: .fullwidth }
+{:refdef: .postImage }
+<div class="postImageItem">
 ![image-title-here](/images/blog-post/-1000.jpg){:class=""}	
+</div>
 {: refdef}
 
 <section>

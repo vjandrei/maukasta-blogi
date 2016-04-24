@@ -48,6 +48,49 @@ a{
     outline: none;
 }
 
+.postImage{
+	padding: .5vw;
+  font-size: 0;
+  flex-flow: row wrap; 
+  display: flex;
+	img{
+		 display:block;
+  flex: auto;  
+  width: 200px; 
+  height: 100%;
+	}
+}
+
+
+
+
+header { 
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+header div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+header div img { 
+  width: 100%; 
+  height: auto; 
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+  
+}
 
 .fullwidth{
 	img{

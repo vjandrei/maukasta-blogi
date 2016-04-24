@@ -31,7 +31,9 @@ layout: default
 						<h2 class="black">{{ blogi.title }}</h2>
 					</a>
 					{% include shares-blog.html %}
-					{{blogi.content}}
+					<section>
+					<p>{{blogi.teaser | truncate: 500 }}</p>
+					</section>
 				</div>
 			{% endfor %}
 			</div>
@@ -48,11 +50,6 @@ layout: default
 					hellat ja siirtyi ihmettelemään bittejä, fuctioneita ja käyttäjäystävällisyyttä. Kokkaus jatkuu kumminkin kotona ja reseptien tuloksia voi nauttia 
 					tällä sivulla.
 					</p>
-					<!--p>Ensimmäiseksi haluan toivottaa sinut tervetulleeksi Maukasta-ruokablogiin.<br/>
-					<a href="http://www.snappaajat.fi/profiles/vjandrei">snapchatissä.</a><br/>
-					Jos haluat olla minuun henkilökohtaisesti yhteydessä lähetä 
-					<a href="mailto:andreas.koutsoukos@gmail.com?Subject=Yhteydentto%20maukasta.fi sivuista" target="_top">sähköpostia</a>.<br/><br/>
-					<small>ps: minulla on lukihäiriö joten antakaa anteeksi äidinkielen virheet.</small-->
 				</figcaption>
 			</figure>
 		</div>
@@ -62,8 +59,8 @@ layout: default
 <section>
 	<div class="scroller">
 		<div class="scroller-content">
-			{% for blogi in site.blogit | offset: 1 %}
 				<div class="scrollerBlog">
+					{% for blogi in site.blogit | offset: 1 %}
 					<div class="scrollerBlogItem">
 						<div class="scrollerBlogItemImage">
 							<a class="item" href="{{blogi.url}}">
@@ -71,13 +68,13 @@ layout: default
 							</a>	
 						</div>
 						<div class="scrollerBlogItemContent">
-							<a class="item" href="{{blogi.url}}"><h4 class="black">{{ blogi.title }}</h4></a>
+							<a class="item" href="{{blogi.url}}"><h4 class="black">{{ blogi.title | truncate: 20 }}</h4></a>
 							<h5 class="date medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
-							{{blogi.content | truncate: 100}}
+							{{blogi.content | truncate: 100 }}
 						</div>
 					</div>
+					{% endfor %}
 				</div>
-			{% endfor %}
 		</div>
 	</div>
 </section>
