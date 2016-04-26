@@ -1,6 +1,6 @@
 ---
 layout: video
-title: Lohi teriyaki riisisalaatti
+title: Lohiteriyakiriisisalaatti
 subtitle: Annoksen inspiraatio syntyi ravintola Hokusta
 type: Video
 
