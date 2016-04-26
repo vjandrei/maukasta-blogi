@@ -14,11 +14,11 @@ youtubelink: 				https://www.youtube.com/embed/AsvNvAWRF74
 
 date:	2016-04-22 07:39:44 +0200
 
-categories: videot nosto
+categories: videot nosto lenovo
 
 author: Andreas Koutsoukos
 
-tags: Videot
+tags: Videot Lenovo
 
 esivalmistelu: 15 min
 valmistuaika: 15 min
