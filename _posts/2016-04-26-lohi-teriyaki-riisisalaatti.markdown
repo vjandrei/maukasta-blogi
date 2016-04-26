@@ -1,6 +1,6 @@
 ---
 layout: video
-title: Lohiteriyakiriisisalaatti
+title: Lohiteriyaki-riisisalaatti
 subtitle: Annoksen inspiraatio syntyi ravintola Hokusta
 type: Video
 
@@ -79,9 +79,9 @@ recipe:
 
 -   text: "Paista lohi tai tohota se kypsäksi. Kun lohi on kypsä sivele päälle teriyaki kastiketta ja karamellisoi vielä tohottimella tai paistamalla."
 
--   text: "Enään vain annoksen tekeminen ja salaatti on valmiina nauttittavaksi."
+-  text: "Enään vain annoksen tekeminen ja salaatti on valmiina nauttittavaksi."
 
-teaser: "Käytin lohon kypsennyksessä <a hrer='http://www.bookeranddax.com/searzall/' targer='_blank'>Searzall</a> tohotinta jolla saa hieman enemmän tehoa 
+teaser: "Käytin lohen kypsennyksessä <a hrer='http://www.bookeranddax.com/searzall/' targer='_blank'>Searzall</a> tohotinta jolla saa hieman enemmän tehoa 
 kypsentämiseen kuin normaali tohottimella. Voit tehdä tämän reseptin hyvin ilman tohotinta paistamalla lohen normaalisti paistinpannulla. Resepti sai inspiraation ravintola Hokusta jossa tarjoillaan herkullista Japanilais vaikutteista ruokaa lounaalla ja illalla. Mutta reseptin avulla voi tehdä annoksen itse. Mennään herkuttelemaan videon muodossa."
 
 ---
