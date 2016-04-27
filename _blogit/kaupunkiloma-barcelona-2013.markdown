@@ -1,7 +1,7 @@
 ---
 layout: blogit
 
-date:	2016-01-01 00:00:00
+date:	2016-04-20 00:00:00
 author: Andreas Koutsoukos
 
 title: Kaupunkiloma Barcelona 2013

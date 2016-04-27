@@ -1,15 +1,15 @@
 ---
 layout: blogit
 
-date:	2016-01-01 00:00:00
+date:	2016-04-27 00:00:00
 author: Andreas Koutsoukos
 
 title: Kaupunkiloma Tukholma 2014
 subtitle: Rakkaassa länsinaapurissa ruokakulttuuri on parempaa
 
-smallthumbnail: 		/images/blogit/-150.jpg
-bigthumbnail:				/images/blogit/-700.jpg
-gategorythumbnail: 	/images/blogit/-450.jpg
+smallthumbnail: 		/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-13-150x150.jpg
+bigthumbnail:				/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-12-1024x682.jpg
+gategorythumbnail: 	/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-12-1024x682.jpg
 fullsize: 					/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-13.jpg
 reseptikuva:				/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-13.jpg
 facebookshare:			/images/blogit/tukholma-oslo/tukholma-oslo-ravintolat-13.jpg

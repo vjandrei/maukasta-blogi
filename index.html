@@ -12,11 +12,15 @@ layout: default
 	</section>
 </div>
 
+
+
+
 <section>
 	<div id="mainSelection">
 		<div class="blogFeedWrapper">
 			<div class="blogFeedContainer">
-			{% for blogi in site.blogit | limit: 1 %}
+			{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
+			{% for blogi in blogit | limit: 1 %}
 				<div class="blogFeedContentImage">
 					<div class="blogFeedContentType">
 						<div class="blogFeedContentTypeItem">
@@ -47,7 +51,8 @@ layout: default
 					<h4 class="book italic">"Ruoan laittaminen ei ole suoritus vaan nautintoa - Andreas"</h4>
 					<p>Ensimmäiseksi haluan toivottaa sinut tervetulleeksi Maukasta-ruokablogiin. 
 					Olen tosiaan Andreas entinen ammattikokki joka jätti padat ja kuumat
-					hellat ja siirtyi ihmettelemään bittejä, fuctioneita ja käyttäjäystävällisyyttä. Kokkaus jatkuu kumminkin kotona ja reseptien tuloksia voi nauttia 
+					hellat ja siirtyi ihmettelemään bittejä, fuctioneita ja käyttäjäystävällisyyttä. 
+					Kokkaus jatkuu kumminkin kotona ja reseptien tuloksia voi nauttia 
 					tällä sivulla.
 					</p>
 				</figcaption>
@@ -60,7 +65,8 @@ layout: default
 	<div class="scroller">
 		<div class="scroller-content">
 				<div class="scrollerBlog">
-					{% for blogi in site.blogit | offset: 1 %}
+					{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
+					{% for blogi in blogit | offset: 1 %}
 					<div class="scrollerBlogItem">
 						<div class="scrollerBlogItemImage">
 							<a class="item" href="{{blogi.url}}">
@@ -70,7 +76,11 @@ layout: default
 						<div class="scrollerBlogItemContent">
 							<a class="item" href="{{blogi.url}}"><h4 class="black">{{ blogi.title | truncate: 20 }}</h4></a>
 							<h5 class="date medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
+							{% if blogi.teaser %}
+								<section><p>{{blogi.teaser | truncate: 100 }}</p></se>
+							{% else %}
 							{{blogi.content | truncate: 100 }}
+							{% endif %}
 						</div>
 					</div>
 					{% endfor %}
