@@ -1,5 +1,12 @@
 $(function(){
 	
+	
+	
+	$(".postImage img").each(function(){
+	  $(this).wrapAll("<div></div>");
+	});
+
+	
 	/*
 	var animData = {
         container: document.getElementById('maukastalogoanimate'),

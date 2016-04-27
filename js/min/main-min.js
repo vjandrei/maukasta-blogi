@@ -1,5 +1,12 @@
 $(function(){
 	
+	
+	
+	$(".postImage img").each(function(){
+	  $(this).wrapAll("<div></div>");
+	});
+
+	
 	/*
 	var animData = {
         container: document.getElementById('maukastalogoanimate'),
@@ -104,7 +111,7 @@ $(window).resize(function() {
 		//update_period: 5000,
 		// When all the posts are collected and displayed - this function is evoked
 		callback: function() {
-		    console.log('all posts are collected');
+		    
 		}
 	});
 
@@ -188,14 +195,14 @@ $(window).resize(function() {
 	    enableEscapeKey: true // Clicking Esc will close the panel
 	});
 	
-	
+	/*
 	$('#search-query').lunrSearch({
       indexUrl: '/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template
     });
-    
+    */
 	
 	// -------------------------------------------------------------
     // Show ingredients
@@ -218,7 +225,7 @@ $(window).resize(function() {
     // -------------------------------------------------------------
 
     (function () {
-        $('a[href*=#]').bind("click", function(e){
+        $('a[href*="#"]').bind("click", function(e){
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top
