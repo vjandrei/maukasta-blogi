@@ -568,7 +568,7 @@ a {
   outline: none; }
 
 .postImage {
-  padding: .5vw;
+  margin: 0px;
   font-size: 0;
   -ms-flex-flow: row wrap;
       flex-flow: row wrap;
