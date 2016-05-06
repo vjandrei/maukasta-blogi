@@ -7,12 +7,12 @@ author: Andreas Koutsoukos
 title: Maukasta palstalla
 subtitle: Ensikertalaisena palstalla mitähän siitäkin tulee?
 
-smallthumbnail: 		/images/blogit/maukasta-palsta/maukasta-palsta-150.jpg
-bigthumbnail:				/images/blogit/maukasta-palsta/maukasta-palsta-700.jpg
-gategorythumbnail: 	/images/blogit/maukasta-palsta/maukasta-palsta-450.jpg
+smallthumbnail: 		/images/blogit/maukasta-palsta/maukasta-goes-palsta-150.jpg
+bigthumbnail:				/images/blogit/maukasta-palsta/maukasta-goes-palsta-700.jpg
+gategorythumbnail: 	/images/blogit/maukasta-palsta/maukasta-goes-palsta-450.jpg
 fullsize: 					/images/blogit/maukasta-palsta/maukasta-palsta-1200.jpg
-reseptikuva:				/images/blogit/maukasta-palsta/maukasta-palsta-1000.jpg
-facebookshare:			/images/blogit/maukasta-palsta/maukasta-palsta-1200.jpg
+reseptikuva:				/images/blogit/maukasta-palsta/maukasta-goes-palsta-1000.jpg
+facebookshare:			/images/blogit/maukasta-palsta/maukasta-goes-palsta-1200.jpg
 
 
 teaser: "Instagrammin puolella jo tästä palsta projektista ennakkoon laitoin muutaman kuvan ja nyt työt on 
