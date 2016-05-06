@@ -27,3 +27,7 @@ teaser:""
 {:refdef: .postImage }
 ![alt](/images/blogit/){:class=""}	
 {: refdef }
+
+{:refdef: }
+![alt](/images/blogit/){:class=""}	
+{: refdef }
