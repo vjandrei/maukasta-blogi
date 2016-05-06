@@ -47,7 +47,7 @@ virallisesti aloitettu. Ensimmäinen päivä palstalla oli raskas ja shoppailu t
 {: refdef }
 
 <section>
-<h2 class="black">"En kadu valintaanne palstalle - Ystävämme"</h2>
+<h2 class="black">"En kadu valintaanne palstalle - Liisa"</h2>
 <p>Näin ystävämme sanoin kun olimme päättämässä rankkaa, mutta tehokasta palsta päivää. Ja olihan se kivaa tehdä välillä fyysistä työtä ja unohtaa kaikki työasiat ja keskittyä luotoon. Hommaa jäi vielä palstalle ja tulevina viikonloppuina aika kuluu pitkälti palstalla. Haaveena on ostaa palstalle pieni grilli missä voi paistella palstan satoa ja nauttia sitä heti tuoreeltaan poiminnan jälkeen. </p>
 </section>
 
