@@ -31,7 +31,6 @@ virallisesti aloitettu. Ensimmäinen päivä palstalla oli raskas ja shoppailu t
 
 {:refdef: .postImage }
 ![palsta maukastapalsta](/images/blogit/maukasta-palsta/maukasta-palsta-alku-blogpost-2.jpg){:class=""}	
-![palsta maukastapalsta](/images/blogit/maukasta-palsta/maukasta-palsta-alku-blogpost-3.jpg){:class=""}	
 {: refdef }
 
 <section>
