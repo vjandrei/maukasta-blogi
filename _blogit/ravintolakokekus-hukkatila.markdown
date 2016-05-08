@@ -13,6 +13,7 @@ gategorythumbnail: 	/images/blogit/ravintolakokemus-ravintola-hukkatila/ravintol
 fullsize: 					/images/blogit/ravintolakokemus-ravintola-hukkatila/ravintola-hukkatila-1200-2.jpg
 reseptikuva:				/images/blogit/ravintolakokemus-ravintola-hukkatila/ravintola-hukkatila-1000-2.jpg
 facebookshare:			/images/blogit/ravintolakokemus-ravintola-hukkatila/ravintola-hukkatila-1200-2.jpg
+youtubelink: 				https://www.youtube.com/embed/xRXSi5tnnsI 
 
 
 teaser: "Avovaimoni kysy viikkoa aikasemmin ennen tapahtumaa, kiinnostaisiko meitä mennä ravintola hukkatilaan? Vastasin kyllä! Olin kuullut kyseisestä kollektiivista aikaisemmin ja nyt oli tilaisuus päästä maistamaan sekä kokemaan ryhmän tapahtumaa. Odotuksia ei hirveästi ollut muuta kuin tiesin suunnilleen mistä oli kyse."
