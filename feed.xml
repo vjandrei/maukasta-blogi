@@ -26,7 +26,7 @@ layout: null
         {% endfor %}
       </item>
     {% endfor %}
-     {% for blogi in site.blogit limit:10 %}
+    {% for blogi in site.blogit limit:10 %}
       <item>
         <title>{{ blogi.title | xml_escape }}</title>
         <description>{{ blogi.content | xml_escape }}</description>
