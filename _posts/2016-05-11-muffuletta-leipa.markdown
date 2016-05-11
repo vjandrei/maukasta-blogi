@@ -71,6 +71,7 @@ teaser: "Siitä on noin vuosi kun muutimme omaan asuntoomme. Muistan tämän sii
 <section>
 <p>
 Tämä herkullinen ja täyttävä leipä tulee Italian Sisiliasta. Muffuletta on tietyn tyyppinen leipä joka täytetään herkullisilla aineksilla kuten mortadella kinkku, salami, mozzarella ja oliivitahnaa. Oikea juusto mitä tähän tulisi käyttää on provolone, mutta voi toki käyttää muitakin juustoja.
+<a href="http://www.bloglovin.com/blog/14900811/?claim=abgb2b8cw9s">Seuraa Maukasta blogia @ Bloglovin</a>
 </p>
 </section>
 
