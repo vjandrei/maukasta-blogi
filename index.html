@@ -1,26 +1,13 @@
 ---
 layout: default
 ---
-<div id="welcomeHeader">
-	<section>
-		<div id="welcomeHeaderContainer">
-			<div>
-				<h1 class="black">Tervetuloa <b> </b><br/>hyvän ruoan ja ruokakulttuurin parissa.</h1>
-				<h3 class="">Maukkaita juttuja on jo {{ site.posts | size }} ja niitä tulee lisää kokoajan joten pysy mukana menossa.</h3>
-			</div>
-		</div>
-	</section>
-</div>
-
-
-
 
 <section>
 	<div id="mainSelection">
 		<div class="blogFeedWrapper">
-			<div class="blogFeedContainer">
 			{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
-			{% for blogi in blogit | limit: 1 %}
+			{% for blogi in blogit | limit: 5 %}
+			<div class="blogFeedContainer">
 				<div class="blogFeedContentImage">
 					<div class="blogFeedContentType">
 						<div class="blogFeedContentTypeItem">
@@ -39,14 +26,13 @@ layout: default
 					<p>{{blogi.teaser | truncate: 500 }}</p>
 					</section>
 				</div>
-			{% endfor %}
 			</div>
+			{% endfor %}
 		</div>
 		<div id="aboutBlogger">
 			<figure id="aboutBloggerContainer">
-				<img src="images/profiles/profile-450.jpg" alt="profile-450" width="450" height="253" />
+				<img src="images/maukasta-profiili.jpg" alt="profile-450" width="450" height="310" />
 				<figcaption>
-					<img src="images/maukasta-profiili.jpg" alt="maukasta-profiili"   class="profile"/>
 					<h3 class="black">Andreas Koutsoukos</h3>
 					<h4 class="book italic">"Ruoan laittaminen ei ole suoritus vaan nautintoa - Andreas"</h4>
 					<p>Ensimmäiseksi haluan toivottaa sinut tervetulleeksi Maukasta-ruokablogiin. 
@@ -57,34 +43,6 @@ layout: default
 					</p>
 				</figcaption>
 			</figure>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="scroller">
-		<div class="scroller-content">
-				<div class="scrollerBlog">
-					{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
-					{% for blogi in blogit | offset: 1 %}
-					<div class="scrollerBlogItem">
-						<div class="scrollerBlogItemImage">
-							<a class="item" href="{{blogi.url}}">
-							<img src="{{ blogi.bigthumbnail }}" />
-							</a>	
-						</div>
-						<div class="scrollerBlogItemContent">
-							<a class="item" href="{{blogi.url}}"><h4 class="black">{{ blogi.title | truncate: 20 }}</h4></a>
-							<h5 class="date medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
-							{% if blogi.teaser %}
-								<section><p>{{blogi.teaser | truncate: 100 }}</p></se>
-							{% else %}
-							{{blogi.content | truncate: 100 }}
-							{% endif %}
-						</div>
-					</div>
-					{% endfor %}
-				</div>
 		</div>
 	</div>
 </section>

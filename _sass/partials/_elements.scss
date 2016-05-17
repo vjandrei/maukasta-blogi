@@ -5,13 +5,15 @@
 	align-items: stretch;
 	display: flex;
 	flex-direction: column;
-	background: white;
+	
 	@include media($tablet) {
 		@include span-columns(12);
 		margin-bottom: 20px;
 	}
 	.blogFeedContainer{
 		position: relative;
+		background: white;
+		margin-bottom: 30px;
 		.blogFeedContentImage{
 			position: relative;
 			.blogFeedContentType{
