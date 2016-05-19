@@ -548,7 +548,7 @@ h5 {
           color: #43413f; }
 
 section {
-  max-width: 68em;
+  max-width: 75em;
   margin-left: auto;
   margin-right: auto;
   padding: 10px; }
@@ -962,7 +962,7 @@ form .button {
   #search-results .postBottom .recentPostContent {
     padding: 0; }
 
-#mainSelection #aboutBlogger {
+#mainSelection #aboutPage {
   position: relative;
   height: 100%;
   float: left;
@@ -976,16 +976,27 @@ form .button {
   -ms-flex-direction: column;
       flex-direction: column;
   min-height: 100%; }
-  #mainSelection #aboutBlogger:last-child {
+  #mainSelection #aboutPage:last-child {
     margin-right: 0; }
   @media screen and (max-width: 48em) {
-    #mainSelection #aboutBlogger {
+    #mainSelection #aboutPage {
+      -ms-flex-order: 1;
+          order: 1;
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
-      #mainSelection #aboutBlogger:last-child {
+      #mainSelection #aboutPage:last-child {
         margin-right: 0; } }
+
+#mainSelection #pageLogo {
+  position: relative;
+  width: 100%;
+  height: 310px;
+  margin: 0 auto 20px auto;
+  background: url("../images/page-maukasta-logo.svg") no-repeat;
+  background-size: auto 80%;
+  background-position: center center; }
 
 #mainSelection #aboutBloggerContainer {
   position: relative;
@@ -993,17 +1004,17 @@ form .button {
   margin: 0;
   width: 100%;
   display: block;
-  background-color: #cb4b1e; }
+  background-color: white; }
   #mainSelection #aboutBloggerContainer img {
     max-width: 100%;
-    max-height: 310px;
+    height: auto;
     vertical-align: top; }
   #mainSelection #aboutBloggerContainer figcaption {
     width: 100%;
-    background-color: #cb4b1e;
+    background-color: white;
     padding: 25px;
     position: relative;
-    color: white; }
+    color: #43413f; }
     #mainSelection #aboutBloggerContainer figcaption:before {
       position: absolute;
       content: '';
@@ -1014,6 +1025,16 @@ form .button {
       border-style: solid;
       border-width: 55px 0 0 400px;
       border-color: transparent transparent transparent #cb4b1e; }
+    #mainSelection #aboutBloggerContainer figcaption:after {
+      position: absolute;
+      content: '';
+      bottom: 100%;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 45px 0 0 340px;
+      border-color: transparent transparent transparent white; }
     #mainSelection #aboutBloggerContainer figcaption .profile {
       border-radius: 50%;
       position: absolute;

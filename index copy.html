@@ -1,0 +1,279 @@
+---
+layout: default
+---
+
+<section>
+	<div id="mainSelection">
+		<div class="blogFeedWrapper">
+			{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
+			{% for blogi in blogit | limit: 5 %}
+			<div class="blogFeedContainer">
+				<div class="blogFeedContentImage">
+					<div class="blogFeedContentType">
+						<div class="blogFeedContentTypeItem">
+							<h4 class="bold">Tuorein artikkeli</h4>
+							<h5 class="medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
+						</div>
+					</div>
+					<img src="{{ blogi.bigthumbnail }}" />
+				</div>
+				<div class="blogFeedArticle">
+					<a href="{{blogi.url}}">
+						<h2 class="black">{{ blogi.title }}</h2>
+					</a>
+					{% include shares-blog.html %}
+					<section>
+					<p>{{blogi.teaser | truncate: 500 }}</p>
+					</section>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div id="aboutPage">
+			<div id="pageLogo"></div>
+			<figure id="aboutBloggerContainer">
+				<img src="images/maukasta-profiili.jpg" alt="profile-450" width="450" height="310" />
+				<figcaption>
+					<h3 class="black"><a href="http://www.andreaskoutsoukos.com/" target="_blank">Andreas Koutsoukos</a></h3>
+					<h4 class="book italic">"Ruoan laittaminen ei ole suoritus vaan nautintoa - Andreas"</h4>
+					<p>Ensimmäiseksi haluan toivottaa sinut tervetulleeksi Maukasta-ruokablogiin. 
+					Olen tosiaan Andreas entinen ammattikokki joka jätti padat ja kuumat
+					hellat ja siirtyi ihmettelemään bittejä, fuctioneita ja käyttäjäystävällisyyttä. 
+					Kokkaus jatkuu kumminkin kotona ja reseptien tuloksia voi nauttia 
+					tällä sivulla.
+					</p>
+				</figcaption>
+			</figure>
+			{% for post in site.categories['nosto'] limit:3 offset:1  %}
+			<div class="">
+				<div class="">
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<div class="">
+						<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+						<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+						<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+			
+		</div>
+	</div>
+</section>
+
+<section>
+	<div id="newestPostContainer" class="contentBlock">
+	{% for post in site.categories['nosto'] limit:1 %}
+	<div id="newestPost">
+		<div id="newestPostImage" style="background: url('{{ post.bigthumbnail }}')no-repeat;">
+			<div id="detailsPost">
+				<h4 class="bold">{{post.type}}</h4>
+			  <h5 class="medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+			</div>
+		</div>
+		<div id="newestPostArticle">
+			<div id="titleOfPost">
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2 class="black">{{ post.title }}</h2></a>
+			</div>
+			{% include shares.html %}
+			<div id="teaserOfPost">
+				<p>{{post.teaser}}</p>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	<div id="newestPostGrid">
+		{% for post in site.categories['nosto'] limit:3 offset:1  %}
+		<div class="newestPostGridItem">
+			<div class="recentPostCotainer">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+				<div class="recentPostImage">
+					<img src="{{ post.gategorythumbnail }}" />
+				</div>
+				</a>
+				<div class="recentPostContent">
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+</section>
+
+<section>
+	{% for post in site.categories.videot limit:1  %}
+	<div id="cookingVideoPost" class="contentBlock">
+		<iframe width="100%" height="500px" src="{{post.youtubelink}}" frameborder="0" allowfullscreen></iframe>
+		<div id="cookingVideoPostContainer">
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h2 class="black">{{ post.title }}</h2></a>
+			{% include shares.html %}
+			<p>{{post.teaser}} </p>
+		</div>
+	</div>
+	{% endfor %}
+</section>
+
+<div class="sponsorsBg">
+	<section>
+	<div class="scroller">
+		<div class="scroller-content" id="bx-pager">
+		{% for yhteistyo in site.yhteistyot %}
+			<a class="item" data-slide-index="{{ forloop.index0 }}" href="">
+				<h4 class="medium">{{yhteistyo.sliderlinkname}} </h4>
+			</a>
+		{% endfor %}
+		</div>
+	</div>
+	</section>
+	<div class="sponsors">
+		<ul class="bxslider">
+			{% for yhteistyo in site.yhteistyot %}
+		  	<li style="background: url({{ yhteistyo.image_path }}) no-repeat; background-size: cover; background-position: center center;">
+		  		<section>
+				<h1 class="black">{{ yhteistyo.title }}</h1>
+				<p>{{ yhteistyo.content }}</p>
+				<button><a href="/avainsanat/{{yhteistyo.sliderlinkname}}">Lue yhteistyö artikkelit</a></button>
+				</section>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="sponsorLinks">
+		<section>
+		<div id="sponsorLinksContent">
+			<!--h2 class="sectionHeader"><a href="/yhteistyoreseptit">Kaikki yhteistyö artikkelit</a></h2-->
+			<h2 class="sectionHeader"><a href="#contact">Kiinnostaako yhteistyö?</a></h2>
+		</div>
+		</section>
+	</div>
+</div>
+
+<section>	
+	<div id="categoryPosts" class="contentBlock">
+		<div class="categoryItem">
+			<h3 class="black">Alkupalat</h3>
+			<a href="/avainsanat/Alkupalat"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.alkupalat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Leivonnaiset</h3>
+			<a href="/avainsanat/Leivonnaiset"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.leivonnaiset limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Salaatit</h3>
+			<a href="/avainsanat/Salaatit"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.salaatit limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Keitot & Padat</h3>
+			<a href="/avainsanat/Keitot"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.keitot limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>	
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Ruokaisat</h3>
+			<a href="/avainsanat/Ruokaisa"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.ruokaisat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Makeat</h3>
+			<a href="/avainsanat/Makeat"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.jalkiruoat limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="categoryItem">
+			<h3 class="black">Muut</h3>
+			<a href="/avainsanat/Muut"><h5 class="medium">Lue kaikki</h5></a>
+			<div class="categoryItemContent">
+				{% for post in site.categories.muut limit:1  %}
+					<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="categoryItemContentImage">
+						<img src="{{ post.gategorythumbnail }}" />
+					</div>
+					</a>
+					<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title }}</h4></a>
+					<h5 class="date">{{ post.date | date: "%d.%m.%Y" }}</h5>
+					<p class="teaser">{{post.teaser | truncate: 200 }}</p>	
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="socialBoard">
+		<div class="socialContainer"></div>
+	</div>
+</section>

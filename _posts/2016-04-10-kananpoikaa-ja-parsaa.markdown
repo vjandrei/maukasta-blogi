@@ -15,7 +15,7 @@ youtubelink: 		https://www.youtube.com/embed/7rROl8pS2og
 date:	2016-04-10 07:39:44 +0200
 categories: ruokaisat nosto
 author: Andreas Koutsoukos
-tags: Kana Kastike Video
+tags: Kana Kastike Videot
 
 esivalmistelu: 10 min
 valmistuaika: 45 min
