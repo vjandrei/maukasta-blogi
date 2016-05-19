@@ -13,7 +13,7 @@ gategorythumbnail: 	/images/yhteistyot/heirol/heirol-yhteistyo-450.jpg
 fullsize: 					/images/yhteistyot/heirol/heirol-yhteistyo-1200.jpg
 reseptikuva:				/images/yhteistyot/heirol/heirol-yhteistyo-1000.jpg
 facebookshare:			/images/yhteistyot/heirol/heirol-yhteistyo-1200.jpg
-youtubelink: 				
+youtubelink: 				https://youtu.be/7ucmCEpuYjc
 
 
 teaser: '"Sä oon niin välineurheilija" - kuulen tuota lausetta kovin useasti, ja täytyy myötään et niin onkin. Yksi ruoanlaitoin tärkeimmistä asioista on oikeat välineet ja varsinkin terävät sellaiset. Oletko koskaan, itkenyt kun pilkot sipulia? Se saattaa johtua siitä, että olet leikannut todella tylsällä veitsellä sipulia. Hyvä raaka-aineet tarvitsevat myös hyvät keittiövälineet.'
