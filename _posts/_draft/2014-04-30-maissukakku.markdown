@@ -46,7 +46,6 @@ raakaaineet:
 
    
 recipe:
-
 -   text: ""
     image-primary: "/images/blog-post/"
     image-secondary: "/images/blog-post/"
@@ -63,6 +62,6 @@ recipe:
     image-primary: "/images/blog-post/"
     image-secondary: "/images/blog-post/"
 
-teaser: Löysin mielenkiintoisen reseptin selatessani twitteriä. Seuraan <a href="https://twitter.com/CoolChileCo" target="_black">Cool Chile Co mauste-valmistajaa</a>, joka on erikoistunnut mexicolaisiin tuotteisiin. Heillä on mahtavia tuotteita, joita saa tilattua netistä, ja stockmannila on myös suppea valikoima tuotteita.  
+teaser: "Löysin mielenkiintoisen reseptin selatessani twitteriä. Seuraan <a href='https://twitter.com/CoolChileCo' target='_black'>Cool Chile Co mauste-valmistajaa</a>, joka on erikoistunnut mexicolaisiin tuotteisiin. Heillä on mahtavia tuotteita, joita saa tilattua netistä, ja stockmannila on myös suppea valikoima tuotteita."  
 
 ---

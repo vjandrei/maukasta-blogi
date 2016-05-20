@@ -60,15 +60,167 @@
 	<section>
 		<div id="brandNavContent">
 			<div id="primaryBrandArea">
-				<h2>&nbsp;</h2>
+				<ul id="primaryNav">
+					<li class="navLink"><a href="/artikkelit/">Artikkelit</a></li>
+					<li class="navLink"><a href="">Reseptit</a>
+					<div class="subMenu">
+						<div class="subMenuContainer vertical-tabs-container">
+							<section>
+								<div class="subMenuTabNav">
+									<ul class="vertical-tabs">
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">Alkupalat</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">Leivonnaiset</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab3">Salaatit</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab4">Keitot & Padat</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab5">Ruokaisat</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab6">Makeat</a></li>
+										<li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab7">Muut</a></li>
+									</ul>
+								</div>
+								<div class="subMenuTabContent vertical-tab-content-container">
+							    <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+										{% for post in site.categories.alkupalat limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Alkupalat" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.leivonnaiset limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Leivonnaiset" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.salaatit limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Salaatit" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.keitot limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Keitot" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab5" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.ruokaisat limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Ruokaisa" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab6" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.jalkiruoat limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Makeat" class="showAll">Lue kaikki</a>
+							    </div>
+							    <div id="tab7" class="js-vertical-tab-content vertical-tab-content">
+							      {% for post in site.categories.muut limit:6  %}
+											<div class="categoryItemContent recipeCard">
+												<div class="categoryItemColumn subMenuTabImage recipeCardImage">
+													<a href="{{ post.url | prepend: site.baseurl }}">
+														<div class="categoryItemContentImage">
+															<img src="{{ post.gategorythumbnail }}" />
+														</div>
+													</a>
+												</div>
+												<div class="categoryItemColumn subMenuTabInfo recipeCardContent">
+													<a href="{{ post.url | prepend: site.baseurl }}"><h4 class="black">{{ post.title | truncate: 30 }}</h4></a>
+													<h5 class="date medium">{{ post.date | date: "%d.%m.%Y" }}</h5>
+													<p class="teaser">{{post.teaser | truncate: 100 }}</p>
+												</div>
+											</div>
+										{% endfor %}
+										<a href="/avainsanat/Muut" class="showAll">Lue kaikki</a>
+							    </div>
+								</div>
+							</section>
+						</div>
+					</div>
+					</li>
+					<!--li class="navLink"><a href="">Videot</a></li-->
+				</ul>
 			</div>
 			<div id="secondaryBrandArea">
 				<div id="secondaryBrandAreaContent">
-					<div id="newsletterOrder">
-						<!--form>
-							<input type="text" placeholder="Syötä sähköpostisi ja tilaa Maukasta.fi uutiskirje"/>
-						</form-->
-					</div>
 					<div id="socialmediaLinks">
 						<div id="social-buttons">
 							<a class="social-buttons-links"  id="facebookIcon" target="_blank" href="https://www.facebook.com/maukastaverkkopalvelu">

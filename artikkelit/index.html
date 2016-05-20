@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section>
+	<div id="mainSelection">
+		<div class="blogFeedWrapper">
+			{% assign blogit = (site.blogit | sort: 'date') | reverse %}	
+			{% for blogi in blogit %}
+			<div class="blogFeedContainer">
+				<div class="blogFeedContentImage">
+					<div class="blogFeedContentType">
+						<div class="blogFeedContentTypeItem">
+							<h4 class="bold">Tuorein artikkeli</h4>
+							<h5 class="medium">{{ blogi.date | date: "%d.%m.%Y" }}</h5>
+						</div>
+					</div>
+					<img src="{{ blogi.bigthumbnail }}" />
+				</div>
+				<div class="blogFeedArticle">
+					<a href="{{blogi.url}}">
+						<h2 class="black">{{ blogi.title }}</h2>
+					</a>
+					{% include shares-blog.html %}
+					<section>
+					<p>{{blogi.teaser | truncate: 500 }}</p>
+					</section>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

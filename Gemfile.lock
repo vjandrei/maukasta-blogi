@@ -147,6 +147,7 @@ GEM
     rdiscount (2.1.8)
     redcarpet (3.3.3)
     ref (2.0.0)
+    refills (0.1.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
@@ -186,6 +187,7 @@ DEPENDENCIES
   jekyll-github-metadata
   jekyll-lunr-js-search
   jekyll-sitemap
+  refills
 
 BUNDLED WITH
    1.11.2

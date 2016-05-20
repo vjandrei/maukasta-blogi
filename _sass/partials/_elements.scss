@@ -48,3 +48,24 @@
 		}
 	}
 }
+
+.recipeCard{
+	position: relative;
+	margin-bottom: 10px;
+	.recipeCardImage{
+		
+	}
+	.recipeCardContent{
+		padding: 0 10px;
+		a{
+			color: $brandColor!important;
+			h4{
+				text-transform: capitalize;
+			}
+		}
+		p{
+			font-size: 12px;
+			line-height: 17px;
+		}
+	}
+}
