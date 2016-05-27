@@ -1,7 +1,7 @@
 ---
 layout: video
 title: Täydellinen hampurilainen
-subtitle: Kiitos Liemessä blogin inspiroimana tehtiin hampurilaianen 
+subtitle: Liemessä blogin inspiroimana pyöräytettiin hampurilainen
 type: Video
 
 smallthumbnail: 		/images/blog-post/taydellinen-hampurilainen/taydellinen-hampurilainen-150.jpg
@@ -68,30 +68,29 @@ recipe:
 -   text: "Paista pihvit ja lisää juusto sekä hattu päälle ennen kasaamista."
 
 
-teaser: "Kun saa inspiraation kokkaukseen toiselta ruoka blogaajalta syntyy kilpailu Googlen sijoituksesta ( leikkimielisesti ). Tämä ajatus lähti liikkeelle alunperin PingHelsinki tapahtumasta jossa kävin SEO workshopissa jota luennoi <a href='https://twitter.com/nellahimari' target='_blank'>@nellahimari</a>. Olin odottanut sopivaa postausta bloggareilta ja Jennin <a href='http://liemessa.blogspot.fi/2016/05/taydellinen-hampurilainen-burgergoals.html' target='_blank'>Liemessä</a> oli ensimmäinen jonka reseptiä lähdin haastamaan. Samalla muistin nähneeni mainoksen jossa oli Snellmannin pötkö jauheliha ( Kunnon Naudan Pihvijauheliha ), sellainen lähti ostoskoriin kun kaupasta hain tuotteet koriin."
+teaser: "Kun saa inspiraation kokkaukseen toiselta ruoka bloggaajalta, syntyy kilpailu Googlen sijoituksesta (leikkimielisesti). Tämä ajatus lähti liikkeelle alunperin PingHelsinki tapahtumasta, missä kävin SEO workshopissa, jossa luennoi <a href='https://twitter.com/nellahimari' target='_blank'>@nellahimari</a>. Olin odottanut sopivaa postausta bloggareilta, ja <a href='http://liemessa.blogspot.fi/2016/05/taydellinen-hampurilainen-burgergoals.html' target='_blank'>Jennin Liemessä</a> oli ensimmäinen, jonka reseptiä lähdin haastamaan. Samalla muistin nähneeni mainoksen, jossa oli Snellmannin pötköjauheliha (Kunnon Naudan Pihvijauheliha), Sellainen lähti ostoskoriin kaupassa."
 
 ---
 
 <section>
 <h2 class="black">Mikä on sitten täydellinen hampurilainen?</h2>
-<p>Jos minulta kysytään täydellinen hampurilainen koostuu 1. hyvästä pihvistä 2. hyvästä juustosta 3. hyvistä kastikkeista ja 4. täyteläisestä ja sormia suojaavasta sämpylästä.
-Itselläni ei ollut aikaa ruveta leipomaan sämpylöitä kuten Jennillä, peukut hänelle pitää joskus testaa hänen ohjetta. Mutta tulevaisuudessa olisi tarkoitus leipoa briossi tyyppisiä sämpylöitä.
-Täydellinen on ehkä liian universaalinen käsite, täydellisyyden päättää jokainen maistaja itse. Minun kokemukseni täydellisestä hampurilaisesta on ollut ruotsissa <a href='/kaupunkiloma-tukholma-2014/'>Flipping Burgeri</a> josta jo kirjoittelin blogissani. Jos haluat lähes täydellistä hampurilaista itse tehtynä panosta lihaan! 
+<p>
+Jos minulta kysytään, täydellinen hampurilainen koostuu 1. hyvästä pihvistä 2. hyvästä juustosta 3. hyvistä kastikkeista ja 4. täyteläisestä ja sormia suojaavasta sämpylästä. Itselläni ei ollut aikaa ruveta leipomaan sämpylöitä kuten Jennillä, peukut hänelle! Pitää joskus testaa hänen sämpyläohjetta. Mutta tulevaisuudessa olisi tarkoitus leipoa briossi tyyppisiä sämpylöitä. Täydellinen on ehkä liian universaalinen käsite, koska täydellisyyden päättää jokainen maistaja itse. Minun kokemukseni täydellisestä hampurilaisesta on ollut ruotsissa <a href='/kaupunkiloma-tukholma-2014/' target='_blank'>Flipping Burgeri</a>, josta jo kirjoittelin blogissani. Jos haluat tehdä lähes täydellisen hampurilaisen itse,panosta lihaan! 
 </p>
 </section>
 
 <section>
 <h2 class="black">No millä tavalla täydellinen hampurilainen syntyy?</h2>
-<p>
-Tämän kertainen postaus on yhteistyössä tehty Heirol:in kanssa joka mahdollisti ohuet sipulin viipaleet <a href='http://www.heirol.fi/mandoliini-saadettavalla-teralla' rel="nofollow">mandoliinilla</a> sekä pihvien paistamisen <a href='http://www.heirol.fi/astiat/steelsafe/' rel="nofollow">Heirol Pro Steelface</a> paistinpannulla.
-Muutama sana näistä tuotteista joita olen käyttänyt muutamia kertoja. Mandoliini helpottaa huomattavasti kun pitää tehdä ohutta jälkeä. Sipuli kuten tässä reseptissä viipaloitiin vaivattomasti ja nopeasti. Tuotteessa on säädettävä terä jonka avulla saa juuri sopivan paksuista viipaletta.  
+<p>Tämän kertainen postaus on tehty yhteistyössä Heirol:in kanssa, joka mahdollistimandoliinilla leikatut ohues sipulin viipaleet sekä pihvien paistamisen <a href='http://www.heirol.fi/astiat/steelsafe/' rel="nofollow" target="_blank">Heirol Pro Steelface</a> paistinpannulla. Muutama sana näistä tuotteista, joita olen käyttänyt muutamia kertoja. <a href='http://www.heirol.fi/mandoliini-saadettavalla-teralla' rel="nofollow" target="_blank">Mandoliini</a> helpottaa huomattavasti, kun pitää tehdä ohutta jälkeä. Sipulin, kuten tässä reseptissä, saa viipaloitua vaivattomasti ja nopeasti. Tuotteessa on säädettävä terä, jonka avulla saa juuri sopivan paksuista viipaletta.
+
 </p>
-<p>Paistinpannu on ollut järkyttävän hyvä! Tämä on rehellinen mielipide jota olen hehkuttanut Snapchatissä useasti. Entisenä kokkina minulle on jäänyt tapa kääntää ja hämmentää asioita lusikalla, joku ihmeen ammattitauti taitaa olla ( heh ). Usealla tarttumattomalla pannulla metalli välineiden käyttö on kielletty, mutta Heirollin pannussa ei tarvitse stressaa asiasta. Pannussa on pieni metalli kenno joka suojaa tarttumatonta osiota ja sen avulla esim metallista paisto lastaa voi käyttää ongelmitta. Teen myöhemmin esittelyn pannusta ja kerron mitä muita hyvä ominaisuuksia pannussa on.</p>
+<p>Paistinpannu on ollut järkyttävän hyvä! Tämä on rehellinen mielipide, jota olen hehkuttanut Snapchatissä useasti. Entisenä kokkina minulle on jäänyt tapa kääntää ja hämmentää asioita lusikalla, joku ihmeen ammattitauti taitaa olla (heh). Usealla tarttumattomalla pannulla metalli välineiden käyttö on kielletty, mutta Heirollin pannussa ei tarvitse stressaa asiasta. Pannussa on pieni metalli kenno joka suojaa tarttumatonta osiota, ja sen avulla esim. metallistapaistolastaa voi käyttää ongelmitta. Teen myöhemmin esittelyn pannusta, ja kerron mitä muita hyvä ominaisuuksia pannussa on.</p>
 </section>
 
 <section>
-<p>Nyt on kuitenkin aika ruveta kokkailemaan sitä täydellistä hampurilaista. Korvasin muuten tavallisen majoneesin hieman erikoisella tavalla nimittäin kukkakaalilla. Meillä oli kukkakaali jääkaapissa ja se piti käyttää pois joten
-siitä syntyi kukkakaalimajoneesi. Toinen mielenkiintoinen asia reseptissä oli jauheliha joka tosiaan oli heräteoston kun näin sen kaupan hyllystä. Tuote oli muuten loistava ja suosittelen sitä! Se oli juuri sopivasti jauhettua burgerille.</p>
+<p>Nyt on kuitenkin aika ruveta kokkailemaan sitä täydellistä hampurilaista. Korvasin muuten tavallisen majoneesin hieman erikoisella tavalla, nimittäin kukkakaalilla. Meillä oli kukkakaali jääkaapissa ja se piti käyttää pois, joten siitä syntyi kukkakaalimajoneesi. Toinen mielenkiintoinen asia reseptissä oli jauheliha, joka tosiaan oli heräteostos, kun näin sen kaupan hyllyssä. Tuote oli muuten loistava ja suosittelen sitä! Se oli juuri sopivasti jauhettua burgerille.
+</p>
+<p>Katso ohje alla olevalta videolta!</p>
 </section>
 
 {:refdef: .postImage }
