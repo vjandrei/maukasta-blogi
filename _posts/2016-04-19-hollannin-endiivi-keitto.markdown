@@ -14,11 +14,11 @@ youtubelink: 		https://www.youtube.com/embed/ag6IN6XpP6M
 
 date:	2016-04-19 07:39:44 +0200
 
-categories: videot nosto
+categories: videot nosto keitot
 
 author: Andreas Koutsoukos
 
-tags: Videot
+tags: Videot Keitot Kasvis
 
 esivalmistelu: 10 min
 valmistuaika: 15 min
