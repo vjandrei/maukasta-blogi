@@ -21,7 +21,7 @@ author: Andreas Koutsoukos
 tags: Salaatit Kasvis
 
 esivalmistelu: 15 min
-valmistuaika: 15 h
+valmistuaika: 15 min
 annoksia: 2:lle
 
 raakaaineet:
