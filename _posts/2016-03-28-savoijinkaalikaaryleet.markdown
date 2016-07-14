@@ -1,10 +1,7 @@
 ---
 layout: post
-
 title:	Savoijinkaalikaaryleet
-
 subtitle: Kaalin kanssa sopii hyvin kermainen kastike ja puolukkahillo
-
 type: Resepti
 
 smallthumbnail: 	/images/blog-post/savoijinkaalikaaryleet/savoijinkaalikaaryleet-150.jpg
