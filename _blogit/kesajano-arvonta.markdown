@@ -16,8 +16,7 @@ facebookshare:			/images/blogit/kesajano/kesajano-1200.jpg
 youtubelink: 				https://www.youtube.com/embed/uDMeI7pEBWs
 
 
-teaser: "Osallistu kilpailuun ja voit voittaa #kesäjano paketin jossa Teemu Keisterin suunnittelema kassi! Tilaa <a href='	
-goo.gl/61lfgm' target='_blank'>Maukasta Youtube kanava.</a> ja olet mukana arvonnassa!"
+teaser: "Osallistu kilpailuun ja voit voittaa #kesäjano paketin jossa Teemu Keisterin suunnittelema kassi! Tilaa <a href='https://www.youtube.com/channel/UCG3d4M8gfl7RwHBxBxQT6qQ' target='_blank'>Maukasta Youtube kanava.</a> ja olet mukana arvonnassa!"
 ---
 
 
